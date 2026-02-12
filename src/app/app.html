@@ -1,0 +1,101 @@
+<!-- Header -->
+<header class="header">
+  <button class="menu-btn" (click)="toggleSidebar()">☰</button>
+  <h1>{{ title() }}</h1>
+</header>
+
+<div class="layout">
+  <!-- Sidebar -->
+  <aside class="sidebar" [class.collapsed]="!sidebarOpen()">
+    <h2>Danh sách truyện</h2>
+    <ul>
+      @for (story of stories(); track story.id) {
+        <li
+          [class.active]="selectedStory()?.id === story.id"
+          (click)="selectStory(story)">
+          {{ story.title }}
+        </li>
+      }
+    </ul>
+  </aside>
+
+  <!-- Main body -->
+  <main class="main-content">
+    @if (selectedStory(); as story) {
+
+      @if (selectedChapter(); as chapter) {
+        <!-- Chapter reading view -->
+        <div class="story-header">
+          <button class="back-btn" (click)="backToChapterList()">← Danh sách chương</button>
+          <h2>{{ story.title }}</h2>
+        </div>
+
+        <article class="chapter">
+          <h3>{{ chapter.title }}</h3>
+          @if (loadingContent()) {
+            <p class="loading">Đang tải nội dung...</p>
+          } @else {
+            <div class="chapter-content" [innerHTML]="chapterContent()"></div>
+          }
+        </article>
+
+        <!-- Prev / Next chapter -->
+        <nav class="pagination">
+          <button
+            class="page-btn"
+            [disabled]="!hasPrev()"
+            (click)="prevChapter()">
+            ← Chương trước
+          </button>
+          <button
+            class="page-btn"
+            [disabled]="!hasNext()"
+            (click)="nextChapter()">
+            Chương sau →
+          </button>
+        </nav>
+
+      } @else {
+        <!-- Chapter list view -->
+        <div class="story-header">
+          <h2>{{ story.title }}</h2>
+          <p class="chapter-count">{{ story.chapters.length }} chương</p>
+        </div>
+
+        @if (totalChapterPages() > 1) {
+          <nav class="chapter-pagination">
+            <button class="cp-btn" [disabled]="chapterPage() <= 1" (click)="goToChapterPage(chapterPage() - 1)">←</button>
+            @for (p of chapterPageNumbers(); track p) {
+              <button class="cp-btn" [class.active]="chapterPage() === p" (click)="goToChapterPage(p)">{{ p }}</button>
+            }
+            <button class="cp-btn" [disabled]="chapterPage() >= totalChapterPages()" (click)="goToChapterPage(chapterPage() + 1)">→</button>
+          </nav>
+        }
+
+        <ul class="chapter-list">
+          @for (ch of pagedChapters(); track ch.id) {
+            <li (click)="selectChapter(ch)">
+              <span class="ch-title">{{ ch.title }}</span>
+              <span class="ch-arrow">→</span>
+            </li>
+          }
+        </ul>
+
+        @if (totalChapterPages() > 1) {
+          <nav class="chapter-pagination bottom">
+            <button class="cp-btn" [disabled]="chapterPage() <= 1" (click)="goToChapterPage(chapterPage() - 1)">←</button>
+            @for (p of chapterPageNumbers(); track p) {
+              <button class="cp-btn" [class.active]="chapterPage() === p" (click)="goToChapterPage(p)">{{ p }}</button>
+            }
+            <button class="cp-btn" [disabled]="chapterPage() >= totalChapterPages()" (click)="goToChapterPage(chapterPage() + 1)">→</button>
+          </nav>
+        }
+      }
+
+    } @else {
+      <div class="empty-state">
+        <p>📖 Chọn một truyện từ danh sách bên trái để bắt đầu đọc.</p>
+      </div>
+    }
+  </main>
+</div>
