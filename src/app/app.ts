@@ -183,6 +183,10 @@ export class App implements OnInit {
           .replace(/\n/g, '<br>');
         // Loại bỏ tất cả thẻ HTML trừ <br>
         content = content.replace(/<(?!\/?br\s*\/?>)[^>]+>/gi, '');
+        // Nếu có trên 10 dấu chấm liên tiếp, xóa 1 nửa
+        content = content.replace(/[.…]{10,}/g, (match) => {
+          return match.slice(0, Math.ceil(match.length / 2));
+        });
         this.chapterContent.set(content);
         this.loadingContent.set(false);
       },
