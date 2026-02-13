@@ -43,6 +43,9 @@
     "jsdom": "^27.1.0",
     "pako": "^2.1.0",
     "postcss": "^8.5.3",
+    "puppeteer": "^24.37.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "tailwindcss": "^4.1.12",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
