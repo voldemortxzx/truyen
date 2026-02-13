@@ -14,6 +14,8 @@ export interface Story {
   chapters: ChapterMeta[];
 }
 
+type ViewMode = 'home' | 'story' | 'chapter';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
@@ -22,15 +24,13 @@ export interface Story {
 export class App implements OnInit {
   private readonly http = inject(HttpClient);
 
-  protected readonly title = signal('Truyện Online');
-  protected readonly sidebarOpen = signal(true);
-
   protected readonly stories = signal<Story[]>([]);
   protected readonly selectedStory = signal<Story | null>(null);
   protected readonly selectedChapter = signal<ChapterMeta | null>(null);
   protected readonly chapterContent = signal<string>('');
   protected readonly loadingContent = signal(false);
   protected readonly chapterPage = signal(1);
+  protected readonly view = signal<ViewMode>('home');
   protected readonly CHAPTERS_PER_PAGE = 100;
 
   protected readonly totalChapterPages = computed(() => {
@@ -75,7 +75,7 @@ export class App implements OnInit {
   private updateUrl() {
     const story = this.selectedStory();
     if (!story) {
-      window.location.hash = '/';
+      window.location.hash = '';
       return;
     }
     const chapter = this.selectedChapter();
@@ -93,13 +93,18 @@ export class App implements OnInit {
     const hash = window.location.hash.replace(/^#/, '');
     const [path, queryString] = hash.split('?');
     const parts = path.split('/').filter(Boolean);
-    // Expected: ['truyen', folder] or ['truyen', folder, chapter]
-    if (parts[0] !== 'truyen' || !parts[1]) return;
+    if (parts[0] !== 'truyen' || !parts[1]) {
+      this.view.set('home');
+      return;
+    }
 
     const folder = parts[1];
-    const chapterSlug = parts[2]; // e.g. 'chuong-1'
+    const chapterSlug = parts[2];
     const story = stories.find(s => s.folder === folder);
-    if (!story) return;
+    if (!story) {
+      this.view.set('home');
+      return;
+    }
 
     this.selectedStory.set(story);
 
@@ -111,14 +116,25 @@ export class App implements OnInit {
         const idx = story.chapters.indexOf(chapter);
         const page = Math.floor(idx / this.CHAPTERS_PER_PAGE) + 1;
         this.chapterPage.set(page);
+        this.view.set('chapter');
         return;
       }
     }
 
-    // Restore page
     const params = new URLSearchParams(queryString || '');
     const page = parseInt(params.get('page') || '1', 10);
     this.chapterPage.set(Math.max(1, Math.min(page, this.totalChapterPages() || 1)));
+    this.view.set('story');
+  }
+
+  goHome() {
+    this.selectedStory.set(null);
+    this.selectedChapter.set(null);
+    this.chapterContent.set('');
+    this.chapterPage.set(1);
+    this.view.set('home');
+    this.updateUrl();
+    window.scrollTo(0, 0);
   }
 
   selectStory(story: Story) {
@@ -126,7 +142,9 @@ export class App implements OnInit {
     this.selectedChapter.set(null);
     this.chapterContent.set('');
     this.chapterPage.set(1);
+    this.view.set('story');
     this.updateUrl();
+    window.scrollTo(0, 0);
   }
 
   goToChapterPage(page: number) {
@@ -134,6 +152,7 @@ export class App implements OnInit {
     const safePage = Math.max(1, Math.min(page, total || 1));
     this.chapterPage.set(safePage);
     this.updateUrl();
+    window.scrollTo(0, 0);
   }
 
   selectChapter(chapter: ChapterMeta) {
@@ -141,13 +160,17 @@ export class App implements OnInit {
     if (!story) return;
     this.selectedChapter.set(chapter);
     this.loadChapterContent(chapter);
+    this.view.set('chapter');
     this.updateUrl();
+    window.scrollTo(0, 0);
   }
 
   backToChapterList() {
     this.selectedChapter.set(null);
     this.chapterContent.set('');
+    this.view.set('story');
     this.updateUrl();
+    window.scrollTo(0, 0);
   }
 
   prevChapter() {
@@ -166,10 +189,6 @@ export class App implements OnInit {
     }
   }
 
-  toggleSidebar() {
-    this.sidebarOpen.update(v => !v);
-  }
-
   private loadChapterContent(chapter: ChapterMeta) {
     const story = this.selectedStory();
     if (!story) return;
@@ -177,13 +196,10 @@ export class App implements OnInit {
     const url = `data/content/${story.folder}/${chapter.file}`;
     this.http.get(url, { responseType: 'text' }).subscribe({
       next: (raw) => {
-        // Dòng đầu tiên là tên chương, bỏ qua khi hiển thị nội dung
         const lines = raw.split(/\r?\n/);
         let content = lines.slice(1).join('\n').trim()
           .replace(/\n/g, '<br>');
-        // Loại bỏ tất cả thẻ HTML trừ <br>
         content = content.replace(/<(?!\/?br\s*\/?>)[^>]+>/gi, '');
-        // Nếu có trên 10 dấu chấm liên tiếp, xóa 1 nửa
         content = content.replace(/[.…]{10,}/g, (match) => {
           return match.slice(0, Math.ceil(match.length / 2));
         });
