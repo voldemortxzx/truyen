@@ -1,6 +1,5 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Router, ActivatedRoute } from '@angular/router';
 
 export interface ChapterMeta {
   id: number;
@@ -22,8 +21,6 @@ export interface Story {
 })
 export class App implements OnInit {
   private readonly http = inject(HttpClient);
-  private readonly router = inject(Router);
-  private readonly route = inject(ActivatedRoute);
 
   protected readonly title = signal('Truyện Online');
   protected readonly sidebarOpen = signal(true);
@@ -69,39 +66,88 @@ export class App implements OnInit {
   });
 
   ngOnInit() {
-    this.http.get<Story[]>('/data/stories-full.json').subscribe(stories => {
+    this.http.get<Story[]>('data/stories-full.json').subscribe(stories => {
       this.stories.set(stories);
+      this.restoreFromUrl(stories);
     });
+  }
+
+  private updateUrl() {
+    const story = this.selectedStory();
+    if (!story) {
+      window.location.hash = '/';
+      return;
+    }
+    const chapter = this.selectedChapter();
+    if (chapter) {
+      const slug = chapter.file.replace('.txt', '');
+      window.location.hash = `/truyen/${story.folder}/${slug}`;
+    } else {
+      const page = this.chapterPage();
+      const query = page > 1 ? `?page=${page}` : '';
+      window.location.hash = `/truyen/${story.folder}${query}`;
+    }
+  }
+
+  private restoreFromUrl(stories: Story[]) {
+    const hash = window.location.hash.replace(/^#/, '');
+    const [path, queryString] = hash.split('?');
+    const parts = path.split('/').filter(Boolean);
+    // Expected: ['truyen', folder] or ['truyen', folder, chapter]
+    if (parts[0] !== 'truyen' || !parts[1]) return;
+
+    const folder = parts[1];
+    const chapterSlug = parts[2]; // e.g. 'chuong-1'
+    const story = stories.find(s => s.folder === folder);
+    if (!story) return;
+
+    this.selectedStory.set(story);
+
+    if (chapterSlug) {
+      const chapter = story.chapters.find(c => c.file === chapterSlug + '.txt');
+      if (chapter) {
+        this.selectedChapter.set(chapter);
+        this.loadChapterContent(chapter);
+        const idx = story.chapters.indexOf(chapter);
+        const page = Math.floor(idx / this.CHAPTERS_PER_PAGE) + 1;
+        this.chapterPage.set(page);
+        return;
+      }
+    }
+
+    // Restore page
+    const params = new URLSearchParams(queryString || '');
+    const page = parseInt(params.get('page') || '1', 10);
+    this.chapterPage.set(Math.max(1, Math.min(page, this.totalChapterPages() || 1)));
   }
 
   selectStory(story: Story) {
     this.selectedStory.set(story);
     this.selectedChapter.set(null);
     this.chapterContent.set('');
-    // Đọc page từ query params hoặc mặc định = 1
-    const qp = this.route.snapshot.queryParamMap.get('page');
-    const page = qp ? parseInt(qp, 10) : 1;
-    this.goToChapterPage(page);
+    this.chapterPage.set(1);
+    this.updateUrl();
   }
 
   goToChapterPage(page: number) {
     const total = this.totalChapterPages();
     const safePage = Math.max(1, Math.min(page, total || 1));
     this.chapterPage.set(safePage);
-    this.router.navigate([], {
-      queryParams: { page: safePage },
-      queryParamsHandling: 'merge',
-    });
+    this.updateUrl();
   }
 
   selectChapter(chapter: ChapterMeta) {
+    const story = this.selectedStory();
+    if (!story) return;
     this.selectedChapter.set(chapter);
     this.loadChapterContent(chapter);
+    this.updateUrl();
   }
 
   backToChapterList() {
     this.selectedChapter.set(null);
     this.chapterContent.set('');
+    this.updateUrl();
   }
 
   prevChapter() {
@@ -128,7 +174,7 @@ export class App implements OnInit {
     const story = this.selectedStory();
     if (!story) return;
     this.loadingContent.set(true);
-    const url = `/data/content/${story.folder}/${chapter.file}`;
+    const url = `data/content/${story.folder}/${chapter.file}`;
     this.http.get(url, { responseType: 'text' }).subscribe({
       next: (raw) => {
         // Dòng đầu tiên là tên chương, bỏ qua khi hiển thị nội dung
