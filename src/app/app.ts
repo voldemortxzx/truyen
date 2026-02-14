@@ -69,23 +69,28 @@ export class App implements OnInit {
     this.http.get<Story[]>('data/stories-full.json').subscribe(stories => {
       this.stories.set(stories);
       this.restoreFromUrl(stories);
+
+      // Lắng nghe nút back/forward của trình duyệt
+      window.addEventListener('popstate', () => {
+        this.restoreFromUrl(this.stories());
+      });
     });
   }
 
   private updateUrl() {
     const story = this.selectedStory();
     if (!story) {
-      window.location.hash = '';
+      history.pushState(null, '', '#');
       return;
     }
     const chapter = this.selectedChapter();
     if (chapter) {
       const slug = chapter.file.replace('.txt', '');
-      window.location.hash = `/truyen/${story.folder}/${slug}`;
+      history.pushState(null, '', `#/truyen/${story.folder}/${slug}`);
     } else {
       const page = this.chapterPage();
       const query = page > 1 ? `?page=${page}` : '';
-      window.location.hash = `/truyen/${story.folder}${query}`;
+      history.pushState(null, '', `#/truyen/${story.folder}${query}`);
     }
   }
 

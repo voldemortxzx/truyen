@@ -75,9 +75,9 @@
     <button class="back-link" (click)="backToChapterList()">← Danh sách chương</button>
 
     <nav class="chapter-nav top">
-      <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Chương trước</button>
+      <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
       <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
-      <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Chương sau →</button>
+      <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
     </nav>
 
     <article class="chapter">
@@ -90,9 +90,9 @@
     </article>
 
     <nav class="chapter-nav">
-      <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Chương trước</button>
+      <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
       <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
-      <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Chương sau →</button>
+      <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
     </nav>
   </div>
 }
