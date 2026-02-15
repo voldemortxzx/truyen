@@ -1,4 +1,5 @@
 //node scripts/fetch-chapter.js --out public/data/content/thau-huong-cao-thu --range 101-200 https://xtruyen.vn/truyen/thau-huong-cao-thu-cai-bien/
+//node scripts/fetch-chapter.js --out public/data/content/xxx --merge 5 --range 1-50 https://xtruyen.vn/truyen/xxx/
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
@@ -102,39 +103,49 @@ function getOutputFileName(url, outputDir) {
 }
 
 /**
- * Fetch và lưu một chương
+ * Fetch một chương, trả về { title, content } hoặc null nếu lỗi
  */
-async function fetchAndSave(url, outputDir) {
+async function fetchChapter(url) {
   console.log(`\nFetching: ${url}`);
   const html = await fetchPage(url);
 
-  // Lấy tiêu đề từ <h2>
   const title = extractH2(html);
   if (!title) console.warn('⚠ Không tìm thấy thẻ <h2>');
 
-  // Giải mã nội dung từ script-x
   const rawContent = decodeChapterContent(html);
   if (!rawContent) {
     console.error('✗ Không giải mã được nội dung');
-    return false;
+    return null;
   }
 
-  // Làm sạch HTML (chỉ giữ <br>)
   const content = cleanContent(rawContent);
-  const output = `${title}\n${content}`;
+  console.log(`✔ Title: ${title}`);
+  console.log(`✔ Content: ${content.length} chars`);
+  return { title, content };
+}
 
-  const outputFile = getOutputFileName(url, outputDir);
-
-  // Tạo thư mục nếu chưa có
+/**
+ * Lưu nội dung vào file
+ */
+function saveToFile(outputFile, content) {
   const dir = path.dirname(outputFile);
   if (dir && !fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
-
-  fs.writeFileSync(outputFile, output, 'utf-8');
-  console.log(`✔ Title: ${title}`);
-  console.log(`✔ Content: ${content.length} chars`);
+  fs.writeFileSync(outputFile, content, 'utf-8');
   console.log(`✔ Saved: ${outputFile}`);
+}
+
+/**
+ * Fetch và lưu một chương (mode bình thường)
+ */
+async function fetchAndSave(url, outputDir) {
+  const result = await fetchChapter(url);
+  if (!result) return false;
+
+  const output = `${result.title}\n${result.content}`;
+  const outputFile = getOutputFileName(url, outputDir);
+  saveToFile(outputFile, output);
   return true;
 }
 
@@ -162,15 +173,17 @@ function parseArg(args, name, defaultVal) {
  * Main: fetch nhiều URL lần lượt → tự động tạo tên file từ URL
  *
  * Usage:
- *   node fetch-chapter.js [--out <dir>] [--delay <ms>] [--range <start-end>] <base-URL or URL1 URL2 ...>
+ *   node fetch-chapter.js [--out <dir>] [--delay <ms>] [--range <start-end>] [--merge <n>] <base-URL or URL1 URL2 ...>
  *
  * Options:
  *   --out <dir>      Output directory (default: current dir)
  *   --delay <ms>     Delay between requests in ms (default: 2000)
  *   --range <s-e>    Auto-generate URLs from chapter s to e (e.g. 23-100)
+ *   --merge <n>      Gộp n chương vào 1 file (e.g. --merge 5 → chuong-1-5.txt)
  *
  * Examples:
  *   node fetch-chapter.js --out content/abc --range 1-50 https://xtruyen.vn/truyen/abc/
+ *   node fetch-chapter.js --out content/abc --merge 5 --range 1-50 https://xtruyen.vn/truyen/abc/
  *   node fetch-chapter.js --out content/abc https://xtruyen.vn/truyen/abc/chuong-1 https://xtruyen.vn/truyen/abc/chuong-2
  */
 async function main() {
@@ -178,6 +191,7 @@ async function main() {
 
   const outputDir = parseArg(args, '--out', '.');
   const delay = parseInt(parseArg(args, '--delay', '2000'));
+  const merge = parseInt(parseArg(args, '--merge', '0')) || 0;
   const range = parseArg(args, '--range', null);
 
   let urls = [];
@@ -200,12 +214,13 @@ async function main() {
   }
 
   if (urls.length === 0) {
-    console.log('Usage: node fetch-chapter.js [--out <dir>] [--delay <ms>] [--range <start-end>] <URL ...>');
+    console.log('Usage: node fetch-chapter.js [--out <dir>] [--delay <ms>] [--range <start-end>] [--merge <n>] <URL ...>');
     console.log('');
     console.log('Options:');
     console.log('  --out <dir>      Output directory (default: current dir)');
     console.log('  --delay <ms>     Delay between requests (default: 2000ms)');
     console.log('  --range <s-e>    Generate chapter URLs from s to e');
+    console.log('  --merge <n>      Gộp n chương vào 1 file (VD: --merge 5)');
     console.log('');
     console.log('Examples:');
     console.log('  node fetch-chapter.js --out content/abc --range 1-50 https://xtruyen.vn/truyen/abc/');
@@ -215,26 +230,74 @@ async function main() {
 
   console.log(`📚 Fetching ${urls.length} chapter(s) → ${path.resolve(outputDir)}`);
   console.log(`⏱ Delay: ${delay}ms between requests`);
+  if (merge > 1) console.log(`📦 Merge: ${merge} chương/file`);
 
   let success = 0;
   let fail = 0;
   const failedUrls = [];
 
-  for (let i = 0; i < urls.length; i++) {
-    const url = urls[i];
-    try {
-      const ok = await fetchAndSave(url, outputDir);
-      if (ok) success++; else { fail++; failedUrls.push(url); }
-    } catch (err) {
-      console.error(`✗ Error: ${err.message}`);
-      fail++;
-      failedUrls.push(url);
+  if (merge > 1) {
+    // === MERGE MODE: gộp N chương vào 1 file ===
+    for (let i = 0; i < urls.length; i += merge) {
+      const batch = urls.slice(i, i + merge);
+      const parts = [];
+
+      for (let j = 0; j < batch.length; j++) {
+        const url = batch[j];
+        try {
+          const result = await fetchChapter(url);
+          if (result) {
+            parts.push(`${result.title}\n${result.content}`);
+            success++;
+          } else {
+            fail++;
+            failedUrls.push(url);
+          }
+        } catch (err) {
+          console.error(`✗ Error: ${err.message}`);
+          fail++;
+          failedUrls.push(url);
+        }
+        // Delay giữa các request
+        if (j < batch.length - 1 || i + merge < urls.length) await sleep(delay);
+      }
+
+      if (parts.length > 0) {
+        // Tên file: lấy số chương đầu và cuối của batch
+        const firstSlug = batch[0].replace(/\/+$/, '').split('/').pop();
+        const lastSlug = batch[batch.length - 1].replace(/\/+$/, '').split('/').pop();
+        // Trích số từ slug (chuong-1 → 1)
+        const firstNum = firstSlug.match(/\d+/);
+        const lastNum = lastSlug.match(/\d+/);
+        let fileName;
+        if (firstNum && lastNum) {
+          fileName = `chuong-${firstNum[0]}-${lastNum[0]}.txt`;
+        } else {
+          fileName = `${firstSlug}-to-${lastSlug}.txt`;
+        }
+        const outputFile = path.join(outputDir, fileName);
+        const separator = '\n\n' + '='.repeat(60) + '\n\n';
+        saveToFile(outputFile, parts.join(separator));
+      }
     }
-    // Delay giữa các request để tránh bị rate limit
-    if (i < urls.length - 1) await sleep(delay);
+  } else {
+    // === NORMAL MODE: mỗi chương 1 file ===
+    for (let i = 0; i < urls.length; i++) {
+      const url = urls[i];
+      try {
+        const ok = await fetchAndSave(url, outputDir);
+        if (ok) success++; else { fail++; failedUrls.push(url); }
+      } catch (err) {
+        console.error(`✗ Error: ${err.message}`);
+        fail++;
+        failedUrls.push(url);
+      }
+      if (i < urls.length - 1) await sleep(delay);
+    }
   }
 
   console.log(`\n✔ Done: ${success} OK, ${fail} failed`);
+  if (merge > 1) console.log(`📦 Files: ${Math.ceil(success / merge)} merged files`);
   if (failedUrls.length > 0) {
     console.log(`\n✗ Failed chapters:`);
     failedUrls.forEach(u => console.log(`  ${u}`));

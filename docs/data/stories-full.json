@@ -6218,6 +6218,542 @@
         "id": 1226,
         "title": "Chương 1219: Một đôi biết nói chuyện con ngươi",
         "file": "chuong-1226.txt"
+      },
+      {
+        "id": 1227,
+        "title": "Chương 1220: Điều kiện khiến người ta sợ hãi",
+        "file": "chuong-1227.txt"
+      },
+      {
+        "id": 1228,
+        "title": "Chương 1221: Quật cường thiếu nữ",
+        "file": "chuong-1228.txt"
+      },
+      {
+        "id": 1229,
+        "title": "Chương 1222: Tiểu Long Nữ nam nhân",
+        "file": "chuong-1229.txt"
+      },
+      {
+        "id": 1230,
+        "title": "Chương 1223: Muốn làm gì? Hạ lưu!",
+        "file": "chuong-1230.txt"
+      },
+      {
+        "id": 1231,
+        "title": "Chương 1224: Ba tấc gót sen",
+        "file": "chuong-1231.txt"
+      },
+      {
+        "id": 1232,
+        "title": "Chương 1225: Song mỹ trong ngực (Hai mỹ nhân trong lòng)",
+        "file": "chuong-1232.txt"
+      },
+      {
+        "id": 1233,
+        "title": "Chương 1226: Xấu hổ giận dữ muốn chết",
+        "file": "chuong-1233.txt"
+      },
+      {
+        "id": 1234,
+        "title": "Chương 1227: Số mệnh như gặp lại",
+        "file": "chuong-1234.txt"
+      },
+      {
+        "id": 1235,
+        "title": "Chương 1228: Hỏi thế gian tình là gì",
+        "file": "chuong-1235.txt"
+      },
+      {
+        "id": 1236,
+        "title": "Chương 1229: Ngoài ý muốn khách tới thăm",
+        "file": "chuong-1236.txt"
+      },
+      {
+        "id": 1237,
+        "title": "Chương 1230: Tâm loạn như ma",
+        "file": "chuong-1237.txt"
+      },
+      {
+        "id": 1238,
+        "title": "Chương 1231: Trên giường tỷ muội tâm sự",
+        "file": "chuong-1238.txt"
+      },
+      {
+        "id": 1239,
+        "title": "Chương 1232: Giấy không thể gói được lửa",
+        "file": "chuong-1239.txt"
+      },
+      {
+        "id": 1240,
+        "title": "Chương 1233: Hỗn loạn quan hệ",
+        "file": "chuong-1240.txt"
+      },
+      {
+        "id": 1241,
+        "title": "Chương 1234: Hoa dung thất sắc",
+        "file": "chuong-1241.txt"
+      },
+      {
+        "id": 1242,
+        "title": "Chương 1235: Lăn lộn khó ngủ",
+        "file": "chuong-1242.txt"
+      },
+      {
+        "id": 1243,
+        "title": "Chương 1236: Ăn nhịp với nhau",
+        "file": "chuong-1243.txt"
+      },
+      {
+        "id": 1244,
+        "title": "Chương 1237: Dưới ánh trăng Thần Kiếm",
+        "file": "chuong-1244.txt"
+      },
+      {
+        "id": 1245,
+        "title": "Chương 1238: Đêm tối thăm dò nhà ở",
+        "file": "chuong-1245.txt"
+      },
+      {
+        "id": 1246,
+        "title": "Chương 1239: Nhiệt năng giai nhân",
+        "file": "chuong-1246.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Bản Năng Đàn Bà",
+    "folder": "ban-nang-dan-ba",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cô Giáo Thu",
+    "folder": "co-giao-thu",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Chương 7",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Chương 8",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Chương 9",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Chương 10",
+        "file": "chuong-10.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Hồi Ức các cuộc ngoại tình",
+    "folder": "hoi-uc-cac-cuoc-ngoai-tinh",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Nàng dâu thời nay",
+    "folder": "nang-dau-thoi-nay",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Chương 7",
+        "file": "chuong-7.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Nhân viên ngân hàng",
+    "folder": "nhan-vien-ngan-hang",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Những nàng dâu xinh đẹp",
+    "folder": "nhung-nang-dau-xinh-dep",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Những người phụ nữ dâm đãng",
+    "folder": "nhung-nguoi-phu-nu-dam-dang",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Chương 7",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Chương 8",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Chương 9",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Chương 10",
+        "file": "chuong-10.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Phận nàng dâu",
+    "folder": "phan-nang-dau",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6",
+        "file": "chuong-6.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sale BDS",
+    "folder": "sale-bds",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6",
+        "file": "chuong-6.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Secret of my wife",
+    "folder": "secret-of-my-wife",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Truyện ngắn",
+    "folder": "truyen-ngan",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Vắng Chồng",
+    "folder": "vang-chong",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Chương 7",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Chương 8",
+        "file": "chuong-8.txt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Vợ là nhân tình của sếp",
+    "folder": "vo-la-nhan-tinh-cua-sep",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
       }
     ]
   }
