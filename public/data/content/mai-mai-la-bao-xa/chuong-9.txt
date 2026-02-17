@@ -1,0 +1,646 @@
+Chương 9
+
+
+
+21. Chương 41-42
+
+
+Hiện giờ Lăng Lăng đã muốn điên rồi. Mỗi ngày gặp anh trái tim cô run rẩy đến mức muốn co giật, nhưng không thấy anh thì lòng dạ bất an. Anh cười, cô ngốc nghếch cười theo, anh nhíu mày, cô cũng theo đó mà đau lòng.
+Anh “trong lúc vô ý” chạm vào tay cô… Giả sử anh nắm tay cô nửa giờ không buông, có thể gọi là “vô ý” sao.
+Lăng Lăng cúi đầu nhìn đôi bàn tay nhỏ bé vô cùng thê thảm, sáng hôm qua, Dương Lam Hàng dạy cô sử dụng một loại thiết bị mới, tay cầm tay chỉ, vừa kiên nhẫn, vừa dịu dàng, lòng bàn tay ấm áp ủ ấm đôi tay lạnh lẽo của cô, bị đụng chạm khiến tim cô đập nhanh, chỉ lo đoán xem anh rốt cuộc là hữu ý hay vô tình, còn lời anh nói một chữ cũng không nghe vô…
+Kết quả, đến chiều bi kịch liền xảy ra, cô tự làm bỏng tay mình đến ứa máu, đau đớn như kim đâm vào ngực…
+Nếu cứ thế này, cô chưa học xong tiến sĩ chắc đã thành liệt sĩ! 
+“Lăng Lăng, tớ thấy cậu đừng học tiến sĩ nữa, năm nay tình hình xin việc của thạc sĩ cũng tốt lắm, cậu đi tìm việc làm quách đi.”
+Nhắc tới tìm việc, Lăng Lăng lại một hồi cảm thán, cô không phải không nghĩ tới.
+Một hôm, cô xem poster quảng cáo, thấy có một công ty điện rất gần nhà mình đến thông báo tuyển dụng. Căn cứ vào giới thiệu trên poster, công ty đó trước kia là một xí nghiệp nhỏ do gia đình quản lý, chủ yếu cung cấp hàng hóa cho một vài công ty lớn, lợi nhận vô cùng cao. Vài năm nay cùng với sự phát triển của nhanh chóng của ngành điện tử, ô tô, sự nghiệp của công ty cũng lên như diều gặp gió. Phạm vi kinh doanh của công ty dần mở rộng, bắt đầu tự mình nghiên cứu một số hộp điều khiển điện, quy trình tự động hóa bằng điện, tất nhiên cũng dính líu tới nghiệp vụ bảo trì, lắp đặt.
+Lần này họ mới triển khai một dự án về robot, đặc biệt phái trưởng phòng kỹ thuật đến đại học T thông báo tuyển dụng một vài nhân viên, ưu tiên xem xét những người biết lập trình NC(*) và lập trình máy tính.
+Bậc đại học Lăng Lăng học về điện, lập trình NC học khá tốt, sau đó lại học thêm bằng hai về Tin học, tuy không thể nói là tinh thông lập trình máy tính, nhưng ít nhiều cũng cảm thấy hứng thú. Hơn nữa đãi ngộ rất được, lại ở gần nhà, cô khi ấy nổi hứng bốc đồng, chạy tới hiệu photocopy viết qua loa một cái sơ yếu lý lịch, cùng Liên Liên đi nghe giới thiệu, nhưng vừa đem sơ yếu lý lịch nộp cho một anh trẻ tuổi đẹp trai trong đó, cô lập tức hối hận.
+Nhỡ đâu người ta thực sự muốn mình, cô quay về biết phải ăn nói ra sao với Dương Lam Hàng đây, vừa nghĩ đến anh có thể sẽ tức giận, Lăng Lăng liều mình đem sơ yếu lý lịch cướp về từ trong tay người ta.
+Anh đẹp trai trẻ tuổi nhìn cô đầy hiếu kỳ.
+“Thực xin lỗi anh! Ngại quá!” Cô kiên trì giải thích với người đó. “Điều kiện của em không tốt, không muốn làm mất thời gian của anh ạ!”
+…
+“Lăng Lăng.” Tay Liên Liên phẩy phẩy trước mặt Lăng Lăng, lấy lại sự chú ý của cô. “Cậu không thể cứ tiếp tục thế này…”
+“Tớ biết!”
+Cô không nên yêu hai người đàn ông cùng lúc, lại càng không nên dứt bỏ mối tình qua mạng suốt năm năm trời, mặt khác, không nên để cho bản thân chìm đắm trong sự quyến rũ của Dương Lam Hàng.
+Phải làm sao mới đúng đây?
+Cô muốn thẳng thắn mọi chuyện với anh, nhưng lại sợ làm tổn thương anh, làm tổn thương năm năm chờ đợi và trả giá của anh.
+Cô muốn quên Dương Lam Hàng, nhưng khi nhìn thấy anh thì tình cảm lại không thể tự động kiểm soát.
+“Liên Liên, dạo này còn có công ty nào tốt không?” Đau dài không bằng đau ngắn, cô phải một đao đoạn tuyệt, cắt đứt nhanh chóng với Dương Lam Hàng.
+“Tớ nhớ công ty điện kia còn hai vị trí lập trình viên tự động hóa chưa được quyết định, người phụ trách vẫn đang xem xét, cậu có muốn thử không?”
+“Chính là cái công ty lần trước mình đi đó hả?”
+“Đúng rồi! Tớ có thông tin liên hệ của trưởng phòng Trình, nếu cậu muốn đi, tớ sẽ giới thiệu cậu.”
+“Để tớ nghĩ đã nghĩ đã!”
+Liên Liên vừa nghe nói cô tính tìm việc làm, cặp mắt đen lúng liếng sáng lên lấp lánh: “Đừng có nghĩ nữa! Tối nay tớ lập tức gọi điện cho trưởng phòng Trình giới thiệu cậu!”
+Không phải Liên Liên nhiều chuyện, nhưng cô thực sự không thể chịu nổi đứng nhìn Lăng Lăng tiếp tục hủy hoại chính mình.
+Năm đó khi Lăng Lăng mê muội “anh bạn khoa học gia”, hai người cách xa vạn dặm, cô cùng lắm chỉ thỉnh thoảng ngẩn người, đầu óc lơ đễnh một chút, không có ảnh hưởng đến cuộc sống thường ngày.
+Hiện giờ, cô yêu phải Dương Lam Hàng, hai người sớm chiều gặp nhau, đến thần tiên cũng không khống chế được mình nha!
+Ban ngày Lăng Lăng ở trước mặt Dương Lam Hàng phải cố sống cố chết đè nén bản thân, ban đêm không ngủ được, đến phòng tự học điên cuồng học bài.
+Một tháng nay, cô gầy xọp đi, sói nhìn thấy cũng muốn khóc luôn!
+Thế này vẫn chưa ăn thua. Cô gần đây hễ lên mạng nhìn thấy “anh bạn khoa học gia” của mình, liền ôm laptop khóc thầm.
+Liên Liên biết, trong lòng cô khổ sở, khổ vì cảm thấy có lỗi và tự trách đối với người đó, khổ vì không thể dứt bỏ một phần tình cảm khắc cốt ghi tâm này.
+Không ai trách cứ cô, vì thế cô càng đi trách cứ chính mình!
+********************************
+Ăn cơm xong, Lăng Lăng quay về phòng ngủ, chần chừ trong giây lát rồi mở máy tính lên.
+QQ vừa đăng nhập, ava đầu hói nhỏ kích động nhấp nháy không ngừng.
+Vĩnh viễn có xa không: “Em có đó không?”
+Chịu đựng tay đau, Lăng Lăng dùng hai ngón tay chậm chạp gõ lên bàn phím, hai chữ “Em có.” còn chưa đánh xong, trên màn hình lại xuất hiện tin nhắn.
+Vĩnh viễn có xa không: “?”
+Vĩnh viễn có xa không: “Sao em không nói gì hết vậy?”
+Vĩnh viễn có xa không: “Lăng Lăng, gần đây tâm trạng em không tốt hả?”
+Lăng Lăng nén cảm giác đau trong lòng bàn tay, tăng tốc độ đánh chữ: “Không có! Em vẫn ổn!”
+“Từ sau khi em ở thành phố B về liền thay đổi rất nhiều. Rốt cuộc đã xảy ra chuyện gì vậy?”
+“Gần đây em hơi bận.”
+Gửi xong tin, Lăng Lăng buông con chuột nắm hờ ra, chậm rãi mở bàn tay, một vết chất lỏng màu vàng nhạt thấm qua băng gạc. Nhất định là do lòng bàn tay dùng sức nên làm vỡ bong bóng nước…
+Đau đớn, nhưng không phải lòng bàn tay!
+“Em có chuyện gì không thể nói với anh sao?” Anh kiên trì truy hỏi.
+Thấy cô không trả lời, anh lại nhắn tiếp: “Thôi quên đi, em làm chuyện của mình đi, anh không làm phiền em nữa.”
+Anh nổi giận rồi. Lời nói không hề sắc bén, cũng không thể hiện cảm xúc gì, ngay cả lúc tức giận anh cũng bình thản.
+Ngón tay Lăng Lăng nhanh chóng di chuyển trên bàn phím: “Chờ chút…”
+Không trả lời.
+“Anh nghe em nói đã…”
+Không trả lời.
+Cô nắm chặt tay, lòng bàn tay đã hoàn toàn mất cảm giác, chỉ có thể thấy vệt chất lỏng vàng vàng dần lan ra dưới miếng bông băng.
+“Anh trở về đi! Em muốn gặp anh!”
+Anh nhanh chóng nhắn lại: “Ý em là…?”
+“Chúng ta quen nhau đi.” Cô nói: “Em muốn gặp anh…”
+“Vì sao?”
+Bởi vì túi LV thuộc về những cô gái nổi tiếng như thế, cho dù khi không từ trên trời rơi xuống đầu cô một cái, cô nhất định sẽ cẩn thận ôm trong tay, lúc nào cũng thấp tha thẩp thỏm sợ mất, tội gì phải khổ như vậy?
+Do đó, cái thích hợp với cô mới là tốt nhất!
+“Em ở thành phố A, đại học T, số điện thoại của em là *********, khi nào anh về nước thì liên lạc với em.”
+Điện thoại cô reo vang, cô vô cùng hồi hộp lấy ra, vừa nhìn qua, là Liên Liên, liền hơi thất vọng.
+Liên Liên nói, trưởng phòng Trình của công ty điện đã quyết định tuyển người xong rồi, ngày mai sẽ ký hợp đồng, sau một hồi Liên Liên long trọng đề cử, trưởng phòng Trình muốn đích thân gặp Lăng Lăng, nhắn cô lập tức đi qua.
+Lăng Lăng bảo cô chờ dưới lầu, cô thay quần áo, chỉnh trang một chút rồi đi xuống.
+Cúp điện thoại, cô nói với anh: “Có một công ty điện mời em đi phỏng vấn, anh chờ em, em sẽ về nhanh thôi!”
+“Phỏng vấn?!”
+“Ừ, em định tìm việc làm!”
+“Em không học tiến sĩ nữa!”
+“Em đi về sẽ từ từ nói với anh sau, anh nhất định phải chờ em!”
+…
+Lúc xuống lầu, điện thoại của cô lại reo. Cô tưởng Liên Liên hối, lấy ra nhìn qua, là Dương Lam Hàng…
+Dưới chân cô trượt một phát, mặc kệ tay bị thương, cô vẫn vươn tay chụp lấy thành cầu thang, ổn định thân người bị nghiêng…
+Đứng trên hành lang, cô đau đến mức cắn chặt răng.
+Trên màn hình màu xanh, tên anh nhấp nháy hết lần này đến lần khác, di động trong tay rung lên không ngừng.
+Lăng Lăng ngắt điện thoại, tắt máy.
+Đã quyết định rồi, cô không thể cho mình bất kỳ cơ hội đổi ý nào.
+Dương Lam Hàng, ba chữ này sẽ ra khỏi cuộc sống của cô…
+…
+Nhà hàng nằm gần cổng phía Tây của trường, đến cửa Tây vừa khéo phải đi qua khoa Vật liệu.
+Lăng Lăng ngẩng đầu nhìn liếc qua, văn phòng Dương Lam Hàng vẫn sáng đèn.
+Đến khi nào sẽ có người con gái khuyên nhủ anh, không cần vắt kiệt sức lực, phải biết quý trọng sức khỏe…
+Đến khi nào sẽ có người con gái chăm sóc anh thật chu đáo, quan tâm anh, hết lòng hết sức bảo vệ tài nguyên của quốc gia…
+Đến khi nào sẽ có người con gái làm bạn cùng anh trong đêm khuya…
+“Đừng nhìn! Nhìn cũng vô ích!” Liên Liên kéo cánh tay cô, dắt cô đi về phía trước.
+Lăng Lăng lại ngoái đầu liếc nhìn cửa sổ phòng anh.
+Ánh đèn phòng anh soi sáng đêm đen, khiến ánh sao cũng trở nên mờ nhạt.
+Đến nhà hàng, có người dẫn Lăng Lăng trực tiếp đi gặp trưởng phòng Trình phụ trách tuyển dụng.
+Trong phòng chỉ có một người, rất trẻ, xấp xỉ ba mươi, thoạt nhìn thấy hơi quen quen.
+Lăng Lăng nhìn kỹ, đúng là anh trẻ tuổi đẹp trai nhận sơ yếu lý lịch hôm đó. Mặt mũi ưa nhìn, mặc vest đi giày da, tác phong dứt khoát, ánh mắt sắc sảo, nhìn qua là biết nhân vật tinh anh trong giới trí thức.
+“Mời em ngồi.” Giọng điệu của anh rất lịch sự, không có kiểu uy nghiêm từ trên nhìn xuống của người phỏng vấn.
+Lăng Lăng hai tay cầm sơ yếu lý lịch dâng lên, không đợi người ta nói chuyện, đã tự nhận lỗi trước: “Trưởng phòng Trình, rất xin lỗi! Em vẫn làm mất thời gian quý báu của anh…”
+“Không sao, tôi có rất nhiều thời gian! Em ngồi đi!”
+Người thực hòa nhã dễ gần, giống y thầy Dương nhà cô!
+Ai da! Tại sao lại nhớ tới anh chứ!
+Trưởng phòng Trình đưa hai tay nhận lấy hồ sơ, tỉ mỉ xem một lượt từ đầu đến cuối.
+Có lẽ vì tiết kiệm thời gian, anh đặt câu hỏi vào thẳng vấn đề. “Tại sao em lại học bằng đôi về Tin học?”
+“Em thích lập trình máy tính ạ.”
+“Vậy tại sao lên thạc sĩ em lại chọn chuyên ngành Vật liệu?”
+“Bởi vì…” Cô rốt cuộc không thể thú thật mấy chuyên ngành khác thi không được.
+Chi bằng… nói bừa đi.
+“Bởi vì, cho đến bây giờ, kỹ thuật công nghệ gần như đã phát triển đến đỉnh cao, ví dụ như, máy công cụ CNC(**), kỹ thuật hàn bằng robot, thiết kế hỗ trợ vi tính, độ tinh vi của các phương pháp gia công này gần như rất khó vượt qua. Nhưng theo đuổi trong kỹ thuật không chỉ có nhiêu đó, rất nhiều công ty càng mong muốn hạ thấp chi phí, đơn giản hóa công nghệ. Vì thế, những quốc gia giàu có trên thế giới đều đang tập trung nhân lực và vật lực phát triển các loại vật liệu mới, Trung Quốc vài năm nay cũng rất coi trọng ngành sản xuất vật liệu, em tin rằng trong vòng hai chục năm nữa, ngành vật liệu sẽ trở thành ngành trọng yếu nhất trong phát triển kỹ thuật mới của Trung Quốc…”
+Anh ta không phát biểu ý kiến gì, tiếp tục xem bảng điểm của cô. Xem xong bảng điểm, anh ta hỏi một vài câu về thiết kế quy trình tự động hóa và thiết bị CNC, cũng hỏi cô biết những phần mềm lập trình nào, và một vài vấn đề về vật liệu kỹ thuật.
+So với mấy câu hỏi biến thái của Dương Lam Hàng, câu hỏi của trưởng phòng Trình vô cùng “có tính người”, cô hoàn hoàn có thể đối đáp trôi chảy.
+“Tại sao trong giấy giới thiệu xin việc của em không có nhận xét đề cử của giáo viên hướng dẫn?” Đây là vấn đề Lăng Lăng lo lắng nhất.
+Một người không có kinh nghiệm xin việc như cô không biết phải luồn lách trả lời như thế nào, lại tìm không ra một lời giải thích hợp lý.
+Cô do dự chốc lát, chân thành nhìn trưởng phòng Trình đáp: “Giáo viên hướng dẫn của em không hy vọng em tìm việc làm, muốn em học tiến sĩ với thầy ấy.”
+“Hả? Nói vậy thầy không đồng ý cho em đi làm, cho nên từ chối ký tên vào giấy giới thiệu xin việc?”
+“Không phải! Thầy ấy không phải người như thế.” Lăng Lăng nói xong lập tức hối hận. Lúc này còn bênh vực Dương Lam Hàng làm chi. Cứ đem trách nhiệm đổ thẳng lên đầu anh, đơn giản biết bao nhiêu.
+Nhưng bản năng cô muốn bênh vực anh.
+“Thông thường, giáo viên hướng dẫn sẽ không làm khó sinh viên.” Trưởng phòng Trình nói ngay sau đó: “Giáo viên hướng dẫn của em là ai?”
+“Thầy ấy tên Dương Lam Hàng, có thể anh chưa từng nghe qua… Thầy không muốn làm khó em, chỉ là em không biết nói với thầy ra sao.”
+Trưởng phòng Trình bỗng nhiên nở nụ cười. “Dương Lam Hàng hả? Anh thường xuyên thấy mấy topic về anh ta trên diễn đàn BBS.”
+“Anh cũng vào diễn đàn của đại học T à?”
+“Đúng vậy! Anh là sinh viên khóa 96 của đại học T, buổi tối rảnh rỗi anh hay lên diễn đàn xem chuyện đông chuyện tây của trường mình.”
+Hóa ra là đàn anh, Lăng Lăng nhất thời nảy sinh ít nhiều cảm giác thân thiết đối với anh ta. “Anh học ngành gì ạ?”
+“Khoa Điện, cùng ngành với em. Xem như là đàn anh của em!”
+“Chào anh, sư huynh!” Đây chính là quen với đàn anh nha, không tranh thủ kết thân thì quá lãng phí tài nguyên. “Em khóa 99, lúc em nhập học chắc anh đã năm tư đúng không?”
+“Ừ, anh có ấn tượng rất sâu về em. Hồi đó em còn tết tóc, mặc đồ jeans…”
+“Anh biết em sao?” Chuyện này quả thực khiến cô có chút vừa mừng vừa lo.
+“Ngành chúng ta ít sinh viên nữ, vào vào ra ra có mấy người, không muốn nhớ cũng khó!”
+Kể ra cũng đúng. Ngành của cô có bốn lớp, trung bình mỗi lớp hai nữ sinh. Sinh viên nữ từ năm nhất đến năm tư gom lại không quá ba chục người, muốn không nhớ rõ cũng khó thật.
+Trưởng phòng Trình bỏ sơ yếu lý lịch xuống, đột ngột cảm khái. “Sáu năm rồi anh không quay về đại học T, có hai bạn học ở lại trường làm tiến sĩ, năm ngoái cũng đi rồi… Hôm đó trong buổi tuyển dụng thấy em và Trần Liên Liên, vẫn rất thân thiết.”
+“Có phải anh có cảm giác cảnh còn người mất không?”
+“Người khác, vật cũng khác! Lần này trở về, anh rất muốn ăn món bánh rán nồi đất ở góc đường chỗ cửa hông, không ngờ nó đã thành nhà trọ cho sinh viên.”
+“Ý anh là bánh rán nhà họ Lý hả?”
+“Đúng thế!”
+“Hai năm trước đã chuyển nhà, từ cửa hông đi thẳng qua hai ngã tư sẽ thấy, vẫn còn để bảng hiệu như trước.”
+“Vẫn là cái thanh gỗ, trên có vẽ hình mũi tên đúng không?” Anh ngồi thẳng, hơi kích động.
+“Chính nó!”
+Kỷ niệm thuở thiếu thời thực sự rất khó quên. Lăng Lăng còn nhớ rõ lần đầu tiên đến cửa tiệm nổi tiếng vang dội kia ăn bánh, tìm vài vòng không thấy cửa, sau mới phát hiện trên mặt đất có một thanh gỗ hẹp, viết mấy chữ “bánh rán nồi đất” kèm một cái mũi tên, hình dáng hoàn toàn y đúc tấm biển “Thiên Địa Hội Phân Đà” trong phiên bản “Lộc Đỉnh Ký” của Châu Tinh Trì.
+Làm choáng váng không ít người!
+Tuy nhiên, ăn chơi không sợ mưa rơi!
+Mặt tiền cửa hàng tuy nhỏ, nhưng hương vị bánh hạng nhất, hơn nữa quán gọn gàng sạch sẽ, phục vụ nhiệt tình, giá cả phải chăng.
+Cửa tiệm ngày nào cũng chật ních khách!
+Rất nhiều sinh viên thích ghép bàn lại cùng nhau ngồi ăn, người xa lạ cũng có thể tám với nhau quên trời quên đất.
+Nghe nói, chỗ đó còn cống hiến không nhỏ cho sự nghiệp tình yêu của đại học T.
+Bởi vì, có rất nhiều nam sinh hễ đến giờ cơm liền đóng đô tại đó chờ làm quen các bạn nữ (có xinh hay không cũng chả sao, thuận mắt mới là tiêu chuẩn số một!), xác suất thành công cũng khá cao!
+“Sư huynh, nếu anh muốn, ngày mai em có thể dẫn anh đi.”
+“Anh chiều mai lên máy bay, buổi sáng còn có công chuyện… Không biết tối nay em có thể đi không?”
+“Tối nay à?” Lăng Lăng nhìn đồng hồ. “Chín giờ, cửa hàng chắc sắp đóng cửa rồi.”
+“Vậy để dịp khác đi.”
+…
+Đề tài đã đi lạc, rất khó để tìm về. Bọn họ càng nói càng xa, hoàn toàn ra ngoài phạm vi phỏng vấn xin việc.
+Một tiếng sau, Lăng Lăng phát hiện đối phương gần như quên bẵng mục đích đến đây của cô, có nói tiếp cũng vô nghĩa. Cô không muốn Liên Liên ở bên ngoài phải đợi lâu, bèn nói: “Sư huynh, đã không còn sớm, anh cũng mệt rồi, em xin phép về trước nhé.”
+Anh ta nhìn đồng hồ, đã gần mười giờ. “Thật ngại quá, tán gẫu với em rất vui nên nhất thời quên mất giờ giấc…”
+Một buổi phỏng vấn thất bại thảm hại!
+Xem ra cô phải về bổ sung thêm ít kỹ năng phỏng vấn, làm phong phú một chút kinh nghiệm xin việc. Lần sau tuyệt đối sẽ không cùng người phỏng vấn tám tới hôn mê.
+Không ngờ khi cô vừa đứng lên, trưởng phòng Trình quay lại đề tài cũ. “Thực ra với ngoại hình sáng sủa, tính cách cởi mở, kiến thức cũng rất rộng của em, anh cho rằng em rất thích hợp làm công tác hỗ trợ kỹ thuật pre-sales(***), không biết em có hứng thú hay không.”
+Hỗ trợ kỹ thuật phải thường xuyên giao tiếp với khách hàng, tất tả ngược xuôi, lao tâm lao lực.
+Thấy Lăng Lăng do dự, anh ta nói: “Làm pre-sales tuy vất vả, nhưng đãi ngộ xứng đáng, lương cơ bản cộng thêm phần trăm hoa hồng, thu nhập mỗi năm có thể đạt tới một trăm nghìn.”
+Lương một trăm nghìn một năm, vất vả chút cũng đáng.
+Lăng Lăng thầm tính qua một chút, một tháng đại khái hơn tám ngàn. Đối với người vừa tốt nghiệp thạc sĩ mà nói, mức lương này không phải thấp.
+Cô gật gật đầu. “Sư huynh, em muốn trở về nói chuyện với thầy hướng dẫn trước đã ạ.”
+“Không thành vấn đề. Đây là danh thiếp của anh…” Anh ta dùng hai tay đưa danh thiếp cho cô. “Sau khi quyết định, nhớ gọi điện cho anh.”
+“Vâng.”
+“Chiều mai anh bay, tốt hơn hết em cho anh câu trả lời trước khi anh đi.”
+“Em sẽ làm vậy.”
+Trên đường về, Lăng Lăng lại ngẩng đầu nhìn thoáng qua văn phòng Dương Lam Hàng, đèn vẫn còn sáng.
+********************************
+Trở về phòng ngủ, ava của “Vĩnh viễn có xa không” vẫn sáng.
+“Em về rồi.” Cô chào, anh không trả lời, có lẽ đã đi ra ngoài.
+Cô chậm chạp gõ chữ: “Anh biết không? Trưởng phòng kỹ thuật phụ trách tuyển dụng vừa hay là đàn anh của em, anh ấy còn biết em nữa. Anh ấy nói em hình thức cũng được, tính cách tốt, kiến thức rộng, muốn tuyển em làm hỗ trợ kỹ thuật, tiền lương có thể lên tới tám ngàn. P&G và Baosteel căn bản cũng ở mức này thôi.”
+Trên màn hình hiện lên trả lời của anh: “Em ký hợp đồng rồi sao?”
+“Vẫn chưa, ngày mai em định nói chuyện với thầy Dương, không biết anh ta có đồng ý không.”
+“Nếu anh ta không đồng ý thì sao?”
+“Mặc kệ anh ta có đồng ý hay không, em nhất quyết phải đi làm.”
+“Tại sao?”
+Tại vì em thực sự đã suy nghĩ kỹ, chúng ta có năm năm tình cảm, anh là người hiểu em nhất, biết em nhất, quan tâm em nhất.
+Anh cũng là người em yêu nhất!
+Nếu em đã quyết định chọn anh, em không thể làm chuyện có lỗi với anh.
+Thế nên, em quyết định rời xa anh ấy, từ nay về sau sẽ không gặp anh ấy, không nhớ tới anh ấy nữa…
+Em muốn toàn tâm toàn ý ở bên anh, hết lòng hết dạ yêu anh!
+- đây là lý do cô không thể nói ra.
+“Em không muốn học tiến sĩ.” Cô đáp cho có lệ.
+Anh không trả lời, ava của anh cũng tắt ngúm.
+Lăng Lăng nghĩ chắc anh tạm thời có việc bận, nên cũng log-out, tắt máy tính, ôm gối nằm ngẩn người trên giường.
+Ngày mai, cô nên nói với Dương Lam Hàng sao đây, tìm lý do thích đáng nào để anh có thể thông cảm cho sự khó xử của cô?
+Chi bằng, ăn ngay nói thật đi!
+Đây là sự tôn trọng cuối cùng dành cho anh!
+Lăng Lăng không biết, lần này cô đã khiến một Dương Lam Hàng tính tình siêu tốt tức giận đến nghẹn lời.
+…
+Cô nói đi là đi, hoàn toàn không để ý cảm nhận của anh. Hơn nữa, chỉ một câu “Em không muốn học tiến sĩ”, cũng tính là lý do.
+Anh làm sao có thể chấp nhận?!
+Anh càng nghĩ càng tức mình, quả thực muốn đem cô lôi thẳng từ trong máy tính ra, mặt đối mặt hỏi cho rõ ràng: Rốt cuộc em muốn cái gì?!
+Anh tắt QQ, trấn tĩnh mất một lúc, cảm xúc mới dần dần ổn định.
+Khi anh mở lại QQ, ava của cô đã tắt.
+“Lăng Lăng, em còn đó không?”
+Cô không trả lời, gọi di động, cô tắt máy.
+Cô gái này… Dương Lam Hàng chỉ biết thở dài sườn sượt.
+Biết sao được, ai bảo anh yêu cô chứ!
+“Lăng Lăng, hoặc bắt đầu, hoặc kết thúc, chúng ta gặp nhau đi. Tối mai sáu giờ, anh ở nhà hàng cơm Tây XX chờ em.”
+…
+Tiếc là Lăng Lăng không đọc được.
+Cô nằm trên giường không biết trằn trọc tới mấy giờ mới đi vào giấc ngủ.
+Cô mơ thấy mình đứng dưới lầu khoa tài liệu, nhìn Dương Lam Hàng từ xa.
+Cô muốn đi lên nói với anh: Cô phải đi.
+Nhưng lại chần chờ không tìm ra dũng khí.
+Trong lúc đang lưỡng lự, giọng nói của Dương Lam Hàng vang lên sau lưng cô: “Em thích tôi, đúng không?”
+Cô sợ tới mức quay đầu bỏ trốn. Nhưng trong mơ tay chân không thể cử động, cố đến mấy cũng không nhấc nổi chân.
+“Em hẳn là nhìn ra được, tôi cũng thích em!”
+Giọng nói anh như tia sét, chớp lên trong đêm tối.
+Thời gian gần đây, lúc anh nói chuyện hay thích kề sát cô, lúc anh cười luôn nhìn vào mắt cô…
+Cô biết tình cảm trong mắt anh không phải ảo giác, nhưng cô không thể tin được chuyện này là thật.
+“Tại sao em muốn chạy trốn tôi?” Anh hỏi.
+“Em…” Cô cúi thấp mặt, lảng tránh cái nhìn bức bách của anh. “Em đã có người mình thích… Em thực sự yêu anh ấy!”
+Anh đi tới, ôm lấy cô, mạnh mẽ hôn lên môi cô. Cô muốn lẩn trốn, nhưng anh kéo gáy cô, khiến cô muốn tránh cũng không được, để mặc anh tìm kiếm, chiếm hữu.
+Đêm tối, khuôn mặt anh mơ hồ, mùi hương cũng mơ hồ, nụ hôn cũng mơ hồ…
+Thứ duy nhất rõ ràng chỉ là sự thống khổ, cô liều mạng giãy dụa, chống cự, cô cắn anh, đánh anh…
+Trong lòng cô nhớ đến một người đàn ông khác!
+——————————–
+(*) Lập trình NC: lập trình điều khiển số (numeral control).
+(**) Máy công cụ CNC: máy công cụ điều khiển số bằng máy tính.
+(***) Pre-sales (engineer): là chức vụ kết hợp giữa kỹ sư và bán hàng, thường có nhiệm vụ hỗ trợ kỹ thuật cho khách hàng hay nhà phân phối. Xem thêm tại đây.
+“Không… phải!” Lăng Lăng cố gắng phát ra âm thanh từ miệng lưỡi cứng ngắc.
+“Người em yêu là tôi!” Anh buông cô ra, lớn tiếng nói với cô. “Tôi không phải một dãy số hư ảo, tôi tồn tại chân thực… Tôi mới là người em yêu nhất!”
+“Không phải, không phải!” Cô khóc ngồi bật dậy, bừng tỉnh khỏi cơn mơ.
+Giấc mơ thật đến đáng sợ!
+Lăng Lăng vùi đầu vào giữa hai đầu gối, hai tay luồn trong mái tóc dài rối tung…
+Trong phòng chỉ còn chiếc chuông gió san hô đang khẽ ngân lên những tiếng cô đơn…
+“Lăng Lăng, cậu lại gặp ác mộng hả?” Tiểu Úc mờ mờ mịt mịt hỏi.
+“Không có gì đâu! Tớ đến phòng tự học đọc sách một lát đây.”
+Ôm sách đi trên hành lang yên tĩnh, nước mắt cô tí tách rơi trên mặt đá cẩm thạch. 
+Cái gì là khát vọng chân thật nhất của cô, cái gì là sự bắt buộc của lý trí.
+Cảnh trong mơ đã cho cô đáp án – bất luận bạn có thừa nhận hay không, chuyện xảy ra khách quan trong mơ thường chính là khát vọng bị đè nén lâu ngày tại nơi sâu thẳm trong lòng người.
+Mà điều cô có thể làm, vẫn là tiếp tục đè nèn phần khát vọng ấy!
+******************************
+Do rạng sáng mới ngủ nên khi Lăng Lăng tỉnh dậy thì trời đã tối.
+Sau khi thức giấc, cô không mở máy tính, ôm điện thoại đã tắt máy ngồi trên giường hết nửa tiếng.
+Cần đối mặt thì phải đi đối mặt thôi.
+Cô cố lấy dũng khí khởi động máy, gọi điện cho Dương Lam Hàng.
+Giọng anh nhỏ hết mức, giống như đang bận họp. Lăng Lăng sợ rằng nếu đợi thêm lát nữa thì dũng khí của mình sẽ bay biến gần hết, bèn cố gắng tới cùng dứt khoát nói với anh, cô muốn mời anh ăn cơm, có chuyện quan trọng cần nói, rồi báo thời gian và địa điểm.
+Anh “Ừ!” một tiếng.
+“Vậy em không làm phiền thầy nữa! Chào thầy ạ!”
+Ngắt điện thoại, cảm giác siết nhẹ từng chút từng chút trong tim không hiểu sao cứ vương vấn không nguôi.
+Nhoài người nhìn ra cửa sổ, mỗi một góc sân trường đều lưu dấu kỷ niệm.
+Cô phải rời khỏi đây, đem tuổi thanh xuân để lại, đem tình cảm để lại nốt, giữ cho mình có lẽ chỉ còn nỗi khát vọng cô không dám đối mặt trong những giấc mơ giữa đêm khuya.
+Cô ngẩng đầu lên, mỉm cười với bầu trời.
+Ông nội nói: Thế giời này rất công bằng, hiện tại chịu khổ càng nhiều, tương lai sẽ càng hạnh phúc!
+Tương lai, cô vẫn luôn phó thác kỳ vọng vào tương lai.
+Ngồi trước máy tính khởi động máy, sau khi QQ tự động đăng nhập, ava “đầu hói nhỏ” phía dưới màn hình đang vui vẻ lắc lắc cái đầu to đáng yêu của mình.
+Tay cô tạm dừng giây lát, mở ra tin nhắn.
+“Lăng Lăng, hoặc bắt đầu, hoặc kết thúc, chúng ta gặp nhau đi. Tối mai sáu giờ, anh ở nhà hàng cơm Tây XX chờ em.”
+Cô cứng người trước máy tính, muốn cười, nhưng mắt lại ngập nước.
+Anh đã trở về, lúc anh nên về nhất, cũng là lúc anh không về nhất.
+Mười hai giờ trưa, mặt trời chói chang lên cao, nhưng trong nhà hàng vẫn lạnh lẽo u ám.
+Dương Lam Hàng ngồi ngay ngắn đối diện Lăng Lăng, vẻ mặt xám xịt.
+Lăng Lăng không dám nhìn thẳng vào anh, liếc mắt cũng không dám, tầm mắt khiếp sợ chuyển qua chiếc cà-vạt trước ngực anh. Đây là cà-vạt cô tặng, kiểu dáng thực ra không quá xấu, nhưng màu hồng phấn kia mang trên người anh, rõ ràng không hợp tí nào. Hơn nữa đường vân thô kệch trên cà-vạt, hoa văn chẳng theo trật tự nào, càng nhìn càng thấy dung tục.
+Tuy rằng Dương Lam Hàng đã cố ý chọn một chiếc áo sơ-mi cùng tông màu để mặc với nó, nhưng vẫn vô vọng mà làm hỏng cả cái áo may thủ công tinh xảo.
+Cô cười chua xót, thật không xứng. Cà-vạt đã không xứng, cô lại càng không xứng!!!
+“Thầy Dương.” Lăng Lăng cuối cùng cũng mở lời. “Thầy Dương, em không muốn học tiến sĩ với thầy, em xin lỗi. Thật sự rất xin lỗi, em đã phụ sự kỳ vọng của thầy!”
+“Vì sao?”
+“Bởi vì…” Cô cầm ly rượu trước mặt, uống một hơi cạn sạch cả ly “Ngũ Lương Dịch”. Vị cay xè làm tê liệt nỗi thống khổ trong cô, cũng mang đến cho cô dũng khí.
+“Em thích thầy. Mỗi ngày em đều muốn nhìn thấy thầy, từng phút từng giây đều muốn, em… sợ càng lún càng sâu, sẽ không tự khống chế được bản thân… Vì vậy, em xin thầy, hãy cho em tốt nghiệp đi.”
+Dương Lam Hàng nhìn cô, giọng nói cứng rắn lạnh lẽo. “Nếu em thực sự muốn tốt nghiệp, tôi có thể tôn trọng lựa chọn của em. Em không cần dùng đến cách này.”
+“Em…”
+Lăng Lăng không dám nhìn anh, giọng nói của anh sắc bén như lưỡi dao, rạch một nhát thật sâu lên lồng ngực rỉ máu của cô. Phải chăng tỏ tình cũng giống như “đùa với lửa”, tự làm tự chịu.
+“Em muốn tốt nghiệp, có thể! Hãy cho tôi biết lý do thực sự.”
+Lý do thực sự? Anh còn muốn lý do thực sự nào nữa đây?
+Yêu phải thầy giáo của mình, lời nói vô liêm sỉ như vậy cô cũng đã nói ra rồi, chính là không muốn lừa gạt anh.
+Thế nhưng, anh lại không tin.
+“Em không lừa thầy, em nói thật lòng. Em sợ nhìn thấy thầy, thậm chí nghe thấy tên của thầy cũng sợ…”
+Giọng nói Dương Lam Hàng âm trầm đáng sợ. “Em ngẩng đầu lên, nhìn tôi!”
+Lăng Lăng ngẩng đầu, khuôn mặt tuấn tú của anh gần trong gang tấc, nghĩ đến sắp tới sẽ không còn được nhìn thấy khuôn mặt này nữa, cô hoàn toàn có thể lường trước những tháng ngày về sau sẽ gian nan khổ sở biết bao nhiêu.
+Nhưng mà cô phải vượt qua, nhất định phải vượt qua…
+“Sợ tôi? Bởi vì em không thể chịu nổi sự nghiêm khắc và trách mắng nặng nề của tôi? Hay là do vị trưởng phòng công ty điện trẻ tuổi đầy hứa hẹn kia coi trọng em, dùng mức lương cao tám ngàn tệ muốn em tới làm trong bộ phận của anh ta?”
+Lăng Lăng hoảng sợ nhìn Dương Lam Hàng, lẽ ra cô sớm nên biết việc này không thể gạt anh, dù sao, anh cũng là thầy của cô, thông báo tuyển dụng nhân viên dĩ nhiên anh phải nắm rõ.
+Cô thật khờ! Cô lại làm việc ngu ngốc rồi!
+“Em xin lỗi!”
+Cô nhìn thấy trong ánh mắt của Dương Lam Hàng nỗi đau đớn cùng thất vọng sâu sắc, cô biết… Anh bồi dưỡng cô, dùng cả tâm huyết, cả sự chân thành. Vậy mà thứ cô báo đáp lại là sự phản bội thế này đây.
+Nhưng cô còn có thể làm gì? Không có cô, Dương Lam Hàng vẫn có thể dạy dỗ vô số sinh viên còn xuất sắc hơn cô. Cô không thể, ở cùng anh, cô không làm được gì cả!
+Cô cúi đầu nhìn vết phỏng lớn trong hai lòng bàn tay, giờ phút này, không hề đau một chút nào…
+“Tôi không muốn nghe xin lỗi! Tôi muốn biết lý do, nếu là vì tiền lương, tôi có thể cấp nhiều hơn, nếu vì phát triển sau này, tôi có thể cho em nhiều cơ hội hơn, rốt cuộc em muốn cái gì?”
+Em muốn anh!!! Cô mỗi đêm nằm mơ, đều mơ thấy họ yêu nhau, yêu đến mâu thuẫn, yêu đến rối bời.
+Lăng Lăng nhìn anh, cô có thể nói ra sao?
+Cô nhìn anh, nở nụ cười: “Thầy Dương, phải làm sao thì thầy mới tin lời em? Nếu không, đêm nay em đến nhà thầy qua đêm nhé.”
+Anh tức giận đến mức khuôn mặt tuấn tú đỏ lên, khóe môi co rúm, tay anh run run.
+Nhìn thấy Dương Lam Hàng vốn bình tĩnh lại bị cô chọc tức đến mức này, Lăng Lăng bỗng cảm thấy thật buồn cười, thật sự rất buồn cười.
+Cô cười, cười mãi, dốc hết chút sức lực cuối cùng trong người mà cười.
+…
+“Được!” Nụ cười trên mặt cô cứng đờ, cô hoàn toàn không tin nổi một chữ này lại có thể thốt ra từ miệng Dương Lam Hàng!
+Sau khi kinh ngạc trong thoáng chốc, Lăng Lăng bừng tỉnh ngộ.
+Dương Lam Hàng thông minh đến mức nào, chút tiểu xảo của cô làm sao che được hỏa nhãn kim tinh của anh chứ.
+Anh muốn cô lấy gậy ông đập lưng ông, mà cô chỉ biết ngốc nghếch lần nào cũng cầm gậy lên…
+“Em…”
+“Không dám đúng không?” Anh mỉm cười nhíu mày, cười đến vô cùng mờ ám.
+Có cái gì không dám chứ?! Cô cũng không tin Dương Lam Hàng có thể ăn mình.
+“Tại sao lại không dám ạ?” Cô cố ý cười còn mờ ám hơn. “Thầy không sợ, em sợ gì chứ.”
+Cô chờ biểu hiện kinh ngạc của anh, chờ thấy anh khôi phục phong thái chính nhân quân tử.
+“Bồi bàn.” Dương Lam Hàng ngoắc ngoắc ngón tay, nói với người phục vụ đang đi về phía mình: “Tính tiền.”
+Sau đó, quay mặt lại nhìn cô: “Vậy giờ ta đi thôi.”
+Hả!?
+Lăng Lăng quyết tâm, đi thì đi, ai sợ ai nào!
+Coi ai cầm cự được đến phút chót!
+Trên thực tế, việc gì khó cũng đều có thể cắn răng vượt qua, nhưng Dương Lam Hàng này không phải cứ cắn răng là có thể vượt qua đơn giản như vậy.
+Đầu tiên, anh đến đứng trước mặt cô, từ đầu đến chân không chỗ nào không tao nhã. Nguyên một bộ lông không chút tì vết, khiến cho con ruồi đầu óc mù mịt là cô thực sự không biết bới làm sao!
+Tiếp theo, anh ga-lăng mở cửa xe cho cô, thản nhiên mở miệng. “Em muốn đến nhà trọ của tôi, hay là khách sạn?”
+Giọng điệu kia nghe giống như muốn tìm chỗ cùng cô thảo luận báo cáo.
+Cô đặc biệt muốn nói: Em nghĩ thảo luận đề tài, văn phòng thầy là thích hợp nhất.
+Nhung vì giữ gìn không khí, cô nhịn!
+“Thầy…” Lúc này dúng kính ngữ rất không tự nhiên, cô sửa miệng nói: “Đến nhà của anh đi.”
+Nói xong, toàn thân cô đều nóng bừng, nhìn xéo qua gương chiếu hậu, mặt cô còn đỏ hơn con cua luộc.
+Anh ngồi trên xe, mặt mày tươi rói nhìn cô: “Nhà tôi… chỉ có một giường đơn.”
+Toát mồ hôi!
+Cô điên cuồng lau lau!
+Giường kiểu gì cũng không sao, họ căn bản không cần xài nha!
+Lần này Lăng Lăng quyết định liều chết chống cự đến cùng, cúi đầu nín nhịn cả buổi, rốt cuộc nhịn ra một câu làm chính mình cũng muốn ngất.
+“Có, là tốt rồi…”
+Lời vừa ra khỏi miệng, khỏi nói cũng biết Lăng Lăng hối hận biết bao nhiêu.
+Nhỡ đâu, phải dùng tới cái đạo cụ đó thì biết làm sao đây!
+Nhỡ đâu, anh vừa vào cửa, lạnh lùng nói một câu: Lên giường đi. Biết làm gì rồi chứ!
+Nhỡ đâu, tự chủ của Dương Lam Hàng không tốt như cô dự tính, cô lại nhất thời bị “sắc đẹp” mê hoặc, khó mà giữ mình, vậy chẳng phải là… phạm sai lầm lớn rồi ư!
+Không việc gì, nhỡ đâu thôi mà, chỉ là một khả năng nhỏ xíu trong hàng vạn khả năng mà thôi.
+Cô không xui đến vậy đâu!
+Ơ? Không khí xung quanh sao lại biến hóa mãnh liệt thế này!
+Lăng Lăng vừa hé mắt, phát hiện thân thể Dương Lam Hàng hướng về phía mình, tay trái cũng vươn đến bên mặt cô…
+Trong nháy mắt máu huyết ngưng đọng, mọi giác quan của cô cũng đình chỉ hoạt động.
+Thân thể anh càng nhích càng gần, sắp áp vào người cô…
+Cô hoàn toàn có thể cảm nhận được nhịp tim bất thường của anh.
+Hiện giờ chắc sắp sửa vô khúc dạo đầu!
+Cô còn chưa chuẩn bị tâm lý nha, hơn nữa, ban ngày ban mặt thế này, người qua xe lại tấp nập…
+Cô rất muốn cự tuyệt, tuy nhiên, rượu đế năm mươi hai độ không phải đồ thường, cô không những toàn thân bủn rủn vô lực, đầu lưỡi cũng mất luôn kiểm soát.
+“Thầy, thầy Dương…” Cô run như cầy sấy gọi anh, thanh âm phát ra cũng mềm nhũn, vô cùng dụ dỗ người ta mơ mộng.
+“Hử?”
+Tay anh lướt qua, kéo dây an toàn phía bên phải cô, chồm người qua cô, khóa chặt lại. “Có chuyện gì?”
+“Á, không có gì ạ!” Lăng Lăng sờ sờ khuôn mặt đỏ bừng của mình, nhịp tim hỗn loạn hồi lâu không chịu bình ổn.
+Nhất định là nằm mơ nhiều quá! Người ta thắt dây an toàn cho mình, cô còn tưởng anh muốn hôn…
+Thấy cô mang vẻ mặt xấu hổ đến phát hoảng như thiếu nữ, ánh mắt Dương Lam Hàng đột nhiên sáng rực, so với mặt trời còn chói mắt hơn. “Em nói thật đấy chứ?”
+“…”
+Một câu Dương Lam Hàng hỏi ra, đến mười thiên tài còn không trả lời được, huống chi một Bạch Lăng Lăng ngốc ngếch!
+Lăng Lăng còn chưa nghĩ ra rổt cuộc mình có thật lòng hay không, hoặc có bao nhiêu thật bao nhiêu giả, anh đã khởi động xe, lái về phía trường học.
+Lúc chờ đèn đỏ, anh nới lỏng cà-vạt, hỏi cô: “Em thật sự thích tôi sao?”
+Cô gật đầu một cái. Để gia tăng độ đáng tin, lại gật gật mạnh hơn.
+“Đã bao lâu rồi?” Giọng anh cất cao hơi bất thường.
+“Lúc đi công tác thành phố B ạ.” Cô nhìn chằm chằm đèn đỏ phía trước, không may bỏ qua mất ánh mắt nóng bỏng như dung nham của Dương Lam Hàng.
+“Cho nên em muốn chạy trốn, nhân lúc bản thân còn chưa chìm đắm quá sâu mà rời xa tôi.”
+“Vâng!”
+Cô chờ Dương Lam Hàng từ chối mình, chờ anh nói: Em là một cô gái tốt, nhưng tôi không thích em, vĩnh viễn sẽ không thích em.
+Nhưng anh không nói tiếng nào, tiếp tục chuyên tâm lái xe.
+…
+Suốt đường đi, anh dường như đang nghĩ đến chuyện gì thú vị, cứ cười cười mãi, cười đến mức trong lòng cô phát nhột.
+Bởi vì có thể khiến một người có khả năng tự kiềm chế như Dương Lam Hàng không nhịn được cười, còn tủm ta tủm tỉm, chắc chắn sắp xảy ra một sự kiện chấn động lịch sử khiến người ta choáng váng.
+Lăng Lăng không ngừng nhìn quanh quất bên ngoài, vài lần anh giảm tốc độ, cô đều có cảm giác muốn nhảy khỏi xe.
+…
+Xe anh tiến vào cổng trường, vòng vèo mấy lượt, đã đứng trước khu nhà trọ lỗi thời dành cho chuyên gia của trường.
+Cô đang định mở cửa xe, anh đã nhanh chân bước qua, giúp cô mở cửa.
+“Cảm ơn thầy!” Cô biết anh bận tâm đến bàn tay bị thương của mình, lồng ngực bỗng thấy ấm áp. Thầm nghĩ: Hay là cô đừng đi nữa, mỗi giờ mỗi phút đều có thể nhìn thấy anh, cho dù chỉ vụng trộm yêu anh, cũng là một loại hạnh phúc… Nhưng cô lập tức phủ định ý tưởng ích kỷ này, cô hạnh phúc, còn người khác thì sao?
+“Em chờ tôi một chút, tôi đi đỗ xe.”
+“Vâng!”
+Anh đem xe đỗ tại chỗ đỗ đằng xa rồi quay lại, rất tự nhiên cầm lấy cổ tay cô, dẫn cô đi vào hành lang cũ kỹ âm u.
+Cô vừa định giãy ra, liền nghe thấy anh nhỏ giọng nhắc nhở: “Bên trong tối, em cẩn thận một chút.”
+“Dạ!” Nếu đã vậy, thôi cứ để anh dắt một lát đi. Cô thực sự sợ mình té bị thương trước cửa nhà anh!
+Có một giọng nói từ chân trời vọng tới: Xì! Cầu thang di tích lịch sử của khu nhà trọ nữ còn tối hơn, cô còn không chạy hai bước một là gì.
+Lăng Lăng vờ không nghe thấy!
+Nhẹ nhàng lên tới lầu năm, cô nghe thấy anh nói: “Đến nơi rồi.” Hơi thất vọng trong giây lát, anh trọ cao hơn tí nữa thì tốt biết bao!
+Tốt nhất anh cứ nắm lấy cô như vậy, đi đến cuối một đoạn đường đời…
+A! Chỉ cần Dương Lam Hàng tỏ ra săn sóc mình một chút, cô lại phát bệnh tưởng tượng lung tung rồi!
+Thật hết thuốc chữa!
+…
+“Mời vào.” Anh mở cửa, nghiêng người mời cô vào.
+Cô bước vào trong, tò mò nhìn quanh phòng ở của anh, thứ đầu tiên đập vào mắt là sàn nhà bằng gỗ thật, những đường vân gỗ tự nhiên mà giản dị.
+Đồ đạc trong phòng khách chỉ có một chiếc sô-pha bọc vải màu vàng nhạt cùng một chiếc bàn trà nhỏ bằng gỗ. Ngay cả ti-vi cũng không có.
+Cô tìm thấy trên tầng dưới cùng của kệ để giày một đôi dép lê màu đỏ còn mới tinh, bèn thay giày, mang dép đi vào trong.
+Nhà anh hoàn toàn không giống với hình dung của cô.
+Bố trí hai phòng ngủ, một phòng khách theo kiểu cũ, diện tích không hề lớn, ánh sáng cũng không tốt, bày biện đơn điệu trong phòng trông hơi nghèo nàn.
+Thông qua cửa phòng đang mở, cô thấy trong phòng ngủ anh thực sự chỉ có một chiếc giường đơn, đầu giường đặt một chiếc đèn bàn bằng sắt kiểu giả cổ. Một gian khác là phòng làm việc, có một chiếc bàn viết cùng một giá sách nhét đầy sách vở.
+Đây là nhà anh, không có phòng rộng, không màu sắc rực rỡ, không trang trí xa hoa, nhưng khắp nơi tản mát ý vị độc đáo của riêng anh – giản dị, trầm tĩnh.
+“Em cứ ngồi tự nhiên.” Anh chỉ vào sô-pha.
+Cô vừa ngồi xuống, liền thấy anh mở từng nút áo vest, nới lỏng cà-vạt.
+Cởi quần áo chi nhanh vậy! Nhịp tim lẫn ý thức của cô bắt đầu hỗn loạn, hoảng hốt đem túi trong tay ôm vào ngực, hoang mang không biết làm sao nhưng vẫn cố ra vẻ trấn tĩnh.
+Mãi đến khi anh cởi đồ vest, tháo cà-vạt mắc lên giá áo, cầm ấm trà trên bàn nói: “Em cứ ngồi một lát, tôi đi pha trà.”
+Lăng Lăng mới thả lỏng, thở phào nhẹ nhõm.
+Dương Lam Hàng vào bếp, lúc ngâm trà khóe miệng cong lên, không giấu được ý cười, nước trà pha ra đều mang đậm hương thơm ngọt ngào.
+Lăng Lăng ngồi trên sô-pha đánh giá cách bài trí trong nhà anh, mỗi món đồ đều đặt ở vị trí thích hợp, thể hiện rõ ràng tính coi trọng chi tiết của anh.
+ 
+
+
+22. Chương 43-44
+
+
+Trên bàn nước bày một bộ đồ uống trà tinh xảo bằng sứ Thanh Hoa(*), chữ trắng hoa văn xanh, nét vẽ thanh thoát. Màu men tuy trong suốt, nhưng miệng chén đã lên nước sáng bóng, có vẻ như bộ đồ trà này đã theo anh rất lâu.
+Bên cạnh bộ đồ trà đặt một cuốn “Cỏ dại”(**), cũng bị lật giở nhiều đến nhăn gấp.
+Hóa ra đây là cuộc sống của anh.
+Ngôi nhà cô tịch, một quyển văn xuôi, một chén trà xanh, hưởng thụ cô độc, thưởng thức tịch mịch.
+…
+Đợi một lúc, không thấy Dương Lam Hàng từ phòng bếp đi ra, Lăng Lăng tiện tay cầm lên cuốn “Cỏ dại” trên bàn trà, tùy ý lật một tờ, không ngờ trang cô vừa lật ra vô tình kẹp một tấm ảnh chụp một cô gái.
+Kẹp trong sách mình thường đọc nhất, chắc chắn là người con gái anh thích. Lăng Lăng ý thức được cô gái này nhất định có ý nghĩa rất đặc biệt với Dương Lam Hàng, bèn chăm chú nhìn kỹ người trong ảnh…
+Trong ảnh là một cô gái trẻ, bím tóc dài, trên người mặc áo sơ-mi denim màu xanh nhạt, trông chất phác đến nỗi hơi ngốc!
+Khuôn mặt này, cô đã gặp qua vô số lần trong gương – Bạch Lăng Lăng! 
+Cô dùng sức nắm tay, một cơn đau nhức từ lòng bàn tay truyền đến mọi dây thần kinh toàn thân – lần này không phải mơ.
+Anh thực sự thích cô! Đây không phải do cô bị rối loạn thần kinh mà nhìn nhầm, cũng không phải ảo tưởng hão huyền của cô, lại càng không phải khát vọng thống thiết trong mơ.
+Sự thật bày ra trước mắt, cô không thể lừa mình dối người mà trốn tránh thêm nữa!
+Thế nhưng, anh rõ ràng đã có người trong lòng, anh chuyển đối tượng từ khi nào vậy?
+Lúc ở thành phố B, anh nhẹ nhàng ôm cô, ngồi trên xe anh chạm vào tay cô…
+Trước đó, khi cô làm thí nghiệm nhiệt độ cao, cô vừa thét lên một tiếng anh liền vọt tới, liệu đó không phải là tình cờ chứ…
+Anh muốn giữ cô lại học tiến sĩ, còn cả khi cô “tỏ tình”, anh cười nói: “Vừa hay thầy giáo không có bạn gái, nếu em yêu tôi đến không thể kiềm chế, từng giờ từng phút đều nhớ đến tôi, tôi có thể cho em một cơ hội… Để em làm bạn gái của tôi! Đương nhiên, lấy hôn nhân làm điều kiện tiên quyết…”
+Không phải anh nói đùa với cô sao?
+Trước khi cô nhập học, anh còn nói qua: “Tôi hy vọng cái em báo đáp không phải lễ tiết, mà là tình cảm.”
+Nhớ lại trước đó nữa, lần đầu họ gặp nhau, nhìn nhau quá mười bảy giây, phải chăng khi ấy họ đã bị trúng tình yêu sét đánh!
+Lăng Lăng lắc lắc đầu, “tình yêu sét đánh”? Với diện mạo này của cô, có đi phẫu thuật thẩm mỹ mười lần, cũng không có khả năng làm cho Dương Lam Hàng bị sét đánh!
+Càng nhớ lại… suy nghĩ của cô càng hỗn loạn, căn bản cái gì cũng mù mờ!
+…
+Dương Lam Hàng ngồi bên cạnh, nhìn thoáng qua quyển sách trên tay cô, không nói một lời, rót hai tách nhài, một tách đặt trước mặt cô.
+Thôi chết rồi! Lăng Lăng đột nhiên sực nhớ ra, nửa giờ trước cô tỏ tình với Dương Lam Hàng, còn muốn cùng anh “qua đêm” để chứng minh tình cảm của mình, anh tin thật ư!!!
+Cô vội vàng bỏ sách xuống. “Thầy Dương, thực xin lỗi, em có chút việc…”
+Dương Lam Hàng nắm chặt cổ tay cô, giữ cô lại vị trí ban đầu. “Em còn muốn trốn tránh tới khi nào hả?”
+“Em…” Cô không trốn tránh, nhưng cô không thể cho anh cái anh muốn.
+“Chúng ta nói chuyện đi.”
+Anh bình tĩnh nâng tách trà lên, uống một ngụm, nước trà hơi sóng sánh tiết lộ sự căng thẳng trong lòng anh.
+Buông tách trà, anh chập rãi mở miệng: “Em biết không? Lần đầu tiên nhìn qua ảnh chụp của em, thấy ánh mắt của em, tôi liền tin tưởng vững chắc – em chính là cô gái sẽ bầu bạn với tôi cả đời… Tôi cho rằng tình cảm có thể chậm rãi bồi đắp, chỉ cần tôi kiên nhẫn chờ đợi, em sớm muộn gì cũng sẽ thích tôi…”
+Lời thổ lộ của anh, ngữ điệu hơi run run của anh, tất cả đều lộ ra bi thương, khiến cô không thể duy trì hô hấp.
+Đối mặt với sự thẳng thắn của anh, Lăng Lăng không thể lảng tránh thêm nữa.
+Cô nhìn anh, hốc mũi lẫn khóe mắt đều đau đớn.
+Cô cắn răng nén nỗi đau: “Đúng vậy! Em thích anh, anh là người đàn ông hấp dẫn nhất em từng thấy… Nhưng em đã có bạn trai, anh ấy mới là người em yêu nhất!”
+Anh nắm chặt cổ tay cô, lực anh dùng rất lớn, tựa như muốn bóp nát xương cốt của cô: “Là Trịnh Minh Hạo ư?”
+Nước mắt làm nhòe đi mọi thứ trước mắt cô, lần này cô dung túng cho sự yếu đuối của bản thân, nhờ hai mắt đẫm lệ mơ hồ, cô mới có thể không cần nhìn rõ vẻ mặt tổn thương của Dương Lam Hàng.
+Cô chỉ có thể nói tiếp: “Không phải! Anh ấy là bạn online của em, anh có thể không tin, nhưng em thậm chí chưa bao giờ gặp anh ấy…”
+Cô điều chỉnh một chút giọng nói nghẹn ngào: “Nhưng em thực sự rất yêu anh ấy, mất đi anh ấy, em không biết phải làm sao, em mỗi ngày đều…”
+Ngoài ý muốn…
+Câu nói tiếp theo của cô bị đôi môi anh đột ngột áp lên chặn đứng, hệt như tình huống xảy ra trong mơ -
+Tay anh luồn vào mái tóc dài, kéo chiếc cổ mềm mại của cô, khiến môi cô không cách nào tránh đi nụ hôn mãnh liệt của anh…
+*************************
+Lăng Lăng tuyệt vọng nhắm mắt lại, nước mắt nóng hổi chảy qua gò má lạnh như băng.
+Không phải cô không muốn phản kháng, mà cô ở hiện thực càng yếu ớt hơn rất nhiều so với trong mơ, ở trong lòng anh, thân thể cô xụi lơ, ngay cả chút xíu sức lực để giãy dụa cũng không có.
+Nếu đã xảy ra, vậy cứ tiếp nhận đi.
+Cho dù chỉ một lần, cho dù cô rốt cuộc không thể tha thứ bản thân, cô vẫn muốn thể nghiệm một lần độ ấm cùng cảm giác trên đôi môi anh, sau đó, cô sẽ ghi nhớ thật kỹ, để sau này gặp lại trong mơ, cảm giác hôn môi sẽ không còn mơ hồ đến thế…
+Cô nhớ rõ, môi anh mềm và ấm, còn vương độ ấm và mùi thơm của trà, tản ra hương vị của riêng anh.
+Mà mùi vị môi lưỡi dây dưa càng say lòng người hơn cả tưởng tượng…
+Ai có thể hiểu được tình yêu vô vọng của cô đây!
+Tình yêu bùng cháy như ngọn lửa dữ, không thể dập tắt, môi cùng môi va chạm ngày càng sâu, thân thể cùng thân thể cọ xát ngày càng gấp gáp, đầu lưỡi trơn nhẵn của anh vờn lấy đôi môi nóng bỏng của cô, trong lúc hút vào, dường như người đàn ông hoàn toàn bỏ qua những yêu cầu của lý trí…
+Cô cũng hoàn toàn mất đi lý trí, cánh tay làm càn trườn lên cổ anh, dốc toàn lực ôm lấy anh, mở miệng ra, để mặc đầu lưỡi của anh thâm nhập…
+Nụ hôn của họ, mặc cho trúc trắc, mặc cho thiếu kỹ xảo, nhưng liệu còn gì có thể so sánh với loại tim đập cùng sự nồng nàn nguyên thủy nhất càng khiến người ta muốn ngừng mà không được này?
+Có tình yêu… không cần đến kỹ xảo dư thừa để khơi gợi nhiệt tình.
+Ngọt và đắng, say và đau, chờ đợi và sở hữu, đã đủ để cho hai linh hồn trầm luân…
+Dần dà, khao khát bỏng cháy đã muốn vượt qua mức nụ hôn có thể thỏa mãn.
+Tay cô lần tới lưng anh, đầu ngón tay khẽ vuốt ve da thịt ấm áp mà mạnh mẽ của anh, đây là cảm giác chân thực mà bàn phím và con chuột cứng ngắc không thể nào mang lại.
+Môi anh cũng dần trượt xuống, đặt dưới cằm cô, lưu lại trên cổ một chuỗi nụ hôn nồng nàn.
+Cô ngẩng đâu lên, luồng nhiệt ấm áp lạ lẫm lan ra toàn thân…
+Sau đó, ngón tay thon dài của anh cũng chậm chạp lần đến lưng cô, một đường khẽ vuốt bên hông cô, lại di chuyển lên từng chút một…
+“Lăng Lăng… anh yêu em!” Anh khàn giọng ngâm khẽ.
+Một câu nói, bỗng triệu hồi lý trí thất lạc của cô.
+Anh yêu cô, toàn tâm toàn ý.
+Nhưng cô… chỉ muốn nhỡ kỹ một nụ hôn mà thôi… Sau đó, cô còn muốn đi gặp một người đàn ông khác…
+Tình yêu của cô sao có thể quá đáng như thế, ích kỷ như thế!
+Cô đột ngột đẩy anh ra.
+Giờ phút này, cô rất hy vọng đây chỉ là mơ, sau khi tỉnh dậy, tất cả đều kết thúc.
+Đáng tiếc cô biết đây không phải!
+Bởi trong mơ nụ hôn sẽ không mê đắm đến vậy, trong mơ trái tim sẽ không đau đớn đến vậy!
+“Em xin lỗi!” Sự ấm áp của tình cảm mãnh liệt qua đi, đôi môi nóng rát khiến cô nếm trải mùi vị của hối hận.
+Cô khóc ôm lấy Dương Lam Hàng, vùi mặt vào vai anh: “Tại sao lại như vậy? Em rốt cuộc đang làm cái gì?!”
+“Em đừng khóc, em nghe anh giải thích đã…”
+“Làm sao em có thể như vậy chứ!” Tiếng khóc của cô tràn ngập tự trách. “Em rất xin lỗi anh, cũng rất xin lỗi anh ấy…”
+“Lăng Lăng…” Dương Lam Hàng dịu dàng vỗ lưng cô, khàn giọng nói: “Cuộc đời anh vốn một đường thẳng tắp, chỉ vì gặp gỡ em mà rẽ ngang…”
+Cuộc đời anh vốn một đường thẳng tắp, chỉ vì gặp gỡ em mà rẽ ngang.
+Vừa nghe thấy những lời này, Lăng Lăng sợ hãi ngồi thẳng dậy, hai tay lau nước mắt: “Anh nói gì cơ?”
+“Lăng Lăng, anh… Anh chính là người bạn trai em chưa bao giờ gặp mặt kia!”
+————————————-
+(*) Sứ Thanh Hoa: đồ sứ có hai màu trắng xanh.
+(**) Cỏ dại: tên một tập thơ văn xuôi của Lỗ Tấn.
+“Lăng Lăng, anh… anh chính là người bạn trai em chưa bao giờ gặp mặt kia!”
+Lăng Lăng đã sớm đoán được sẽ có sự kiện chấn động xảy ra, nhưng thế này cũng quá sức nha…
+Sấm sét rung chuyển ầm ầm trong đầu Lăng Lăng, đem mọi ký ức của cô nổ tan tành thành mảnh vụn, phân tán đi từng góc.
+Cô ráng sức muốn tìm ra mối quan hệ logic nào đó từ trong đầu óc bị oanh tạc đến bấn loạn, nhưng lại phát hiện bản thân hoàn toàn không lý giải nổi cái gì cả…
+Không thể nào!
+Lăng Lăng kiên định lắc đầu: “Anh gạt em! Làm sao anh có thể là anh ấy được…”
+Người kia ở bang Massachusetts của Mỹ, Dương Lam Hàng ở Trung Quốc, đương nhiên là trở về từ Massachusetts.
+Người kia là một “nhà khoa học”, cả cuộc đời theo đuổi giải Nobel, Dương Lam Hàng, dĩ nhiên cũng coi như là một nửa rường cột quốc gia.
+Người kia mặt mũi giống Albert Einstein… 
+Tất nhiên… Cô chưa từng tận mắt thấy qua…
+Dương Lam Hàng cười khẽ, tay trái nghịch tóc của cô, cuốn vào giữa các ngón tay.
+“Em biết không? Không phải anh nhớ nhầm, thiếu một ngày, không phải thời gian, mà là khoảng cách…”
+Cô không quên:
+Người kia từng nói: Ba trăm bốn mươi lăm ngày qua, anh không hề nhớ đến em.
+Cô nói với anh: Anh nhớ sai rồi, là ba trăm bốn mươi sáu ngày!
+“Với anh mà nói chúng ta xa nhau chính xác ba trăm bốn mươi lăm ngày, anh ít hơn em một ngày, bởi vì anh dùng ngày đó để vượt qua khoảng cách giữa anh và em. Ẩn ý của anh, em không nghe ra…” Đầu ngón tay ấm áp chần chừ dừng trên mặt cô, muôn vàn quyến luyến…
+Đây không phải thật, đây nhất định không phải thật.
+Người đàn ông cô mong đợi nhiều năm như vậy, vẫn luôn ở cạnh cô, chú ý đến cô, chăm sóc cho cô…
+Nhưng cô lại không biết gì cả, còn ngốc nghếch khao khát muốn nhìn xem dáng vẻ của anh, nghe giọng nói của anh, thầm nghĩ cho dù dung mạo anh có lùn có xấu, hói đầu hoặc đeo cặp kính to bự dày cộp, cô đều có thể chấp nhận.
+Chỉ cần có thể khiến cô nhớ thật kỹ dáng vẻ anh lúc nói chuyện…
+Chứ không phải chỉ một đoạn chữ viết trong trí nhớ, như vậy là đủ rồi!
+Giờ đây, chân tướng lộ rõ, cô làm sao có thể chấp nhận – người xa lạ quen thuộc nhất đang ở trước mắt này?!
+Dương Lam Hàng vươn tay ôm Lăng Lăng đang ngẩn ngơ thành cục đá vào lòng, “Anh nói rồi, anh sẽ làm em sợ mà…”
+Đúng vậy, anh có nói.
+Cô cũng từng nói: Năng lực chịu đựng tâm lý của em rất mạnh.
+Nhưng năng lực chịu đựng tâm lý mạnh cũng không thể chịu nổi kẻ bắt nạt người ta đến thế!
+“Tại sao anh không nói sớm cho em biết? Nếu anh đã trở về, tại sao…” Cô tức giận đẩy anh ra, thiếu chút nữa đánh vào mặt anh. “Tại sao phải gạt em? Anh nghĩ em ngớ ngẩn, là đồ ngốc hả?! Em…”
+“Anh kể chuyện cười cho em nhé.” Anh thản nhiên cắt ngang lời trách mắng lộn xộn của cô: “Lần đầu tiên anh thấy chuyện này, đã cười rất lâu…”
+“…” Cô suýt quên mất, người đó thích nhất kể chuyện cười!
+“Rất lâu rất lâu trước kia, có một người đàn ông cố lấy dũng khí theo đuổi người con gái mình thương, anh ta bôn ba muôn trùng vạn dặm đi đến trước mặt cô ấy, cô gái rất thâm tình mà… ôm một người đàn ông khác đi lướt qua anh ta…” Anh cười cười, tiếp tục kể: “Về sau, anh ta vẫn không cam tâm cứ như vậy mà từ bỏ, anh ta hỏi cô gái: Anh là gì đối với em? Cô gái trả lời anh ta: Tránh xa một chút! Cô nương đây rất bận! Bận báo thù một “thằng cha biến thái” chỉ cần nhìn một phát đã muốn ói, cả tháng ăn không vô!”
+Chuyện cười anh kể từng câu đều lạnh lẽo, mà cái lạnh này đã muốn phá kỷ lục trước nay trong lịch sử!
+Lăng Lăng vài lần thử mỉm cười cổ vũ anh, nhưng nước mắt cứ tí tách rơi…
+Cô không thể tưởng tượng nổi, lúc đó, anh ngồi trước máy tính chat với cô, vẻ mặt anh ra sao.
+Khi thấy cô cứ mở miệng ra là dùng hai chữ “biến thái” chửi mắng anh, liệu anh có như thế này, đem mọi nỗi buồn cất giấu bên dưới nụ cười thản nhiên…
+Cô yếu ớt nói: “Thực ra, anh cũng không phải đặc biệt biến thái.”
+“Ừ!” Dương Lam Hàng gật đầu. “Gần đây là: Rất độc ác! Rất mất nhân tính! Rất không công bằng! Liếc nhìn anh ta một cái cũng cảm thấy có lỗi với chính mình!”
+Ngay lập tức, cơn tức giận muốn sôi trào của cô bị nỗi áy náy ngập tràn khỏa lấp!
+Báo ứng nha!
+Lăng Lăng rốt cuộc đã nhận được giáo huấn tơi tả. Cô thề, từ nay về sau có đánh chết cũng không đi nói xấu người khác, trước mặt bạn bè tri âm dốc hết ruột gan cũng không thể nói!
+Bởi vì… bạn vĩnh viễn không bao giờ đoán trước được “bạn tri âm tri kỷ” cùng “kẻ thù không đội trời chung” của bạn có quan hệ gì với nhau…
+“Anh không gạt em, cho đến giờ ở trước mặt em anh đều không cố tình giấu diếm điều gì!” Anh nói.
+Cô lại nhớ tới rất nhiều điều anh đã nói.
+Đặc biệt trong đó có hai câu:
+“Khuyết điểm lớn nhất của tôi chính là làm việc quá cố chấp, một khi tôi đã muốn làm chuyện gì, tôi không có cách nào thuyết phục bản thân từ bỏ…”
+“Tôi sẽ không đổi, bất kể cô ấy có thích tôi hay không, tôi chỉ thích một mình cô ấy.”
+Những lời này của anh căn bản không phải ám chỉ, mà là thổ lộ rõ ràng! Cái đầu đất này của cô, chẳng trách thi tiếng Anh cấp bốn sáu lần mới đạt!
+“Lăng Lăng…” Dương Lam Hàng trịnh trọng cầm tay cô: “Em muốn biết vĩnh viễn có bao nhiêu xa sao? Rất gần, gần trong gang tấc.”
+Gần quá, thực ra cũng không tốt!
+Lăng Lăng nhích người lui lại, chỉ cảm thấy phản ứng “điện sinh vật” giữa họ ngày càng rõ rệt, khi anh nói chuyện, hơi thở ra khiến tư duy của cô bị chập mạch luôn…
+Người ta đều nói người đang yêu chỉ số thông minh bằng không, hóa ra là như vậy!
+Anh nói: “Anh biết em không thể tiếp nhận “Dương Lam Hàng”, vậy “Vĩnh viễn có xa không” thì sao… Năm năm, em không thể vì anh ta mà hạ thấp tiêu chuẩn kén chồng một chút sao?”
+Cô từng nghĩ, bất kể người kia có xuất sắc bao nhiêu, cô đều có thể chấp nhận, nhưng cô chưa bao giờ nghĩ rằng anh ấy lại là Dương Lam Hàng…
+Một người đàn ông hoàn hảo, một mối tình thầy trò trái với luân thường, tình cảm của họ sẽ có kết quả thế nào đây?
+Nhớ lại vô số sinh viên nữ từng nói thích anh trước mặt cô, nhớ lại anh dùng xe Mercedes chở ngôi sao nữ xuất hiện ở trung tâm mua sắm, cô càng lạnh hơn.
+Loại cảm giác này, không rõ là vui vẻ, là âu lo, là nóng bỏng, hay lạnh lẽo…
+Cũng giống như: Có người tặng cô một căn nhà để ở, một căn hộ vừa túi tiền với một phòng khách một phòng ngủ và một căn biệt thự bên bờ biển trị giá năm triệu tệ, tùy cô chọn lựa. Cô đấu tranh hồi lâu giữa mơ ước và hiện thực, cuối cùng quyết định từ bỏ ngôi biệt thự thiên đường nhân gian, lựa chọn căn hộ tiết kiệm phù hợp nhất với mình. Ai ngờ, đến khi ký hợp đồng, đột nhiên bị cáo biết rằng không có căn hộ vừa túi tiền nữa, cô không có lựa chọn nào khác ngoài ngôi biệt thự bên bờ biển.
+Khi không trúng mánh lớn như vậy, cảm giác vui sướng không cần nói cũng biết, nhưng vui sướng qua đi, cô lại bắt đầu lo lắng, phí bất động sản và phí bảo dưỡng cao thấu trời căn bản không phải là thứ cô đảm đương nổi.
+Cần? Hay không cần?
+…
+“Em từng nghĩ, bất kể dung mạo anh ấy ra sao, ưu tú đến mức nào, em đều nguyện ý tiếp nhận… Chỉ cần anh ấy có thể trở về…”
+Cô ngẩng đầu, nhìn anh.
+“Nhưng mà…”
+Anh căng thẳng nắm chặt tay cô: “Nhưng mà sao?”
+“Thầy…” Cô cứng nhắc nuốt ngược chữ tiếp theo trở lại. “Anh nói, tình yêu thầy trò có tính là loạn luân không?”
+“…”
+Dương Lam Hàng bị cô hỏi á khẩu luôn, nửa ngày không nói nên lời.
+Cô cào cào tóc, xem ra đề tài này rất có chiều sâu nha.
+Vậy thì đổi. “Nghe người ta nói yêu đương qua mạng đều “chết yểu”, không biết có đúng không nhỉ?”
+“…”
+Đợt một lúc lâu, anh mới mở miệng: “Việc gì cũng có ngoại lệ.”
+“Anh nghĩ chúng ta sẽ là ngoại lệ sao?”
+“Em cho rằng anh vì cái gì mà về nước?” Anh hỏi lại.
+Ý tại ngôn ngoại: Nếu anh không tin tưởng vững chắc vào tình cảm này, không hề hối hận, thì việc gì phải về nước tìm em, việc gì biết rõ em đã có bạn trai mà vẫn muốn ở cạnh em ngóng chờ, đợi em hồi tâm chuyển ý.”
+Lăng Lăng le lưỡi.
+Cùng một người đàn ông như Dương Lam Hàng nói chuyện yêu đương còn lãng phí tế bào não hơn cả đi thi, rất thách thức trí thông minh của con người.
+Đúng lúc này di động reo vang, cô ngay cả số cũng không thèm nhìn, bắt máy luôn: “Alô, xin chào!”
+“Xin chào, cho hỏi có phải Bạch Lăng Lăng đấy không?” Giọng nói trong điện thoại vô cùng lịch sự.
+“Đúng rồi ạ.”
+“Anh là Trình Vũ ở công ty điện Triều Dương.”
+Tư duy của Lăng Lăng tăng tốc chuyển động, cố tìm tòi cái tên xa lạ này trong não bộ trống rỗng, nhất định là trưởng phòng Trình của công ty điện kia.
+“Em chào sư huynh ạ.” Cô khách khí nói: “Em đang định gọi điện cho anh, không ngờ anh lại gọi em trước.”
+“Em suy nghĩ kỹ chưa?” Giọng điệu anh ta có đôi chút chờ mong.
+“Em mới nói chuyện với thầy hướng dẫn, thầy không đồng ý cho em đi làm.” Lăng Lăng trộm liếc Dương Lam Hàng một cái, thấy anh đang nhìn mình chằm chằm với vẻ đăm chiêu, cô chột dạ tránh cái nhìn chòng chọc của anh, tiếp tục nói: “Thật xin lỗi anh, hơn hai năm nay thầy đã hết lòng dạy dỗ em… Hao tổn tâm tư, em nghĩ mình nên tôn trọng ý kiến của thầy.”
+Tâm tư Dương Lam Hàng dĩ nhiên khá hao tổn, còn về phần dùng loại tâm tư gì, cứ để người ta tự biết đi.
+Trưởng phòng Trình nói: “Anh hiểu. Nếu đã vậy, anh sẽ không “đoạt nhân sở ái”(*) nữa.”
+Đoạt nhân sở ái? Anh này có thi đậu trường Ngữ văn không vậy?!
+À! So sánh thôi mà, chỉ là có chút không thích hợp cho lắm.
+“Sư huynh, dù sao đi nữa, cảm ơn sự giúp đỡ của anh!” Cô nói: “Lần sau anh đến thành phố A, em mời anh đi ăn bánh rán ạ.”
+“Được!”
+Hàn huyên qua loa vài câu, cúp điện thoại.
+Lăng Lăng để ý Dương Lam Hàng nhìn thoáng qua đồng hồ, cô xem đồng hồ trên màn hình di động, một giờ mười lăm.
+Không ai hiểu rõ tinh thần làm việc cùng ý thức giờ giấc của Dương Lam Hàng bằng cô.
+Mặc dù còn vô số lời chưa kịp nói ra, nhưng Lăng Lăng một phút cũng không dám chậm trễ, vội vàng đứng lên: “Anh có việc thì cứ làm đi, em về trước.”
+Anh đứng dậy đi theo: “Anh đưa em về.”
+Từ nhà anh đến khu nhà trọ nghiên cứu sinh chỉ mất ba phút, đưa cái gì chứ. “Không cần đâu, em biết đường mà.”
+Anh cầm áo khoác mặc lên người: “Anh đi dạy ở khu A, tiện đường cùng nhau đi đi.”
+Thì ra là vậy. “Vâng.”
+Ra khỏi khu nhà, Lăng Lăng phát hiện, khu A và nhà trọ nghiên cứu sinh nằm ở hai hướng hoàn toàn khác nhau.
+Vậy cũng kêu tiện đường hả?
+*****************************
+Đi trong sân trường, gió thu se lạnh không thổi bay được tình cảm ấm nồng trong lòng.
+Mỗi sinh viên đều rảo bước như bay về phía khu giảng đường, vội vàng lên lớp, nhưng hễ đi qua Dương Lam Hàng thì mọi nữ sinh đều giảm tốc độ, nhìn anh vài lần.
+Có nữ sinh thì thầm nói nhỏ, có nữ sinh lại thoải mái chào hỏi: “Thầy Dương, chào thầy ạ!”
+Dương Lam Hàng luôn mỉm cười khẽ nghiêng người, khiêm nhường lịch sự nhưng vẫn đúng chừng đúng mực.
+Ai nói sinh viên nữ đại học T chảnh không ai bì nổi, rõ ràng là nữ sinh còn lễ phép hơn cả nam sinh. Trong vòng chưa tới mười phút, chín bạn nữ đã chào Dương Lam Hàng, còn một bạn nam cũng không có!
+Đến khi một nhóm nữ sinh từ thứ mười đến thứ mười ba ở trước nhà trọ cùng nhau chào Dương Lam Hàng, Lăng Lăng có rộng lượng tới đâu cũng không chịu nổi nữa.
+Cô cười cười, giọng điệu vô cùng chân thành: “Thầy Dương, nhân duyên của anh tốt ghê nha. Em học ở đại học T học bảy năm trời cũng không biết nhiều bạn nữ đến thế.”
+“Chuyện này cũng bình thường thôi.” Anh hơi ngớ ra, xong nhẹ nhàng nói bâng quơ: “Số giáo viên nam em biết chắc chắn nhiều hơn anh!”
+Cô cẩn thận tính tính, quả thực không ít, giáo viên nam khoa Điện, Tin học, và Vật liệu công lại, ít nhất cũng được một trăm tám chục người.”
+Hơ! Vụ ghen tuông này của cô hình như không có đạo lý.
+“Em tối qua nhất định ngủ không ngon, em về ngủ một giấc thật tốt đi.” Anh dịu dàng dặn dò, trên vầng trán hiện rõ nét ôn nhu. “Ngủ dậy gọi điện cho anh.”
+Cô gật gật đầu, nhỏ giọng nói: “Anh cũng đừng thức khuya nữa, không tốt cho sức khỏe đâu.”
+Nói xong, cô không dám ở lại thêm một phút, chạy về nhà trọ, nhất thời hoảng hốt đi bừa, mém tí nữa đâm nát cửa kính mà dì quét dọn kỳ công lau chùi sạch bóng không một hạt bụi.
+Ngày hôm đó, ánh mặt trời sáng lạn.
+Dương Lam Hàng với phong thái luôn thong dong đứng trước cổng nhà trọ nghiên cứu sinh, cười đến mất cả hình tượng, tựa như một thiếu niên ngây thơ còn chưa lớn.
+Hơn nữa, anh đứng cười mất khoảng ba phút, mới sực nhớ ra mình bị muộn giờ rồi…
+**************************
+Cảm giác yêu đương…
+Thật sự không biết miêu tả làm sao!
+Luôn cảm thấy chính mình như đã đánh mất cái gì đó, tìm kiếm khắp nơi cũng không thấy.
+Lăng Lăng về phòng ngủ, theo quán tính bật laptop mới sực nhớ Dương Lam Hàng nói anh có lớp, không thể online, lại bực mình tắt máy.
+Cô nằm trên giường định ngủ môt lát thì nghe Tiếu Tiếu phòng bên gọi ngoài cửa: “Thanh Thanh, cậu nhanh lên, nếu không sẽ đến muộn mất.”
+Lời này nếu người khác nói cô sẽ không thấy có gì kỳ lạ, nhưng với một người luôn tâm niệm phương châm: “Đi học, chỉ cần tới lớp trước khi hết giờ là được!” như Tiếu Tiếu, tình huống tích cực lên lớp thế này thật hiếm thấy.
+Lăng Lăng mở cửa gọi giật Tiếu Tiếu đang định rời đi: “Tiếu Tiếu, cậu đi học lớp của sếp tớ hả?”
+“Đúng vậy!”
+“Chờ tớ chút, tớ cũng đi…” Cô muốn ngắm anh lúc đứng trên bục giảng.
+“Cậu chắc chứ?”
+“Tớ muốn luyện nghe…”
+Lăng Lăng vớ lấy túi, sách cũng không đem, nhanh chóng khóa cửa phòng.
+Vừa mang giày, vừa đuổi theo các bạn.
+Trong giảng đường đầy nhóc người, đa số sinh viên cũng không thuộc khoa Vật liệu.
+Tiếu Tiếu và Thanh Thanh không ngờ Lăng Lăng sẽ đến nên không giúp cô giành chỗ trước. Lăng Lăng đi một vòng khắp phòng học vẫn không tìm được chỗ ngồi, may mắn là bạn nam bên cạnh Tiếu Tiếu biết cô, chủ động ngồi xuống bàn chót, nhường chỗ cho cô.
+Lăng Lăng cảm ơn rối rít xong, vừa ngồi xuống thì Dương Lam Hàng cầm một chai nước khoáng bước vào phòng, anh không mặc áo khoác, chắc là để ở phòng nghỉ.
+Vừa thấy anh, tim Lăng Lăng bỗng đập nhanh, bất giác nắm chặt tay, quên cả đau đớn.
+Anh nhìn quanh phòng học một lượt, khi tầm mắt quét đến chỗ cô, rõ ràng sựng lại một nhịp, rồi lập tức nhanh chóng dời đi.
+“Chào buổi chiều các em!” Anh nói bằng tiếng Anh. Sau đó bắt đầu giảng bài.
+Khôg biết vì sao, Dương Lam Hàng hôm nay không giống ngày thường. Nói chính xác, trên người anh thấp thoáng một nét gợi cảm, áo mở hai cúc, tay áo xắn lên một nửa, cùng với tiếng Anh giọng Mỹ tròn trịa lưu loát của anh… tất cả đều tràn ngập quyến rũ chết người!
+Những điều anh giảng dường như rất thú vị, sinh viên bên dưới thường xuyên cười ồ, còn Lăng Lăng căn bản không có tâm trạng nghe anh nói cái gì, một tay chống cằm, toàn bộ ánh mắt đều tập trung vào đôi môi không ngừng mấp máy của anh, nhớ lại đôi môi mỏng kia từng hôn lên môi mình, toàn thân cô đều phát sốt, đầu váng mắt hoa…
+Tiếu Tiếu lấy khuỷu tay huých huých cô, thấp giọng nói: “Lăng Lăng, cậu chảy nước miếng kìa.”
+“Làm gì có!” Cô sờ sờ môi, trên đó vẫn còn ghi nhớ rõ rệt độ ấm của anh.
+“Cậu cứ nhìn thầy Dương chằm chằm chi vậy? Giống như muốn đem anh ta ăn luôn á.”
+“Tớ… cảm thấy anh ta giảng bài cũng được.” Lăng Lăng chột dạ nói.
+“Bình thường còn hay hơn hôm nay nhiều, hôm nay không biết vì sao, cứ giảng sai hoài.”
+“Vậy hả? Anh ta có giảng sai sao?”
+“Tớ nói Bạch Lăng Lăng à, cậu rốt cuộc có nghe giảng không đó?” Tiếu Tiếu dùng ánh mắt xem quái vật nhìn cô. “Không phải cậu đến luyện nghe sao?”
+“Đúng vậy! Tớ đang nghe mà…”
+“Anh ta không biết đã nói mười mấy lần sorry rồi…”
+“Không phải chứ?!” Cô ảo não che mặt. “Thực khiến tớ mất mặt…”
+Một lát sau, Tiếu Tiếu lại giật nhẹ cô. “Lăng Lăng, tớ định học tiến sĩ với sếp cậu, thấy thế nào?”
+“Không phải chứ!” Cô không cẩn thận nên giọng nói có hơi lớn.
+Bạn học chung quanh đều dùng ánh mắt khinh bỉ trừng cô, coi bộ ba ngày cô không đi học, kỷ luật trong lớp của đại học T đã tiến bộ đến cảnh giới không vắng mặt, không đi muộn, không chuồn sớm, không nói chuyện.
+Cô len lén nhìn về phía Dương Lam Hàng đằng trước, anh bất lực nhìn cô, nhìn thật lâu thật lâu, nhìn đến mức cô xấu hổ muốn chui xuống đất, bèn gục lên bàn, giấu mặt trong khuỷu tay.
+Tiếp theo, nếu anh dám nói: “Bạn sinh viên này, nếu em không muốn nghe giảng thì mời ra ngoài.” cô nhất quyết sẽ tuyệt giao với anh.
+May mà anh không nói, anh chỉ hắng giọng, tiếp tục giảng bài.
+Tiếu Tiếu ghé vào tai cô, thì thầm: “Quên nói cậu, ngày đầu tiên đến lớp thầy Dương có nói: Giờ anh ta dạy không hay lắm, sinh viên nào cho rằng nghe anh ta giảng là lãng phí thời gian thì có thể không đến, anh ta sẽ không điểm danh. Hơn nữa, bình thường chỉ cần tự làm hết bài tập anh ta giao thì đều sẽ thi đậu… Nếu có sinh viên nào rảnh rỗi quá, muốn đến lớp anh ta ngủ, anh ta không có ý kiến, nhưng đừng có ngáy quá to. Muốn lên lớp tám chuyện cũng được, nhưng đừng nói lớn hơn anh ta, đừng ảnh hưởng tới các sinh viên khác nghe giảng là được.”
+“Không điểm danh mà vẫn có nhiều sinh viên tới học vậy sao?”
+“Tại sao không tới chứ? Đằng trước có trai đẹp giảng bài, đằng sau có một rừng mỹ nữ, không những có thể luyện nghe mà còn được mở mang kiến thức. So với tốn tiền đi học thêm tiếng Anh còn tốt hơn nhiều!”
+“Nói cũng đúng.”
+…
+Giữa giờ giải lao, có một bạn nữ hết sức xinh đẹp chạy đến chỗ Dương Lam Hàng hỏi bài, còn dùng tiếng Anh nói chuyện với nhau. Cũng không biết là hỏi bài, hay là muốn luyện tiếng? Hay lại…
+Lăng Lăng ngây người nhìn họ, nhìn vẻ suy nghĩ sâu xa của anh, lúc anh thảo luận vấn đề vẻ mặt rất nghiêm túc, nhìn nụ cười nhẹ nhàng của anh… Càng nhìn càng thấy khó thở, trong lòng buồn bực.
+“Tớ ra ngoài hít thở không khí, trong phòng này không khí kém quá!” Cô tức giận nói.
+Ai ngờ, vừa đi tới cửa, Dương Lam Hàng bỗng nhiên gọi tên cô: “Bạch Lăng Lăng.”
+Cô lập tức dừng lại, quay đầu lúng túng chào anh: “Chào thầy Dương ạ.”
+“Em lại đây, tôi có lời muốn nói với em.”
+“Dạ!” Lăng Lăng không tình nguyện đi qua.
+Chờ anh đuổi bạn nữ kia đi xong, anh mới quay đầu nói với cô: “Lát nữa tan lớp em có thời gian không?”
+“Có… thời gian ạ!”
+Cô liếc nhanh một lượt các bạn trong phòng, không ít sinh viên đều đang tò mò nhìn cô. Rõ ràng anh đang hại cô mà.
+Nếu để các bạn nữ cùng ngành nhìn thấy khuôn mặt ửng đỏ của cô, trở về nhất định sẽ bị trêu chọc.
+“Tôi đã đặt bàn ở nhà hàng xoay, tan lớp tôi dẫn em đi ăn chút gì nhé.”
+Dưới cái nhìn chằm chặp của hơn một trăm cặp mắt sáng ngời mà hẹn cô đi ăn, cũng chỉ có tên biến thái Dương Lam Hàng này mới có thể nghĩ ra.
+“Em biết rồi ạ.”
+Nói xong cô vội vàng chạy trối chết về chỗ ngồi, tim đập đến muốn mất cảm giác, toàn thân đều nóng ran.
+Anh vẫn mang vẻ mặt bình thản ung dung như trước, nói: “Bây giờ bắt đầu vào học.”
+Cô tức muốn nghiến răng.
+Đây… rõ ràng là cố ý chỉnh cô mà.
+————————–
+(*) Đoạt nhân sở ái: chiếm lấy thứ mà người khác yêu thích.
+ 
