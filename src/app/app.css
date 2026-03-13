@@ -1,0 +1,355 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f5f9;
+  overflow-y: auto;
+}
+
+/* ===== Header ===== */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0 24px;
+  height: 56px;
+  background: #1e293b;
+  color: #f1f5f9;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #f1f5f9;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #93c5fd;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  font-size: 0.9rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.breadcrumb .sep {
+  margin: 0 8px;
+  color: #64748b;
+}
+
+.breadcrumb a {
+  color: #93c5fd;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .current {
+  color: #94a3b8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ===== Pages ===== */
+.page {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 28px;
+}
+
+/* ===== Home: Story List ===== */
+.story-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+.story-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f5f9;
+  transition: background 0.15s ease;
+}
+
+.story-list li:last-child {
+  border-bottom: none;
+}
+
+.story-list li:hover {
+  background: #f0f7ff;
+}
+
+.story-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.story-info {
+  font-size: 0.85rem;
+  color: #64748b;
+  white-space: nowrap;
+  margin-left: 16px;
+}
+
+/* ===== Story page ===== */
+.page-story {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 32px;
+}
+
+.story-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 4px;
+}
+
+.back-link {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.chapter-count {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin: 0 0 20px;
+}
+
+/* ===== Chapter list ===== */
+.chapter-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chapter-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid #f1f5f9;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  border-radius: 6px;
+}
+
+.chapter-list li:hover {
+  background: #f0f7ff;
+}
+
+.ch-title {
+  font-size: 14px;
+  color: #334155;
+}
+
+.ch-arrow {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* ===== Chapter Pagination ===== */
+.chapter-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 0;
+  flex-wrap: wrap;
+}
+
+.chapter-pagination.bottom {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.cp-btn {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #334155;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.cp-btn:hover:not(:disabled):not(.active) {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.cp-btn.active {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+  font-weight: 600;
+}
+
+.cp-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ===== Chapter reading page ===== */
+.page-chapter {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 32px 40px;
+}
+
+.chapter h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.chapter-content {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #000;
+  text-align: justify;
+}
+
+.loading {
+  text-align: center;
+  color: #94a3b8;
+  padding: 40px 0;
+}
+
+/* ===== Chapter nav (prev / next) ===== */
+.chapter-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.chapter-nav.top {
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-top: 0;
+  padding-bottom: 24px;
+  border-top: none;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #334155;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.nav-btn.center {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+
+.nav-btn.center:hover {
+  background: #2563eb;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .page {
+    padding: 20px 16px;
+  }
+
+  .page-story,
+  .page-chapter {
+    padding: 20px 16px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    margin-top: 0;
+  }
+
+  .story-list li {
+    padding: 14px 16px;
+  }
+
+  .chapter-nav {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .nav-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .breadcrumb {
+    display: none;
+  }
+}
