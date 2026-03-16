@@ -2,6 +2,8 @@
 <header class="header">
   <a class="logo" (click)="goHome()">📖 Truyện Online</a>
 
+  <button class="login-btn" (click)="toggleLoginPanel()">Đăng nhập</button>
+
   @if (view() === 'story' || view() === 'chapter') {
     <nav class="breadcrumb">
       <span class="sep">›</span>
@@ -14,12 +16,32 @@
   }
 </header>
 
+<!-- Login Panel -->
+@if (showLoginPanel()) {
+  <div class="login-panel">
+    <div class="login-panel-content">
+      <label for="admin-password">Nhập mật khẩu:</label>
+      <input 
+        id="admin-password"
+        type="password" 
+        placeholder="Mật khẩu" 
+        [value]="loginPassword()"
+        (input)="loginPassword.set($event.target.value)"
+        (keyup.enter)="handleLogin()"
+        class="login-input"
+      />
+      <button (click)="handleLogin()" class="login-submit">Đăng nhập</button>
+      <button (click)="toggleLoginPanel()" class="login-cancel">Đóng</button>
+    </div>
+  </div>
+}
+
 <!-- PAGE: Home - Story list -->
 @if (view() === 'home') {
   <div class="page page-home">
     <h2 class="page-title">Danh Sách Truyện</h2>
     <ul class="story-list">
-      @for (story of stories(); track story.id) {
+      @for (story of visibleStories(); track story.id) {
         <li (click)="selectStory(story)">
           <span class="story-name">{{ story.title }}</span>
           <span class="story-info">{{ story.chapters.length }} chương</span>

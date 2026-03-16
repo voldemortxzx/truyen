@@ -1,5 +1,7 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 export interface ChapterMeta {
   id: number;
@@ -12,6 +14,7 @@ export interface Story {
   title: string;
   folder: string;
   chapters: ChapterMeta[];
+  isAdmin?: boolean;
 }
 
 type ViewMode = 'home' | 'story' | 'chapter';
@@ -19,7 +22,9 @@ type ViewMode = 'home' | 'story' | 'chapter';
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
+  standalone: true,
+  imports: [CommonModule, FormsModule]
 })
 export class App implements OnInit {
   private readonly http = inject(HttpClient);
@@ -31,7 +36,16 @@ export class App implements OnInit {
   protected readonly loadingContent = signal(false);
   protected readonly chapterPage = signal(1);
   protected readonly view = signal<ViewMode>('home');
+  protected readonly isLoggedInAsAdmin = signal(false);
+  protected readonly showLoginPanel = signal(false);
+  protected readonly loginPassword = signal('');
   protected readonly CHAPTERS_PER_PAGE = 100;
+
+  protected readonly visibleStories = computed(() => {
+    const allStories = this.stories();
+    const isAdmin = this.isLoggedInAsAdmin();
+    return allStories.filter(story => !story.isAdmin || isAdmin);
+  });
 
   protected readonly totalChapterPages = computed(() => {
     const story = this.selectedStory();
@@ -216,5 +230,22 @@ export class App implements OnInit {
         this.loadingContent.set(false);
       }
     });
+  }
+
+  toggleLoginPanel() {
+    this.showLoginPanel.update(v => !v);
+    this.loginPassword.set('');
+  }
+
+  handleLogin() {
+    const password = this.loginPassword().trim();
+    if (password === 'a') {
+      this.isLoggedInAsAdmin.set(true);
+      this.showLoginPanel.set(false);
+      this.loginPassword.set('');
+    } else {
+      alert('Mật khẩu không đúng!');
+      this.loginPassword.set('');
+    }
   }
 }

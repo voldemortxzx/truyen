@@ -6525,6 +6525,7 @@
     "id": 7,
     "title": "Bản Năng Đàn Bà",
     "folder": "ban-nang-dan-ba",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6547,6 +6548,7 @@
     "id": 8,
     "title": "Cô Giáo Thu",
     "folder": "co-giao-thu",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6604,6 +6606,7 @@
     "id": 9,
     "title": "Hồi Ức các cuộc ngoại tình",
     "folder": "hoi-uc-cac-cuoc-ngoai-tinh",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6690,6 +6693,7 @@
     "id": 12,
     "title": "Những nàng dâu xinh đẹp",
     "folder": "nhung-nang-dau-xinh-dep",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6717,6 +6721,7 @@
     "id": 13,
     "title": "Những người phụ nữ dâm đãng",
     "folder": "nhung-nguoi-phu-nu-dam-dang",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6848,6 +6853,7 @@
     "id": 16,
     "title": "Secret of my wife",
     "folder": "secret-of-my-wife",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6892,6 +6898,7 @@
     "id": 18,
     "title": "Vắng Chồng",
     "folder": "vang-chong",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6939,6 +6946,7 @@
     "id": 19,
     "title": "Vợ là nhân tình của sếp",
     "folder": "vo-la-nhan-tinh-cua-sep",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6958,9 +6966,10 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "title": "Động phòng hoa chúc sát vách",
     "folder": "dong-phong-hoa-chuc-sat-vach",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6969,55 +6978,116 @@
       },
       {
         "id": 2,
-        "title": "Chương 2",
+        "title": "Chương 2: Quá Khứ Hạnh Phúc",
         "file": "chuong-2.txt"
       },
       {
         "id": 3,
-        "title": "Chương 3",
+        "title": "Chương 3: Mưa Đêm Ấm Áp",
         "file": "chuong-3.txt"
       },
       {
         "id": 4,
-        "title": "Chương 4",
+        "title": "Chương 4: Chìm Vào Giấc Mộng",
         "file": "chuong-4.txt"
       },
       {
         "id": 5,
-        "title": "Chương 5",
+        "title": "Chương 5: Nụ Hôn Đầu Tiên Cuồng Nhiệt",
         "file": "chuong-5.txt"
       },
       {
         "id": 6,
-        "title": "Chương 6",
+        "title": "Chương 6: Không Còn Sự Lựa Chọn",
         "file": "chuong-6.txt"
       },
       {
         "id": 7,
-        "title": "Chương 7",
+        "title": "Chương 7: Trong Đêm Mưa Lớn",
         "file": "chuong-7.txt"
       },
       {
         "id": 8,
-        "title": "Chương 8",
+        "title": "Chương 8: Tình Yêu Nồng Nàng",
         "file": "chuong-8.txt"
       },
       {
         "id": 9,
-        "title": "Chương 9",
+        "title": "Chương 9: Lòng Của Phụ Nữ",
         "file": "chuong-9.txt"
       },
       {
         "id": 10,
-        "title": "Chương 10",
+        "title": "Chương 10: Khó Có Thể Tin Tưởng",
         "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Chương 11: Tình Yêu Sớm Kết Thúc",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Chương 12: Đoạn Tuyệt Ân Tình",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Chương 13: Khi Gặp Lại",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Chương 14: Lộ Chân Tướng",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Chương 15: Ân Nghĩa Của Tình Địch",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Chương 16: Thù Hận Triền Miên",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Chương 17: Duyên Phận Kiếp Trước",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Chương 18: Cùng Nhau Tắm",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Chương 19: Diện Kiến Bố Mẹ Chồng",
+        "file": "chuong-19.txt"
+      },
+      {
+        "id": 20,
+        "title": "Chương 20: Cảnh Đêm",
+        "file": "chuong-20.txt"
+      },
+      {
+        "id": 21,
+        "title": "Chương 21: Ngoại Truyện 6: Cuộc Sống Hôn Nhân Của Tham Mưu Trưởng Diệp Chính Thần",
+        "file": "chuong-21.txt"
+      },
+      {
+        "id": 22,
+        "title": "Chương 22",
+        "file": "chuong-22.txt"
       }
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "title": "Mãi mãi là bao xa",
     "folder": "mai-mai-la-bao-xa",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -7097,9 +7167,10 @@
     ]
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "Sự cám dỗ cuối cùng",
     "folder": "su-cam-do-cuoi-cung",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -7108,48 +7179,93 @@
       },
       {
         "id": 2,
-        "title": "Chương 2",
+        "title": "Chương 2: Scandal",
         "file": "chuong-2.txt"
       },
       {
         "id": 3,
-        "title": "Chương 3",
+        "title": "Chương 3: Đêm Đen",
         "file": "chuong-3.txt"
       },
       {
         "id": 4,
-        "title": "Chương 4",
+        "title": "Chương 4: Thử Vai",
         "file": "chuong-4.txt"
       },
       {
         "id": 5,
-        "title": "Chương 5",
+        "title": "Chương 5: Quá Khứ",
         "file": "chuong-5.txt"
       },
       {
         "id": 6,
-        "title": "Chương 6",
+        "title": "Chương 6: Chuyện Cũ",
         "file": "chuong-6.txt"
       },
       {
         "id": 7,
-        "title": "Chương 7",
+        "title": "Chương 7: Niềm Vui Ngày Xưa",
         "file": "chuong-7.txt"
       },
       {
         "id": 8,
-        "title": "Chương 8",
+        "title": "Chương 8: Duyên Khởi",
         "file": "chuong-8.txt"
       },
       {
         "id": 9,
-        "title": "Chương 9",
+        "title": "Chương 9: Duyên Diệt",
         "file": "chuong-9.txt"
       },
       {
         "id": 10,
-        "title": "Chương 10",
+        "title": "Chương 10: Giằng xé",
         "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Chương 11: Sự Thật",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Chương 12",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Chương 13: Đám Cưới",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Chương 14: Hoa Chúc",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Chương 15: Mưa Gió",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Chương 16: Lựa Chọn",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Chương 17: Kết Hôn",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Chương 18: Kiên Trì",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Chương 19: Ngoại Truyện 1: Cuộc Sống Hạnh Phúc Của Trưởng Phòng Trịnh",
+        "file": "chuong-19.txt"
       }
     ]
   }
