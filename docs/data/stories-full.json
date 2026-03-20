@@ -88,6 +88,7 @@
     "id": 6,
     "title": "Thâu Hương Cao Thủ (Cải Biên)",
     "folder": "thau-huong-cao-thu",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6634,6 +6635,7 @@
     "id": 10,
     "title": "Nàng dâu thời nay",
     "folder": "nang-dau-thoi-nay",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6676,6 +6678,7 @@
     "id": 11,
     "title": "Nhân viên ngân hàng",
     "folder": "nhan-vien-ngan-hang",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6779,6 +6782,7 @@
     "id": 14,
     "title": "Phận nàng dâu",
     "folder": "phan-nang-dau",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6816,6 +6820,7 @@
     "id": 15,
     "title": "Sale BDS",
     "folder": "sale-bds",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6881,6 +6886,7 @@
     "id": 17,
     "title": "Truyện ngắn",
     "folder": "truyen-ngan",
+    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -6891,6 +6897,11 @@
         "id": 2,
         "title": "Chương 2",
         "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3",
+        "file": "chuong-3.txt"
       }
     ]
   },
@@ -6969,7 +6980,6 @@
     "id": 20,
     "title": "Động phòng hoa chúc sát vách",
     "folder": "dong-phong-hoa-chuc-sat-vach",
-    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -7087,7 +7097,6 @@
     "id": 21,
     "title": "Mãi mãi là bao xa",
     "folder": "mai-mai-la-bao-xa",
-    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
@@ -7170,7 +7179,6 @@
     "id": 22,
     "title": "Sự cám dỗ cuối cùng",
     "folder": "su-cam-do-cuoi-cung",
-    "isAdmin": true,
     "chapters": [
       {
         "id": 1,
