@@ -7276,5 +7276,2597 @@
         "file": "chuong-19.txt"
       }
     ]
+  },
+  {
+    "id": 23,
+    "title": "Tam Thốn Nhân Gian",
+    "folder": "tam-thon-nhan-gian",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 887: Văn minh chi thương!",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 888: Tạ Hải Dương Nhiệt tình!",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 889: Bán Bình An!",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 890: Bình An thẻ bài!",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 891: Lý do ra tay!",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 892: Tạ Hải Dương ra tay!",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Chương 893: Tặng Địa linh!",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Chương 894: Gần ngay trước mắt!",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Chương 895: U Linh thuyền!",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Chiếc thuyền nhìn qua cũ nát, có in dấu vết vô tận tuế nguyệt, phảng phất tồn tại đã từ quá lâu quá lâu rồi, khí tức cổ xưa dù là chỉ là liếc mắt từ xa cũng có thể cảm thụ rõ ràng.",
+        "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Chương 896: Lên thuyền nha!",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Chương 897: Tạ gia, Tạ Đại Lục!",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Chương 898: Ta có cốt khí!",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Chương 899: Tiền bối, ta vẫn còn sức!",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Chương 900: Đuổi xuống. . .",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Chương 901: Ai mới là kẻ đi săn?",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Chương 902: Cương mãnh mà đến!",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Chương 903: Ta ngả bài!",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Chương 904: Khinh người quá đáng!",
+        "file": "chuong-19.txt"
+      },
+      {
+        "id": 20,
+        "title": "Chương 905: Rất có cốt khí!",
+        "file": "chuong-20.txt"
+      },
+      {
+        "id": 21,
+        "title": "Chương 906: Đạo hữu đừng xúc động!",
+        "file": "chuong-21.txt"
+      },
+      {
+        "id": 22,
+        "title": "Chương 907: Tác dụng phụ thần kỳ. . .",
+        "file": "chuong-22.txt"
+      },
+      {
+        "id": 23,
+        "title": "Chương 908: Cầu nguyện thành công!",
+        "file": "chuong-23.txt"
+      },
+      {
+        "id": 24,
+        "title": "Chương 909: Trở về Thần Mục!",
+        "file": "chuong-24.txt"
+      },
+      {
+        "id": 25,
+        "title": "Chương 910: Bí ẩn!",
+        "file": "chuong-25.txt"
+      },
+      {
+        "id": 26,
+        "title": "Chương 911: Hoàng tộc thâm sâu!",
+        "file": "chuong-26.txt"
+      },
+      {
+        "id": 27,
+        "title": "Chương 912: Tiến vào Con mắt Hằng Tinh!",
+        "file": "chuong-27.txt"
+      },
+      {
+        "id": 28,
+        "title": "Chương 913: Chuẩn bị sẵn sàng!",
+        "file": "chuong-28.txt"
+      },
+      {
+        "id": 29,
+        "title": "Chương 914: Chờ cơ hội!",
+        "file": "chuong-29.txt"
+      },
+      {
+        "id": 30,
+        "title": "Chương 915: Hằng Tinh đã đến!",
+        "file": "chuong-30.txt"
+      },
+      {
+        "id": 31,
+        "title": "Chiếc loa này đã theo Bảo Nhạc rất lâu rồi, từ đạo viện Phiêu Miểu lúc trước vì hắn mà thể hiện tác dụng tuyệt vời, sau đó qua nhiều lần luyện chế, cuối cùng đã đến cực hạn.",
+        "file": "chuong-31.txt"
+      },
+      {
+        "id": 32,
+        "title": "Chương 916: Tinh Vẫn thuyền tới!",
+        "file": "chuong-32.txt"
+      },
+      {
+        "id": 33,
+        "title": "Chương 917: Cướp đoạt!",
+        "file": "chuong-33.txt"
+      },
+      {
+        "id": 34,
+        "title": "Chương 918: Lấy được danh ngạch!",
+        "file": "chuong-34.txt"
+      },
+      {
+        "id": 35,
+        "title": "Chương 919: Đói bụng phải ăn!",
+        "file": "chuong-35.txt"
+      },
+      {
+        "id": 36,
+        "title": "Chương 920: Ta cầu nguyện",
+        "file": "chuong-36.txt"
+      },
+      {
+        "id": 37,
+        "title": "Chương 921: Hồn Linh quả!",
+        "file": "chuong-37.txt"
+      },
+      {
+        "id": 38,
+        "title": "Chương 922: Lôi kiếp lại tới!",
+        "file": "chuong-38.txt"
+      },
+      {
+        "id": 39,
+        "title": "Chương 923: Tuyệt thế thiên kiêu Thần bí!",
+        "file": "chuong-39.txt"
+      },
+      {
+        "id": 40,
+        "title": "Chương 924: Liệt diễm bi ai!",
+        "file": "chuong-40.txt"
+      },
+      {
+        "id": 41,
+        "title": "Chương 925: Tinh Vẫn Chi Địa!",
+        "file": "chuong-41.txt"
+      },
+      {
+        "id": 42,
+        "title": "Chương 926: Thần Uy Đạo Lôi!",
+        "file": "chuong-42.txt"
+      },
+      {
+        "id": 43,
+        "title": "Chương 927: Kéo vào thuyền!",
+        "file": "chuong-43.txt"
+      },
+      {
+        "id": 44,
+        "title": "Chương 928: Lập Lâm Tử mưu tính!",
+        "file": "chuong-44.txt"
+      },
+      {
+        "id": 45,
+        "title": "Chương 929: Ngoại vực ý Lôi!",
+        "file": "chuong-45.txt"
+      },
+      {
+        "id": 46,
+        "title": "Chương 930: Thành trì giấy!",
+        "file": "chuong-46.txt"
+      },
+      {
+        "id": 47,
+        "title": "Chương 931:  Tính toán có lợi nhất!",
+        "file": "chuong-47.txt"
+      },
+      {
+        "id": 48,
+        "title": "Chương 932: Xuất phát!",
+        "file": "chuong-48.txt"
+      },
+      {
+        "id": 49,
+        "title": "Chương 933: Huyễn Tinh!",
+        "file": "chuong-49.txt"
+      },
+      {
+        "id": 50,
+        "title": "Chương 934: Hằng Tinh chém giết?",
+        "file": "chuong-50.txt"
+      },
+      {
+        "id": 51,
+        "title": "Chương 935: Bị đâm chết?",
+        "file": "chuong-51.txt"
+      },
+      {
+        "id": 52,
+        "title": "Chương 936: Minh pháp",
+        "file": "chuong-52.txt"
+      },
+      {
+        "id": 53,
+        "title": "Chương 937: Đuổi ta sao?",
+        "file": "chuong-53.txt"
+      },
+      {
+        "id": 54,
+        "title": "Chương 938: Có chuyện thì nói thẳng!",
+        "file": "chuong-54.txt"
+      },
+      {
+        "id": 55,
+        "title": "Chương 939: Nghĩa bất từ dung!",
+        "file": "chuong-55.txt"
+      },
+      {
+        "id": 56,
+        "title": "Chương 940: Đa tạ tiền bối!",
+        "file": "chuong-56.txt"
+      },
+      {
+        "id": 57,
+        "title": "Chương 941: Không ngừng vươn lên!",
+        "file": "chuong-57.txt"
+      },
+      {
+        "id": 58,
+        "title": "Chương 942: Thiên Uy Thần Long!",
+        "file": "chuong-58.txt"
+      },
+      {
+        "id": 59,
+        "title": "Chương 943: Bước ra ngoài sáng!",
+        "file": "chuong-59.txt"
+      },
+      {
+        "id": 60,
+        "title": "Chương 944: Đầu thiết!",
+        "file": "chuong-60.txt"
+      },
+      {
+        "id": 61,
+        "title": "Chương 945: Cho ngươi một cơ hội cuối cùng!",
+        "file": "chuong-61.txt"
+      },
+      {
+        "id": 62,
+        "title": "Chương 946: Di hoa tiếp mộc!",
+        "file": "chuong-62.txt"
+      },
+      {
+        "id": 63,
+        "title": "Chương 947:  Mang bổn tọa tới!",
+        "file": "chuong-63.txt"
+      },
+      {
+        "id": 64,
+        "title": "Chương 948: Đối chọi gay gắt!",
+        "file": "chuong-64.txt"
+      },
+      {
+        "id": 65,
+        "title": "Chương 949: Hồi báo!",
+        "file": "chuong-65.txt"
+      },
+      {
+        "id": 66,
+        "title": "Chương 950: Tìm thúc thúc tiểu nữ hài!",
+        "file": "chuong-66.txt"
+      },
+      {
+        "id": 67,
+        "title": "Chương 951: Tạ Hải Dương rầu rĩ",
+        "file": "chuong-67.txt"
+      },
+      {
+        "id": 68,
+        "title": "Chương 952: Khách quý?",
+        "file": "chuong-68.txt"
+      },
+      {
+        "id": 69,
+        "title": "Chương 953: Tù phong thiên chi đạo!",
+        "file": "chuong-69.txt"
+      },
+      {
+        "id": 70,
+        "title": "Chương 954: Phụng chí tu chân hành!",
+        "file": "chuong-70.txt"
+      },
+      {
+        "id": 71,
+        "title": "Chương 955: Ta họ Vương!",
+        "file": "chuong-71.txt"
+      },
+      {
+        "id": 72,
+        "title": "Chương 956: Quy tắc Đạo tinh!",
+        "file": "chuong-72.txt"
+      },
+      {
+        "id": 73,
+        "title": "Chương 957: Cuộc chiến của các ngôi sao!",
+        "file": "chuong-73.txt"
+      },
+      {
+        "id": 74,
+        "title": "Chương 958: Hủy bỏ tư cách?",
+        "file": "chuong-74.txt"
+      },
+      {
+        "id": 75,
+        "title": "Chương 959: Chỗ ngồi xịn xò!",
+        "file": "chuong-75.txt"
+      },
+      {
+        "id": 76,
+        "title": "Chiếc trống này tràn đầy tang thương, dù khoảng cách rất xa , thấy không rõ chi tiết, nhưng Bảo Nhạc vẫn cảm nhận được khí thế chấn động của nó, chỉ cần nhìn thôi cũng khiến nội tâm Bảo nhạc  dao động, tựa như  thấy được Tinh Hà, thấy được tinh không đầy sao.",
+        "file": "chuong-76.txt"
+      },
+      {
+        "id": 77,
+        "title": "Chương 960: Tế thiên đại điển!",
+        "file": "chuong-77.txt"
+      },
+      {
+        "id": 78,
+        "title": "Chương 961: Ngôi sao cấp 9!",
+        "file": "chuong-78.txt"
+      },
+      {
+        "id": 79,
+        "title": "Chương 962: Coi vì sao là kiến hôi!",
+        "file": "chuong-79.txt"
+      },
+      {
+        "id": 80,
+        "title": "Chương 963: Đạo tinh không thèm nhìn!",
+        "file": "chuong-80.txt"
+      },
+      {
+        "id": 81,
+        "title": "Chương 964: Là ngôi sao!",
+        "file": "chuong-81.txt"
+      },
+      {
+        "id": 82,
+        "title": "Chương 965: Thiên phú ngôi sao nguyên anh!",
+        "file": "chuong-82.txt"
+      },
+      {
+        "id": 83,
+        "title": "Chương 966: Ngươi…có tới hay không!",
+        "file": "chuong-83.txt"
+      },
+      {
+        "id": 84,
+        "title": "Chương 967: Cổ tinh giáng lâm!",
+        "file": "chuong-84.txt"
+      },
+      {
+        "id": 85,
+        "title": "Chương 968: Chuẩn! !",
+        "file": "chuong-85.txt"
+      },
+      {
+        "id": 86,
+        "title": "Chương 969: Quy tắc Đạo tinh!",
+        "file": "chuong-86.txt"
+      },
+      {
+        "id": 87,
+        "title": "chín loại màu sắc, ngoại trừ 7 màu quy tắc thường bên ngoài, còn có trắng và đen.",
+        "file": "chuong-87.txt"
+      },
+      {
+        "id": 88,
+        "title": "Chương 970: 9 quy tắc của đạo tinh!",
+        "file": "chuong-88.txt"
+      },
+      {
+        "id": 89,
+        "title": "Chương 971: Tinh Vẫn bảng!",
+        "file": "chuong-89.txt"
+      },
+      {
+        "id": 90,
+        "title": "Chương 972: Danh chấn bốn phương!",
+        "file": "chuong-90.txt"
+      },
+      {
+        "id": 91,
+        "title": "Chương 979: Trấn giết!",
+        "file": "chuong-91.txt"
+      },
+      {
+        "id": 92,
+        "title": "Chương 979: Trấn giết!",
+        "file": "chuong-92.txt"
+      },
+      {
+        "id": 93,
+        "title": "Chương 980: Đạo tinh nghiền áp!",
+        "file": "chuong-93.txt"
+      },
+      {
+        "id": 94,
+        "title": "Chương 984: Thẳng hướng liên bang!",
+        "file": "chuong-94.txt"
+      },
+      {
+        "id": 95,
+        "title": "Chương 987: là cái này sao?",
+        "file": "chuong-95.txt"
+      },
+      {
+        "id": 96,
+        "title": "Chương 992: Còn chưa đủ!",
+        "file": "chuong-96.txt"
+      },
+      {
+        "id": 97,
+        "title": "chín nơi di tích!",
+        "file": "chuong-97.txt"
+      },
+      {
+        "id": 98,
+        "title": "Chương 1000: Dung hợp Thần Mục!",
+        "file": "chuong-98.txt"
+      },
+      {
+        "id": 99,
+        "title": "Chim và thú kêu gào,linh khi thành từng mảnh mây mù  rơi xuống Linh Vũ, thế gian vạn vật đều tiến hóa, điên cuồng sinh trưởng, thiên địa được tẩm bổ, thoải mái  , và nhân loại tự nhiên cũng trong đó, dưới Vương Bảo Nhạc dẫn đạo thay đổi lại càng lớn!",
+        "file": "chuong-99.txt"
+      },
+      {
+        "id": 100,
+        "title": "Chương 1008: Nhất định, nhất định!",
+        "file": "chuong-100.txt"
+      },
+      {
+        "id": 101,
+        "title": "Chương 1062: Trần Dương!",
+        "file": "chuong-101.txt"
+      },
+      {
+        "id": 102,
+        "title": "Chương 1063: Thức tỉnh!",
+        "file": "chuong-102.txt"
+      },
+      {
+        "id": 103,
+        "title": "chiến phủ màu trắng lúc này đã hoàn toàn bị nhuộm đỏ trở thành màu đỏ, bão táp khuếch tán, oán khí bốc lên, huyết sắc tràn ngập, thân thể  đại hán hành tinh đại viên mãn run rẩy mãnh liệt, đã mất đi sức phản kháng, dù còn trên không trung, nhưng thất khiếu bắt đầu đổ máu.",
+        "file": "chuong-103.txt"
+      },
+      {
+        "id": 104,
+        "title": "Chiếc lá này có lẽ có kích thước khoảng mười trượng, chiếc lá nằm trên cái cây có thể dùng từ che trời để hình dung, căn bản là không nhìn thấy cuối cùng, tựa như cao bằng trời.",
+        "file": "chuong-104.txt"
+      },
+      {
+        "id": 105,
+        "title": "Chương 1072: Ta cầu nguyện!",
+        "file": "chuong-105.txt"
+      },
+      {
+        "id": 106,
+        "title": "Chương 1073: Ta là anh hùng!",
+        "file": "chuong-106.txt"
+      },
+      {
+        "id": 107,
+        "title": "Chương 1074: Tàn Nguyệt!",
+        "file": "chuong-107.txt"
+      },
+      {
+        "id": 108,
+        "title": "Chiến lực của hắn đã hoàn toàn vượt quá giới hạn của cùng cảnh giời,  không thể đo lường bằng hành tinh cảnh, bởi vì ở hành tinh, chín quy tắc này hầu như được miễn trừ, có nghĩa là nếu đối phương nâng cấp chín loại quy tắc này, thì bất kỳ một quy tắc nào, dùng toàn bộ chiến lực xuất thủ, đánh lên người Bảo Nhạc, hơn 90% sức mạnh sẽ vô dụng.",
+        "file": "chuong-108.txt"
+      },
+      {
+        "id": 109,
+        "title": "Chương 1075: Lạc bút!",
+        "file": "chuong-109.txt"
+      },
+      {
+        "id": 110,
+        "title": "Chương 1076:  Nhìn một chút!",
+        "file": "chuong-110.txt"
+      },
+      {
+        "id": 111,
+        "title": "Chương 1077: Ngụ ý!",
+        "file": "chuong-111.txt"
+      },
+      {
+        "id": 112,
+        "title": "Chương 1078: Thân tình!",
+        "file": "chuong-112.txt"
+      },
+      {
+        "id": 113,
+        "title": "Chương 1079: Ta đang vội!",
+        "file": "chuong-113.txt"
+      },
+      {
+        "id": 114,
+        "title": "Chương 1080: Ta sẽ chọn ngươi!",
+        "file": "chuong-114.txt"
+      },
+      {
+        "id": 115,
+        "title": "Chương 1081: Nhân quả Tiểu hồ ly!",
+        "file": "chuong-115.txt"
+      },
+      {
+        "id": 116,
+        "title": "Chương 1082: Tôn mỗ!",
+        "file": "chuong-116.txt"
+      },
+      {
+        "id": 117,
+        "title": "Chương 1083: Tôn Đức!",
+        "file": "chuong-117.txt"
+      },
+      {
+        "id": 118,
+        "title": "Chương 1084: La Thiên sợ Tiên!",
+        "file": "chuong-118.txt"
+      },
+      {
+        "id": 119,
+        "title": "Chương 1085: Lão khất !",
+        "file": "chuong-119.txt"
+      },
+      {
+        "id": 120,
+        "title": "Chương 1086: Hắc Mộc bản!",
+        "file": "chuong-120.txt"
+      },
+      {
+        "id": 121,
+        "title": "Chương 1087: Tỉnh lại!",
+        "file": "chuong-121.txt"
+      },
+      {
+        "id": 122,
+        "title": "Chương 1088: Thí luyện chấm dứt!",
+        "file": "chuong-122.txt"
+      },
+      {
+        "id": 123,
+        "title": "Chương 1089: đối đãi Khác nhau!",
+        "file": "chuong-123.txt"
+      },
+      {
+        "id": 124,
+        "title": "Chương 1090: Ba!",
+        "file": "chuong-124.txt"
+      },
+      {
+        "id": 125,
+        "title": "Chương 1091: Không làm Thần Linh!",
+        "file": "chuong-125.txt"
+      },
+      {
+        "id": 126,
+        "title": "Chương 1092: tàn ảnh Tương lai!",
+        "file": "chuong-126.txt"
+      },
+      {
+        "id": 127,
+        "title": "Chương 1093: Vừa rồi không tính!",
+        "file": "chuong-127.txt"
+      },
+      {
+        "id": 128,
+        "title": "Chương 1094: sổ tay Thiên Mệnh Chi Thư!",
+        "file": "chuong-128.txt"
+      },
+      {
+        "id": 129,
+        "title": "Chương 1095: Lúc này tuyệt đối không thỏa hiệp!",
+        "file": "chuong-129.txt"
+      },
+      {
+        "id": 130,
+        "title": "Chương 1096: hình ảnh con rết lại xuất hiện!",
+        "file": "chuong-130.txt"
+      },
+      {
+        "id": 131,
+        "title": "Chương 1097: hóa giải đầu tiên!",
+        "file": "chuong-131.txt"
+      },
+      {
+        "id": 132,
+        "title": "Chương 1098: lại vào kiếp trước!",
+        "file": "chuong-132.txt"
+      },
+      {
+        "id": 133,
+        "title": "Chương 1099: 1 Tôn Đức khác!",
+        "file": "chuong-133.txt"
+      },
+      {
+        "id": 134,
+        "title": "Chương 1100: Ngươi dám trấn Tiên?",
+        "file": "chuong-134.txt"
+      },
+      {
+        "id": 135,
+        "title": "Chương 1101: Đệ nhất thế!",
+        "file": "chuong-135.txt"
+      },
+      {
+        "id": 136,
+        "title": "Chương 1102: Hắc Mộc Ba thước!",
+        "file": "chuong-136.txt"
+      },
+      {
+        "id": 137,
+        "title": "Chiến tranh cũng bùng nổ đến giai đoạn cuối cùng với sự điên cuồng của vô số tu sĩ trong Thương Mang đạo vực, tu sĩ hai bên bắt đầu va chạm sinh tử, chiến trường khốc liệt giống như một cái bánh xe mài thịt khổng lồ, liên tục lăn lộn. và nghiền nát ...",
+        "file": "chuong-137.txt"
+      },
+      {
+        "id": 138,
+        "title": "Chương 1103: Rời đi!",
+        "file": "chuong-138.txt"
+      },
+      {
+        "id": 139,
+        "title": "Chương 1104: Hung hăng càn quấy!",
+        "file": "chuong-139.txt"
+      },
+      {
+        "id": 140,
+        "title": "Chương 1105: Đến đi vội vàng!",
+        "file": "chuong-140.txt"
+      },
+      {
+        "id": 141,
+        "title": "Chương 1106: Có chút chập choạng!",
+        "file": "chuong-141.txt"
+      },
+      {
+        "id": 142,
+        "title": "Chương 1107: Bản thể hàng lâm!",
+        "file": "chuong-142.txt"
+      },
+      {
+        "id": 143,
+        "title": "Chương 1108: Có thể!",
+        "file": "chuong-143.txt"
+      },
+      {
+        "id": 144,
+        "title": "Chương 1109: Vạn Tinh trở về vị trí cũ",
+        "file": "chuong-144.txt"
+      },
+      {
+        "id": 145,
+        "title": "Chương 1110: Như thần!",
+        "file": "chuong-145.txt"
+      },
+      {
+        "id": 146,
+        "title": "Chương 1111: hằng Đạo!",
+        "file": "chuong-146.txt"
+      },
+      {
+        "id": 147,
+        "title": "Chương 1112: Có rượu không!",
+        "file": "chuong-147.txt"
+      },
+      {
+        "id": 148,
+        "title": "Chương 1113: Đại bổ!",
+        "file": "chuong-148.txt"
+      },
+      {
+        "id": 149,
+        "title": "Chương 1114: Vị Ương chi chủ!",
+        "file": "chuong-149.txt"
+      },
+      {
+        "id": 150,
+        "title": "Chương 1115: Xung Ý Tử ngưng trọng!",
+        "file": "chuong-150.txt"
+      },
+      {
+        "id": 151,
+        "title": "Chương 1116: trấn áp Toàn diện!",
+        "file": "chuong-151.txt"
+      },
+      {
+        "id": 152,
+        "title": "chiến lực chín  phân thân này rõ ràng đều giống như đúc bản thể gã, đây chính là một trong chín đại bí pháp Cửu Châu đạo, dùng tiêu hao trong thời gian ngắn,  vô trung sinh hữu, hội tụ chín phân thân có chiến lực như mình!",
+        "file": "chuong-152.txt"
+      },
+      {
+        "id": 153,
+        "title": "Chương 1117: một thành chiến lực của Ta trấn áp ngươi!",
+        "file": "chuong-153.txt"
+      },
+      {
+        "id": 154,
+        "title": "Chương 1118: chiến phủ Hằng Tinh!",
+        "file": "chuong-154.txt"
+      },
+      {
+        "id": 155,
+        "title": "chiến phủ này so với trường thương Kim sắc trước đó gã triển khai, thì khí thế hay là  khí tức đều đã vượt qua rất nhiều, hơn nữa lúc này bị Xung Ý Tử cầm chặt trong tay,  giống như Hằng Tinh bị gã cầm trong tay, trong mắt tràn ra vẻ điên cuồng, mạnh mẽ bổ bột búa về phía trước kiếm giấy nhiều vô cùng đang tiến đến!",
+        "file": "chuong-155.txt"
+      },
+      {
+        "id": 156,
+        "title": "Chiến phủ một lần nữa rung lên, Xung Ý Tử máu tươi phun ra, nhưng trong sự bộc phát điên cuồng , thân ảnh thứ 2 của Vương Bảo Nhạc cũng vỡ ra, nhưng làm cho Xung Ý Tử không tưởng được, là ở  đạo thân ảnh thứ 2 này này, rõ ràng lại có một đạo thân ảnh kiếp trước nữa!",
+        "file": "chuong-156.txt"
+      },
+      {
+        "id": 157,
+        "title": "Chương 1119: Nguyền rủa đối kháng!",
+        "file": "chuong-157.txt"
+      },
+      {
+        "id": 158,
+        "title": "Chương 1120: Thần Hoàng chi ảnh!",
+        "file": "chuong-158.txt"
+      },
+      {
+        "id": 159,
+        "title": "Chương 1121: Có dám hay không!",
+        "file": "chuong-159.txt"
+      },
+      {
+        "id": 160,
+        "title": "Chương 1122: Liệt Nguyệt thần hoàng r!",
+        "file": "chuong-160.txt"
+      },
+      {
+        "id": 161,
+        "title": "Chương 1123: Trở về!",
+        "file": "chuong-161.txt"
+      },
+      {
+        "id": 162,
+        "title": "Chương 1124: Bao che khuyết điểm!",
+        "file": "chuong-162.txt"
+      },
+      {
+        "id": 163,
+        "title": "Chiếc lá này có màu xanh sọc đen, thoạt nhìn cũng không có thần kỳ đặc biệt gì, có thể lơ lửng ở trước mặt Vương Bảo Nhạc, Vương Bảo Nhạc chỉ là nhìn thoáng qua mà tâm thần chấn động mãnh liệt, thần hồn truyền đến đến cảm giác nguy cơ cực hạn, dường như một khi lá cây này bùng nổ, thần hồn của hắn   lập tức sẽ bị Băng Diệt.",
+        "file": "chuong-163.txt"
+      },
+      {
+        "id": 164,
+        "title": "Chương 1125: Điểm Tinh thuật!",
+        "file": "chuong-164.txt"
+      },
+      {
+        "id": 165,
+        "title": "Chương 1126: chiến trường Thần Hoàng!",
+        "file": "chuong-165.txt"
+      },
+      {
+        "id": 166,
+        "title": "Chương 1127: Lập uy!",
+        "file": "chuong-166.txt"
+      },
+      {
+        "id": 167,
+        "title": "Chương 1128: Chém giết!",
+        "file": "chuong-167.txt"
+      },
+      {
+        "id": 168,
+        "title": "Chương 1129: vô địch cùng cảnh giới!",
+        "file": "chuong-168.txt"
+      },
+      {
+        "id": 169,
+        "title": "chiến lực Vừa rồi Vương Bảo Nhạc hiện , trong ba tức trảm giết Lạc Tri tu vi mạnh nhất trong bọn họ, loại thực lực này, đủ khiến tất cả mọi người cảnh giác.",
+        "file": "chuong-169.txt"
+      },
+      {
+        "id": 170,
+        "title": "Chương 1130: Thần Hoàng xuất hiện",
+        "file": "chuong-170.txt"
+      },
+      {
+        "id": 171,
+        "title": "Chiến hạm …Số lượng ít nhất cũng gần mười vạn, nhiều lít nha lít nhít tản ra toàn bộ khu vực tinh không màu xám. . .!",
+        "file": "chuong-171.txt"
+      },
+      {
+        "id": 172,
+        "title": "Chương 1131: vào tinh không xám!",
+        "file": "chuong-172.txt"
+      },
+      {
+        "id": 173,
+        "title": "Chương 1132: tạo hóa của Sư huynh!",
+        "file": "chuong-173.txt"
+      },
+      {
+        "id": 174,
+        "title": "Chương 1133: Thiên Đạo bất mãn!",
+        "file": "chuong-174.txt"
+      },
+      {
+        "id": 175,
+        "title": "Chương 1134: Của ta!",
+        "file": "chuong-175.txt"
+      },
+      {
+        "id": 176,
+        "title": "Chương 1135: Ta hấp!",
+        "file": "chuong-176.txt"
+      },
+      {
+        "id": 177,
+        "title": "Chương 1136: Huyền Hoa Thong dong!",
+        "file": "chuong-177.txt"
+      },
+      {
+        "id": 178,
+        "title": "Chương 1137: lên tiếng!",
+        "file": "chuong-178.txt"
+      },
+      {
+        "id": 179,
+        "title": "Chương 1138: Câu cá!",
+        "file": "chuong-179.txt"
+      },
+      {
+        "id": 180,
+        "title": "Chương 1139: mơ mơ màng màng!",
+        "file": "chuong-180.txt"
+      },
+      {
+        "id": 181,
+        "title": "Chương 1140: cạn lời",
+        "file": "chuong-181.txt"
+      },
+      {
+        "id": 182,
+        "title": "Chương 1141: Người xấu!",
+        "file": "chuong-182.txt"
+      },
+      {
+        "id": 183,
+        "title": "Chương 1142: To!",
+        "file": "chuong-183.txt"
+      },
+      {
+        "id": 184,
+        "title": "Chương 1143: Chín hồng lô!",
+        "file": "chuong-184.txt"
+      },
+      {
+        "id": 185,
+        "title": "Chương 1144: Thành thế!",
+        "file": "chuong-185.txt"
+      },
+      {
+        "id": 186,
+        "title": "Chương 1145: Thúc thúc giúp ta!",
+        "file": "chuong-186.txt"
+      },
+      {
+        "id": 187,
+        "title": "Chương 1146: Chiến Hoàng tử!",
+        "file": "chuong-187.txt"
+      },
+      {
+        "id": 188,
+        "title": "chiến ý từ từ tản ra từ trên người.",
+        "file": "chuong-188.txt"
+      },
+      {
+        "id": 189,
+        "title": "Chương 1147: Da đầu tê dại!",
+        "file": "chuong-189.txt"
+      },
+      {
+        "id": 190,
+        "title": "Chương 1148: tiểu nữ hài Quỷ dị!",
+        "file": "chuong-190.txt"
+      },
+      {
+        "id": 191,
+        "title": "Chương 1149: nhục thể đột phá!",
+        "file": "chuong-191.txt"
+      },
+      {
+        "id": 192,
+        "title": "Chương 1150: Minh Tông bất diệt, Đế thân khó hiện!",
+        "file": "chuong-192.txt"
+      },
+      {
+        "id": 193,
+        "title": "Chương 1151: Trận chiến khốc liệt!",
+        "file": "chuong-193.txt"
+      },
+      {
+        "id": 194,
+        "title": "Chương 1152: Hút sụp đổ Vị Ương!",
+        "file": "chuong-194.txt"
+      },
+      {
+        "id": 195,
+        "title": "Chương 1153: Cực đạo nhục thể!",
+        "file": "chuong-195.txt"
+      },
+      {
+        "id": 196,
+        "title": "Chương 1154: Thiên Đạo Vị Ương !",
+        "file": "chuong-196.txt"
+      },
+      {
+        "id": 197,
+        "title": "Chương 1155: Nghịch chuyển Liệt Nguyệt!",
+        "file": "chuong-197.txt"
+      },
+      {
+        "id": 198,
+        "title": "Chương 1156: kế hoạch của Trần Thanh Tử!",
+        "file": "chuong-198.txt"
+      },
+      {
+        "id": 199,
+        "title": "Chương 1157: Không đúng!",
+        "file": "chuong-199.txt"
+      },
+      {
+        "id": 200,
+        "title": "Chương 1158: Ai là Thiên Đạo!",
+        "file": "chuong-200.txt"
+      },
+      {
+        "id": 201,
+        "title": "Chương 1159: đón người!",
+        "file": "chuong-201.txt"
+      },
+      {
+        "id": 202,
+        "title": "Chương 1160: U Minh tinh hệ!",
+        "file": "chuong-202.txt"
+      },
+      {
+        "id": 203,
+        "title": "Chương 1161: Sư huynh im lặng!",
+        "file": "chuong-203.txt"
+      },
+      {
+        "id": 204,
+        "title": "Chương 1162: Lòng trung thành!",
+        "file": "chuong-204.txt"
+      },
+      {
+        "id": 205,
+        "title": "Chương 1163: Hãy nhìn lại lần nữa!",
+        "file": "chuong-205.txt"
+      },
+      {
+        "id": 206,
+        "title": "Chương 1164: Lưu Nguyệt!",
+        "file": "chuong-206.txt"
+      },
+      {
+        "id": 207,
+        "title": "Chương 1165: Đạo bất đồng!",
+        "file": "chuong-207.txt"
+      },
+      {
+        "id": 208,
+        "title": "Chương 1166: Thiên Đạo hàng lực!",
+        "file": "chuong-208.txt"
+      },
+      {
+        "id": 209,
+        "title": "Chương 1167: Có chút xấu hổ!",
+        "file": "chuong-209.txt"
+      },
+      {
+        "id": 210,
+        "title": "Chiều sâu tối đa đạt đến hơn ba vạn trượng, nếu không có gì để so sánh thì thoạt nhìn chiều sâu này cũng ghê lắm, khó trách những chuẩn Minh Tử này sau khi rời đi, thì phần lớn đều nhìn Vương Bảo Nhạc .",
+        "file": "chuong-210.txt"
+      },
+      {
+        "id": 211,
+        "title": "Chương 1068: phủ đệ Minh Hoàng!",
+        "file": "chuong-211.txt"
+      },
+      {
+        "id": 212,
+        "title": "chiều sâu Hơn tám mươi vạn trượng, ngay lập tức đã như chạm tới đáy, thanh âm nổ vang lan truyền ra xung quanh Minh Hà, vô số vong hồn tán loạn , thông đạo vòng xoáy do thủ ấn Thiên Đạo đánh ra  cũng mạnh mẽ đánh sâu vào !",
+        "file": "chuong-212.txt"
+      },
+      {
+        "id": 213,
+        "title": "Chương 1169: Miếu thờ dưới chân pho tượng",
+        "file": "chuong-213.txt"
+      },
+      {
+        "id": 214,
+        "title": "Chương 1170: Có miệng có mắt và có thân!",
+        "file": "chuong-214.txt"
+      },
+      {
+        "id": 215,
+        "title": "Chương 1171: sao lại kéo lắm thế!",
+        "file": "chuong-215.txt"
+      },
+      {
+        "id": 216,
+        "title": "Chương 1172: Tạo hóa!",
+        "file": "chuong-216.txt"
+      },
+      {
+        "id": 217,
+        "title": "Chương 1073: Thân ảnh!",
+        "file": "chuong-217.txt"
+      },
+      {
+        "id": 218,
+        "title": "Chương 1074: Nữ?",
+        "file": "chuong-218.txt"
+      },
+      {
+        "id": 219,
+        "title": "Chương 1075: Thiện!",
+        "file": "chuong-219.txt"
+      },
+      {
+        "id": 220,
+        "title": "Chương 1176: Dẫn hồn!",
+        "file": "chuong-220.txt"
+      },
+      {
+        "id": 221,
+        "title": "Chương 1177: ánh mắt Sư tôn!",
+        "file": "chuong-221.txt"
+      },
+      {
+        "id": 222,
+        "title": "Chương 1178: Ngộ",
+        "file": "chuong-222.txt"
+      },
+      {
+        "id": 223,
+        "title": "Chương 1179: Đạo",
+        "file": "chuong-223.txt"
+      },
+      {
+        "id": 224,
+        "title": "Chương 1180: Đèn tắt người diệt",
+        "file": "chuong-224.txt"
+      },
+      {
+        "id": 225,
+        "title": "Chương 1181: Thán tình",
+        "file": "chuong-225.txt"
+      },
+      {
+        "id": 226,
+        "title": "Chương 1182: Dừng lại!",
+        "file": "chuong-226.txt"
+      },
+      {
+        "id": 227,
+        "title": "Chương 1183: Ước định!",
+        "file": "chuong-227.txt"
+      },
+      {
+        "id": 228,
+        "title": "Chương 1184: Bao phủ!",
+        "file": "chuong-228.txt"
+      },
+      {
+        "id": 229,
+        "title": "Chương 1185: trùng luyện Pháp tắc!",
+        "file": "chuong-229.txt"
+      },
+      {
+        "id": 230,
+        "title": "Chương 1186: Họa nhan",
+        "file": "chuong-230.txt"
+      },
+      {
+        "id": 231,
+        "title": "Chương 1187: Đạo mơ hồ",
+        "file": "chuong-231.txt"
+      },
+      {
+        "id": 232,
+        "title": "Chương 1188: Rời đi",
+        "file": "chuong-232.txt"
+      },
+      {
+        "id": 233,
+        "title": "Chương 1189: Trở về!",
+        "file": "chuong-233.txt"
+      },
+      {
+        "id": 234,
+        "title": "Chương 1190: con đường tương lai",
+        "file": "chuong-234.txt"
+      },
+      {
+        "id": 235,
+        "title": "Chương 1191: Về đến nhà",
+        "file": "chuong-235.txt"
+      },
+      {
+        "id": 236,
+        "title": "Chương 1192: Vương Bảo Linh",
+        "file": "chuong-236.txt"
+      },
+      {
+        "id": 237,
+        "title": "Chương 1193: Đạo Vận và không!",
+        "file": "chuong-237.txt"
+      },
+      {
+        "id": 238,
+        "title": "Chương 1194: dung nhập Tử Kim!",
+        "file": "chuong-238.txt"
+      },
+      {
+        "id": 239,
+        "title": "Chương 1195: Trách phạt!",
+        "file": "chuong-239.txt"
+      },
+      {
+        "id": 240,
+        "title": "Chương 1196: Triệu Nhã Mộng và Chu Tiểu Nhã",
+        "file": "chuong-240.txt"
+      },
+      {
+        "id": 241,
+        "title": "Chương 1197: Bảy ngày dung tinh!",
+        "file": "chuong-241.txt"
+      },
+      {
+        "id": 242,
+        "title": "Chương 1198: Giới bàn trấn vực!",
+        "file": "chuong-242.txt"
+      },
+      {
+        "id": 243,
+        "title": "Chương 1199: Tăng cấp",
+        "file": "chuong-243.txt"
+      },
+      {
+        "id": 244,
+        "title": "chiến lực theo đó mà đề cao, dùng căn cơ sâu dày, khiến cho ông ta lúc này miễn cưỡng có thể đánh một trận với tinh vực sơ kỳ !",
+        "file": "chuong-244.txt"
+      },
+      {
+        "id": 245,
+        "title": "Chương 1200: lòng tham!",
+        "file": "chuong-245.txt"
+      },
+      {
+        "id": 246,
+        "title": "Chương 1201: Chúng vực chinh phạt",
+        "file": "chuong-246.txt"
+      },
+      {
+        "id": 247,
+        "title": "Chương 1202: Chờ quân nhập ung",
+        "file": "chuong-247.txt"
+      },
+      {
+        "id": 248,
+        "title": "Chương 1203: Bổ giới bàn ( thượng)",
+        "file": "chuong-248.txt"
+      },
+      {
+        "id": 249,
+        "title": "Chương 1204: Trăm bước viên mãn!",
+        "file": "chuong-249.txt"
+      },
+      {
+        "id": 250,
+        "title": "Chương 1205: Đại Đạo truyền vực!",
+        "file": "chuong-250.txt"
+      },
+      {
+        "id": 251,
+        "title": "Chương 1206: Bước thứ ba!",
+        "file": "chuong-251.txt"
+      },
+      {
+        "id": 252,
+        "title": "Chương 1207: Sư tôn uy vũ!",
+        "file": "chuong-252.txt"
+      },
+      {
+        "id": 253,
+        "title": "Chương 1208: Nghi vấn!",
+        "file": "chuong-253.txt"
+      },
+      {
+        "id": 254,
+        "title": "Chương 1209: đại kiếp của Tử Nguyệt!",
+        "file": "chuong-254.txt"
+      },
+      {
+        "id": 255,
+        "title": "Chương 1210: Còn chưa tỉnh ngộ?",
+        "file": "chuong-255.txt"
+      },
+      {
+        "id": 256,
+        "title": "Chương 1211: Tỉnh ngộ",
+        "file": "chuong-256.txt"
+      },
+      {
+        "id": 257,
+        "title": "Chương 1212: Bổ giới bàn (hạ)",
+        "file": "chuong-257.txt"
+      },
+      {
+        "id": 258,
+        "title": "Chương 1212: bao nhiêu Thần Hoàng!",
+        "file": "chuong-258.txt"
+      },
+      {
+        "id": 259,
+        "title": "Chiến tranh nổ ra.",
+        "file": "chuong-259.txt"
+      },
+      {
+        "id": 260,
+        "title": "Chiến trường lần lượt xuất hiện ở nhiều nơi..",
+        "file": "chuong-260.txt"
+      },
+      {
+        "id": 261,
+        "title": "Chiến tranh nổ ra, bởi vì chủ chiến trường là ở Trung tâm Vị ương vực, cho nên bản thổ Tả Đạo cùng bàng môn nơi đây không đã bị chấn động quá kịch liệt, nhưng lại có không ít tiểu Tông môn gia tộc tham chiến, và có thể tưởng tượng rằng, nếu chiến tranh tiếp tục kéo dài, sợ là sớm muộn gì nơi này cũng sẽ bị ảnh hướng nghiêm trọng.",
+        "file": "chuong-261.txt"
+      },
+      {
+        "id": 262,
+        "title": "Chương 1214: Cực Ngũ Tử!",
+        "file": "chuong-262.txt"
+      },
+      {
+        "id": 263,
+        "title": "Chương 1215: Ba vấn đề!",
+        "file": "chuong-263.txt"
+      },
+      {
+        "id": 264,
+        "title": "Chương 1216: Mười vạn giới, mười vạn niệm!",
+        "file": "chuong-264.txt"
+      },
+      {
+        "id": 265,
+        "title": "Chương 1217: con rết ma niệm!",
+        "file": "chuong-265.txt"
+      },
+      {
+        "id": 266,
+        "title": "Chương 1218: Cảm ngộ",
+        "file": "chuong-266.txt"
+      },
+      {
+        "id": 267,
+        "title": "Chương 1219: Ngươi rất giống cha ta!",
+        "file": "chuong-267.txt"
+      },
+      {
+        "id": 268,
+        "title": "Chương 1220: Ngươi nói lại một một lần nữa",
+        "file": "chuong-268.txt"
+      },
+      {
+        "id": 269,
+        "title": "Chương 1221: Bát Cực đạo!",
+        "file": "chuong-269.txt"
+      },
+      {
+        "id": 270,
+        "title": "Chương 1222: Thần Hoàng chi lộ",
+        "file": "chuong-270.txt"
+      },
+      {
+        "id": 271,
+        "title": "chiến tranh Vị Ương tộc vàMinh Tông vẫn tiếp tục nóng lên, chiến hỏa song phương đã lan ra hơn một nửa Trung tâm Vị ương vực, thậm chí đã xuất hiện mấy lần cuộc chiến của Thần Hoàng.",
+        "file": "chuong-271.txt"
+      },
+      {
+        "id": 272,
+        "title": "Chương 1223: Đạo chủng!",
+        "file": "chuong-272.txt"
+      },
+      {
+        "id": 273,
+        "title": "Chương 1224: Mộc chủng!",
+        "file": "chuong-273.txt"
+      },
+      {
+        "id": 274,
+        "title": "Chương 1225: Phản kinh ly đạo!",
+        "file": "chuong-274.txt"
+      },
+      {
+        "id": 275,
+        "title": "Chương 1226: Khiêu khích?",
+        "file": "chuong-275.txt"
+      },
+      {
+        "id": 276,
+        "title": "Chương 1227: Bước vào!",
+        "file": "chuong-276.txt"
+      },
+      {
+        "id": 277,
+        "title": "Chương 1228: Tàn Nguyệt chỉ!",
+        "file": "chuong-277.txt"
+      },
+      {
+        "id": 278,
+        "title": "Chương 1229: Thủy Nguyệt Sát!",
+        "file": "chuong-278.txt"
+      },
+      {
+        "id": 279,
+        "title": "Chương 1230: Một trận chiến Phong Thần!",
+        "file": "chuong-279.txt"
+      },
+      {
+        "id": 280,
+        "title": "Chương 1231: Đại Đạo đồng nguyên!",
+        "file": "chuong-280.txt"
+      },
+      {
+        "id": 281,
+        "title": "Chương 1232: Thánh Địa Liên bang!",
+        "file": "chuong-281.txt"
+      },
+      {
+        "id": 282,
+        "title": "Chiến thắng của Vương Bảo Nhạc trước Đế Sơn đã mang lại cho hắn những điều kiện đáng kể, đặc biệt là sự tồn tại của Minh Tông, vì vậy Vị Ương tộc lúc này chỉ có thể  nhịn , dù sao",
+        "file": "chuong-282.txt"
+      },
+      {
+        "id": 283,
+        "title": "Chương 1233: Đạp cửu đạo!",
+        "file": "chuong-283.txt"
+      },
+      {
+        "id": 284,
+        "title": "Chương 1234: Thủy sinh Mộc?",
+        "file": "chuong-284.txt"
+      },
+      {
+        "id": 285,
+        "title": "Chương 1235: Cảm ơn ngươi",
+        "file": "chuong-285.txt"
+      },
+      {
+        "id": 286,
+        "title": "Chiến trường. . . hay là cửa sơn môn Cửu Châu Đạo .",
+        "file": "chuong-286.txt"
+      },
+      {
+        "id": 287,
+        "title": "Chương 1236: Biểu hiện không tệ!",
+        "file": "chuong-287.txt"
+      },
+      {
+        "id": 288,
+        "title": "Chương 1237: Thủy đạo chủng !",
+        "file": "chuong-288.txt"
+      },
+      {
+        "id": 289,
+        "title": "Chương 1238: Tả Đạo chi chủ!",
+        "file": "chuong-289.txt"
+      },
+      {
+        "id": 290,
+        "title": "Chương 1239: Lập uy!",
+        "file": "chuong-290.txt"
+      },
+      {
+        "id": 291,
+        "title": "Chương 1240: Tiết trời ấm trở lại!",
+        "file": "chuong-291.txt"
+      },
+      {
+        "id": 292,
+        "title": "Chương 1241: Súc thế!",
+        "file": "chuong-292.txt"
+      },
+      {
+        "id": 293,
+        "title": "Chương 1242: Huyền Hoa Đau khổ",
+        "file": "chuong-293.txt"
+      },
+      {
+        "id": 294,
+        "title": "Chương 1243: Linh Động!",
+        "file": "chuong-294.txt"
+      },
+      {
+        "id": 295,
+        "title": "Chương 1244: Toàn diện khai chiến!",
+        "file": "chuong-295.txt"
+      },
+      {
+        "id": 296,
+        "title": "chiếc gương này có lai lịch rất lơn, và hơn nữa còn là chí bảo, bằng không thì không khả năng khiTàn Dạ chiếu vào, mặc dù  trong quá trình ấy tấm gương run rẩy xuất hiện vết nứt, nhưng cuối cùng. . . trong đó, bùng nổ ầm ầm!",
+        "file": "chuong-296.txt"
+      },
+      {
+        "id": 297,
+        "title": "Chiến tranh, hoàn toàn đã bộc phát!",
+        "file": "chuong-297.txt"
+      },
+      {
+        "id": 298,
+        "title": "Chương 1245: !",
+        "file": "chuong-298.txt"
+      },
+      {
+        "id": 299,
+        "title": "Chương 1246: Huyền Hoa trở về!",
+        "file": "chuong-299.txt"
+      },
+      {
+        "id": 300,
+        "title": "Chương 1247: Vị Ương Tử tới!",
+        "file": "chuong-300.txt"
+      },
+      {
+        "id": 301,
+        "title": "Chương 1248: Chiến Vị Ương!",
+        "file": "chuong-301.txt"
+      },
+      {
+        "id": 302,
+        "title": "Chương 1249: !",
+        "file": "chuong-302.txt"
+      },
+      {
+        "id": 303,
+        "title": "Chương 1250: cuộc chiến của Trần Thanh!",
+        "file": "chuong-303.txt"
+      },
+      {
+        "id": 304,
+        "title": "Chương 1251: Mộc kiếm!",
+        "file": "chuong-304.txt"
+      },
+      {
+        "id": 305,
+        "title": "Chương 1252: Cả đời chém giết!",
+        "file": "chuong-305.txt"
+      },
+      {
+        "id": 306,
+        "title": "Chương 1253: Hoàng!",
+        "file": "chuong-306.txt"
+      },
+      {
+        "id": 307,
+        "title": "Chương 1254: Minh Hoàng ba bái!",
+        "file": "chuong-307.txt"
+      },
+      {
+        "id": 308,
+        "title": "Chương 1255: quyết định của Trần Thanh Tử!",
+        "file": "chuong-308.txt"
+      },
+      {
+        "id": 309,
+        "title": "Chương 1256: Minh tông trở về",
+        "file": "chuong-309.txt"
+      },
+      {
+        "id": 310,
+        "title": "Chương 1257: Đạp Thiên?",
+        "file": "chuong-310.txt"
+      },
+      {
+        "id": 311,
+        "title": "Chương 1258: Sư huynh!",
+        "file": "chuong-311.txt"
+      },
+      {
+        "id": 312,
+        "title": "Chương 1259: Ngoài cửa!",
+        "file": "chuong-312.txt"
+      },
+      {
+        "id": 313,
+        "title": "Chương 1260: Đế Quân!",
+        "file": "chuong-313.txt"
+      },
+      {
+        "id": 314,
+        "title": "Chương 1261: Mười ba năm!",
+        "file": "chuong-314.txt"
+      },
+      {
+        "id": 315,
+        "title": "Chương 1262: Lại đến!",
+        "file": "chuong-315.txt"
+      },
+      {
+        "id": 316,
+        "title": "Chương 1263: Trợn mắt!",
+        "file": "chuong-316.txt"
+      },
+      {
+        "id": 317,
+        "title": "Chương 1264: Người vô hồn!",
+        "file": "chuong-317.txt"
+      },
+      {
+        "id": 318,
+        "title": "Chương 1265: Bước vào",
+        "file": "chuong-318.txt"
+      },
+      {
+        "id": 319,
+        "title": "Chương 1266: Số mệnh chi trảm!",
+        "file": "chuong-319.txt"
+      },
+      {
+        "id": 320,
+        "title": "Chương 1267: Nhân kiệt!",
+        "file": "chuong-320.txt"
+      },
+      {
+        "id": 321,
+        "title": "Chương 1268: Toàn lực ứng phó!",
+        "file": "chuong-321.txt"
+      },
+      {
+        "id": 322,
+        "title": "Chương 1269: Nguyệt Tinh lão tổ!",
+        "file": "chuong-322.txt"
+      },
+      {
+        "id": 323,
+        "title": "Chương 1270: Chân tướng!",
+        "file": "chuong-323.txt"
+      },
+      {
+        "id": 324,
+        "title": "Chương 1271: Cực quá khứ, cực tương lai, cực tiêu dao!",
+        "file": "chuong-324.txt"
+      },
+      {
+        "id": 325,
+        "title": "Chương 1272: Tiêu Dao Tiên!",
+        "file": "chuong-325.txt"
+      },
+      {
+        "id": 326,
+        "title": "Chương 1273: Tiên phù!",
+        "file": "chuong-326.txt"
+      },
+      {
+        "id": 327,
+        "title": "Chương 1274: Ngũ Hành đạo cơ!",
+        "file": "chuong-327.txt"
+      },
+      {
+        "id": 328,
+        "title": "Chương 1275: Chiến lâm!",
+        "file": "chuong-328.txt"
+      },
+      {
+        "id": 329,
+        "title": "Chương 1276: Ngũ Hành hoàn thành!",
+        "file": "chuong-329.txt"
+      },
+      {
+        "id": 330,
+        "title": "Chia sẻ tu vi!",
+        "file": "chuong-330.txt"
+      },
+      {
+        "id": 331,
+        "title": "Chương 1277: Vũ khí!",
+        "file": "chuong-331.txt"
+      },
+      {
+        "id": 332,
+        "title": "Chương 1277: Vũ khí!",
+        "file": "chuong-332.txt"
+      },
+      {
+        "id": 333,
+        "title": "Chương 1278: Đạp Thiên?",
+        "file": "chuong-333.txt"
+      },
+      {
+        "id": 334,
+        "title": "Chương 1279: Luân Hồi chiến khải!",
+        "file": "chuong-334.txt"
+      },
+      {
+        "id": 335,
+        "title": "Chương 1280: Hỏa đạo trấn áp!",
+        "file": "chuong-335.txt"
+      },
+      {
+        "id": 336,
+        "title": "Chương 1281: Ngũ Hành thổ!",
+        "file": "chuong-336.txt"
+      },
+      {
+        "id": 337,
+        "title": "Chương 1282: Mộc kiếp",
+        "file": "chuong-337.txt"
+      },
+      {
+        "id": 338,
+        "title": "Chương 1283: Nhân quả đi ngược chiều!",
+        "file": "chuong-338.txt"
+      },
+      {
+        "id": 339,
+        "title": "Chương 1284: Một lời định đại đạo!",
+        "file": "chuong-339.txt"
+      },
+      {
+        "id": 340,
+        "title": "Chương 1285: Cách cục!",
+        "file": "chuong-340.txt"
+      },
+      {
+        "id": 341,
+        "title": "Chương 1286: Đừng đến chọc ta!",
+        "file": "chuong-341.txt"
+      },
+      {
+        "id": 342,
+        "title": "Chương 1287: nhân gian Của hắn!",
+        "file": "chuong-342.txt"
+      },
+      {
+        "id": 343,
+        "title": "Chương 1288: Không oán không hối",
+        "file": "chuong-343.txt"
+      },
+      {
+        "id": 344,
+        "title": "Chương 1289: Đa tạ!",
+        "file": "chuong-344.txt"
+      },
+      {
+        "id": 345,
+        "title": "Chương 1290: Luận đạo",
+        "file": "chuong-345.txt"
+      },
+      {
+        "id": 346,
+        "title": "Chương 1291: Tiên Cương",
+        "file": "chuong-346.txt"
+      },
+      {
+        "id": 347,
+        "title": "Chương 1292: Hai năm",
+        "file": "chuong-347.txt"
+      },
+      {
+        "id": 348,
+        "title": "Chương 1293: Rửa",
+        "file": "chuong-348.txt"
+      },
+      {
+        "id": 349,
+        "title": "Chương 1294: Đạo trưởng",
+        "file": "chuong-349.txt"
+      },
+      {
+        "id": 350,
+        "title": "Chương 1295: Ở kiếp này1",
+        "file": "chuong-350.txt"
+      },
+      {
+        "id": 351,
+        "title": "Chương 1296: Niệm viên",
+        "file": "chuong-351.txt"
+      },
+      {
+        "id": 352,
+        "title": "Chương 1297: Đạp thiên đệ nhất kiều",
+        "file": "chuong-352.txt"
+      },
+      {
+        "id": 353,
+        "title": "Chương 1298: Muốn nói lại thôi",
+        "file": "chuong-353.txt"
+      },
+      {
+        "id": 354,
+        "title": "Chương 1299: Vấn tâm?",
+        "file": "chuong-354.txt"
+      },
+      {
+        "id": 355,
+        "title": "Chương 1300: Lai lịch",
+        "file": "chuong-355.txt"
+      },
+      {
+        "id": 356,
+        "title": "Chương 1301: Mười một mặt trời!",
+        "file": "chuong-356.txt"
+      },
+      {
+        "id": 357,
+        "title": "Chương 1302: Chứng đạo",
+        "file": "chuong-357.txt"
+      },
+      {
+        "id": 358,
+        "title": "Chương 1303: Thăng hoa",
+        "file": "chuong-358.txt"
+      },
+      {
+        "id": 359,
+        "title": "Chương 1304: Cây cầy thứ 9",
+        "file": "chuong-359.txt"
+      },
+      {
+        "id": 360,
+        "title": "Chương 1305: quà tặng",
+        "file": "chuong-360.txt"
+      },
+      {
+        "id": 361,
+        "title": "Chương 1306: Phương hướng",
+        "file": "chuong-361.txt"
+      },
+      {
+        "id": 362,
+        "title": "Chương 1307: Dần dần đi",
+        "file": "chuong-362.txt"
+      },
+      {
+        "id": 363,
+        "title": "Chương 1308: Mộng đạo!",
+        "file": "chuong-363.txt"
+      },
+      {
+        "id": 364,
+        "title": "Chương 1309: Trong mộng chi thành!",
+        "file": "chuong-364.txt"
+      },
+      {
+        "id": 365,
+        "title": "Chương 1310: Ai mộng?",
+        "file": "chuong-365.txt"
+      },
+      {
+        "id": 366,
+        "title": "Chương 1311: Ngươi là ban ân cũng là cướp",
+        "file": "chuong-366.txt"
+      },
+      {
+        "id": 367,
+        "title": "Chương 1312: Nhu thuận",
+        "file": "chuong-367.txt"
+      },
+      {
+        "id": 368,
+        "title": "Chương 1313: Đế Linh!",
+        "file": "chuong-368.txt"
+      },
+      {
+        "id": 369,
+        "title": "Chương 1314: Dưới mặt nạ",
+        "file": "chuong-369.txt"
+      },
+      {
+        "id": 370,
+        "title": "Chương 1315: Ba tầng giới",
+        "file": "chuong-370.txt"
+      },
+      {
+        "id": 371,
+        "title": "Chương 1316: Vui sướng ý chí",
+        "file": "chuong-371.txt"
+      },
+      {
+        "id": 372,
+        "title": "Chương 1317: Nhập giới",
+        "file": "chuong-372.txt"
+      },
+      {
+        "id": 373,
+        "title": "Chương 1318: Nữ áo xanh",
+        "file": "chuong-373.txt"
+      },
+      {
+        "id": 374,
+        "title": "Chương 1319: Đạo chủng!",
+        "file": "chuong-374.txt"
+      },
+      {
+        "id": 375,
+        "title": "Chương 1320: Hộ pháp thức tỉnh",
+        "file": "chuong-375.txt"
+      },
+      {
+        "id": 376,
+        "title": "Chương 1321: Dung đạo",
+        "file": "chuong-376.txt"
+      },
+      {
+        "id": 377,
+        "title": "Chương 1322: Độc lập phân thân",
+        "file": "chuong-377.txt"
+      },
+      {
+        "id": 378,
+        "title": "Chương 1323: Kết giao bằng hữu",
+        "file": "chuong-378.txt"
+      },
+      {
+        "id": 379,
+        "title": "Chương 1324: Thực Dục Thành",
+        "file": "chuong-379.txt"
+      },
+      {
+        "id": 380,
+        "title": "Chương 1325: Bạo Thực tiết",
+        "file": "chuong-380.txt"
+      },
+      {
+        "id": 381,
+        "title": "Chương 1326: Khai trương đại cát",
+        "file": "chuong-381.txt"
+      },
+      {
+        "id": 382,
+        "title": "Chương 1327: Thiếu ông chủ có phải không",
+        "file": "chuong-382.txt"
+      },
+      {
+        "id": 383,
+        "title": "Chương 1328: Thực Dục Thành",
+        "file": "chuong-383.txt"
+      },
+      {
+        "id": 384,
+        "title": "Chương 1329: Người thích hợp",
+        "file": "chuong-384.txt"
+      },
+      {
+        "id": 385,
+        "title": "Chương 1330: Nước Băng Linh",
+        "file": "chuong-385.txt"
+      },
+      {
+        "id": 386,
+        "title": "Chương 1331: Thịnh hành",
+        "file": "chuong-386.txt"
+      },
+      {
+        "id": 387,
+        "title": "Chương 1332: Dục Vọng Chi Thân",
+        "file": "chuong-387.txt"
+      },
+      {
+        "id": 388,
+        "title": "Chương 1333: Dừng chân",
+        "file": "chuong-388.txt"
+      },
+      {
+        "id": 389,
+        "title": "Chương 1334: Băng Linh Tử",
+        "file": "chuong-389.txt"
+      },
+      {
+        "id": 390,
+        "title": "Chương 1335: Lai lịch",
+        "file": "chuong-390.txt"
+      },
+      {
+        "id": 391,
+        "title": "Chương 1336: Thần Lô Đạo",
+        "file": "chuong-391.txt"
+      },
+      {
+        "id": 392,
+        "title": "Chương 1337: Liệp sát yến- Tiệc săn bắn",
+        "file": "chuong-392.txt"
+      },
+      {
+        "id": 393,
+        "title": "Chương 1338: Cuộc đi săn bắt đầu",
+        "file": "chuong-393.txt"
+      },
+      {
+        "id": 394,
+        "title": "Chương 1339: ngươi thích chơi trốn tìm à? ?",
+        "file": "chuong-394.txt"
+      },
+      {
+        "id": 395,
+        "title": "Chương 1340: Thanh Dương Tử?",
+        "file": "chuong-395.txt"
+      },
+      {
+        "id": 396,
+        "title": "Chương 1341: Sơn Khưu Thú",
+        "file": "chuong-396.txt"
+      },
+      {
+        "id": 397,
+        "title": "Chương 1342: nhìn qua",
+        "file": "chuong-397.txt"
+      },
+      {
+        "id": 398,
+        "title": "Chương 1343: Câu cá!",
+        "file": "chuong-398.txt"
+      },
+      {
+        "id": 399,
+        "title": "Chương 1344: Ân công",
+        "file": "chuong-399.txt"
+      },
+      {
+        "id": 400,
+        "title": "Chương 1345: Trấn áp",
+        "file": "chuong-400.txt"
+      },
+      {
+        "id": 401,
+        "title": "Chương 1346: Vẫn Thần chỉ",
+        "file": "chuong-401.txt"
+      },
+      {
+        "id": 402,
+        "title": "Chương 1347: Mãnh nhân",
+        "file": "chuong-402.txt"
+      },
+      {
+        "id": 403,
+        "title": "Chương 1348: Đánh giá sai",
+        "file": "chuong-403.txt"
+      },
+      {
+        "id": 404,
+        "title": "Chương 1349: đừng lo lắng",
+        "file": "chuong-404.txt"
+      },
+      {
+        "id": 405,
+        "title": "Chương 1350: Dung hợp",
+        "file": "chuong-405.txt"
+      },
+      {
+        "id": 406,
+        "title": "Chương 1351: Bạo Thực Chủ",
+        "file": "chuong-406.txt"
+      },
+      {
+        "id": 407,
+        "title": "Chương 1352: Tìm kiếm",
+        "file": "chuong-407.txt"
+      },
+      {
+        "id": 408,
+        "title": "Chương 1353: Triệu hoán",
+        "file": "chuong-408.txt"
+      },
+      {
+        "id": 409,
+        "title": "Chương 1354: Bội bạc",
+        "file": "chuong-409.txt"
+      },
+      {
+        "id": 410,
+        "title": "Chương 1355: Trở về",
+        "file": "chuong-410.txt"
+      },
+      {
+        "id": 411,
+        "title": "Chương 1356: Tự do",
+        "file": "chuong-411.txt"
+      },
+      {
+        "id": 412,
+        "title": "Chương 1357: Hi vọng",
+        "file": "chuong-412.txt"
+      },
+      {
+        "id": 413,
+        "title": "Chương 1358: Thính Dục đến",
+        "file": "chuong-413.txt"
+      },
+      {
+        "id": 414,
+        "title": "Chương 1359: Hứa hẹn",
+        "file": "chuong-414.txt"
+      },
+      {
+        "id": 415,
+        "title": "Chương 1360: To lớn tương kiến",
+        "file": "chuong-415.txt"
+      },
+      {
+        "id": 416,
+        "title": "Chương 1361: Bảo Nhạc Nhạc Bảo",
+        "file": "chuong-416.txt"
+      },
+      {
+        "id": 417,
+        "title": "Chương 1362: Thính dục Thế Giới",
+        "file": "chuong-417.txt"
+      },
+      {
+        "id": 418,
+        "title": "Chương 1363: Đêm tối",
+        "file": "chuong-418.txt"
+      },
+      {
+        "id": 419,
+        "title": "Chương 1364: Đinh!",
+        "file": "chuong-419.txt"
+      },
+      {
+        "id": 420,
+        "title": "Chương 1365: Đến đây!",
+        "file": "chuong-420.txt"
+      },
+      {
+        "id": 421,
+        "title": "Chương 1366: thành thị Quen thuộc",
+        "file": "chuong-421.txt"
+      },
+      {
+        "id": 422,
+        "title": "Chương 1367: Tam đại tông môn",
+        "file": "chuong-422.txt"
+      },
+      {
+        "id": 423,
+        "title": "Chương 1368: Đêm tối",
+        "file": "chuong-423.txt"
+      },
+      {
+        "id": 424,
+        "title": "Chương 1369: Tồn tại ở trong đêm",
+        "file": "chuong-424.txt"
+      },
+      {
+        "id": 425,
+        "title": "Chương 1370: đêm đến",
+        "file": "chuong-425.txt"
+      },
+      {
+        "id": 426,
+        "title": "Chương 1371: Hòa Huyền Tông",
+        "file": "chuong-426.txt"
+      },
+      {
+        "id": 427,
+        "title": "Chương 1372: tông môn Kỳ quái",
+        "file": "chuong-427.txt"
+      },
+      {
+        "id": 428,
+        "title": "Chương 1374: âm phù Kỳ quái",
+        "file": "chuong-428.txt"
+      },
+      {
+        "id": 429,
+        "title": "Chương 1374: tối thượng âm",
+        "file": "chuong-429.txt"
+      },
+      {
+        "id": 430,
+        "title": "Chương 1375: Lam Nhạc Ngư",
+        "file": "chuong-430.txt"
+      },
+      {
+        "id": 431,
+        "title": "Chương 1376: Mò cá",
+        "file": "chuong-431.txt"
+      },
+      {
+        "id": 432,
+        "title": "Chương 1377: Tiếng đàn",
+        "file": "chuong-432.txt"
+      },
+      {
+        "id": 433,
+        "title": "Chương 1378: Lam Nhạc Thiên Lại",
+        "file": "chuong-433.txt"
+      },
+      {
+        "id": 434,
+        "title": "Chương 1379:1 chiếc  kiệu hoa khác",
+        "file": "chuong-434.txt"
+      },
+      {
+        "id": 435,
+        "title": "Chương 1380: Hỉ dấu vết",
+        "file": "chuong-435.txt"
+      },
+      {
+        "id": 436,
+        "title": "chiếc kiệu hoa này cũng giống như chiếc mà lần đầu tiên hắn gặp, khi Bảo Nhạc dừng lại, lại hơi mờ đi một chút, sau đó xuất hiện ở trước người Bảo Nhạc, không dừng lại, khi chuẩn bị xuyên qua Bảo Nhạc thì mới ngừng lại.",
+        "file": "chuong-436.txt"
+      },
+      {
+        "id": 437,
+        "title": "Chương 1381: Sáu kiệu hoa",
+        "file": "chuong-437.txt"
+      },
+      {
+        "id": 438,
+        "title": "chiếc hoa kiều trôi nổi, Bảo Nhạc ngưng thần nhìn lại, khi gió thôi tung chiếc rèm che phía trước kiệu lên, ở bên trong đó lại có một chân!",
+        "file": "chuong-438.txt"
+      },
+      {
+        "id": 439,
+        "title": "Chương 1382: Chính là phàm âm",
+        "file": "chuong-439.txt"
+      },
+      {
+        "id": 440,
+        "title": "Chương 1383: Không giống người thường!",
+        "file": "chuong-440.txt"
+      },
+      {
+        "id": 441,
+        "title": "Chương 1384: Truy nã",
+        "file": "chuong-441.txt"
+      },
+      {
+        "id": 442,
+        "title": "Chương 1385: âm phù Khủng bố",
+        "file": "chuong-442.txt"
+      },
+      {
+        "id": 443,
+        "title": "Chương 1386: Hỉ Chủ",
+        "file": "chuong-443.txt"
+      },
+      {
+        "id": 444,
+        "title": "Chương 1387: Hợp tác vui vẻ",
+        "file": "chuong-444.txt"
+      },
+      {
+        "id": 445,
+        "title": "Chương 1388: Nên lừa thì lừa",
+        "file": "chuong-445.txt"
+      },
+      {
+        "id": 446,
+        "title": "Chương 1389: Ba vấn đề",
+        "file": "chuong-446.txt"
+      },
+      {
+        "id": 447,
+        "title": "Chương 1390: ba chủ Thất Tình",
+        "file": "chuong-447.txt"
+      },
+      {
+        "id": 448,
+        "title": "Chiếc kiệu hoa này dường như đặc biệt đến để tìm Bảo Nhạc, thoạt nhìn còn ở khoảng cách xa, nhưng ngay sau đó, nó đã ở trước mặt Bảo Nhạc, cửa kiệu hoa là tay phải hỉ chủ, vẫy vẫy về phía Bảo Nhạc, sau đó tiếp tục đi xa.",
+        "file": "chuong-448.txt"
+      },
+      {
+        "id": 449,
+        "title": "Chương 1391: nguyền rủa Thính Dục Chủ",
+        "file": "chuong-449.txt"
+      },
+      {
+        "id": 450,
+        "title": "Chương 1392: Dung tình",
+        "file": "chuong-450.txt"
+      },
+      {
+        "id": 451,
+        "title": "Chương 1393: Lại một lần hiện ra",
+        "file": "chuong-451.txt"
+      },
+      {
+        "id": 452,
+        "title": "Chương 1394: Nghiệm chứng",
+        "file": "chuong-452.txt"
+      },
+      {
+        "id": 453,
+        "title": "Chương 1395: Thí luyện mở ra",
+        "file": "chuong-453.txt"
+      },
+      {
+        "id": 454,
+        "title": "Chương 1396: Trận chiến đầu tiên",
+        "file": "chuong-454.txt"
+      },
+      {
+        "id": 455,
+        "title": "Chương 1397: Gãi ngứa",
+        "file": "chuong-455.txt"
+      },
+      {
+        "id": 456,
+        "title": "Chương 1398: Hắc mã",
+        "file": "chuong-456.txt"
+      },
+      {
+        "id": 457,
+        "title": "Chiến trường, thay đổi.",
+        "file": "chuong-457.txt"
+      },
+      {
+        "id": 458,
+        "title": "Chiến trường Thí luyện thứ hai cứ théo đó mà bắt đầu.",
+        "file": "chuong-458.txt"
+      },
+      {
+        "id": 459,
+        "title": "Chương 1399: Hồng Ma",
+        "file": "chuong-459.txt"
+      },
+      {
+        "id": 460,
+        "title": "Chương 1400: Phàm âm lại hiện ra",
+        "file": "chuong-460.txt"
+      },
+      {
+        "id": 461,
+        "title": "Chương 1401: Phá vọng",
+        "file": "chuong-461.txt"
+      },
+      {
+        "id": 462,
+        "title": "Chương 1402: Hoá ra là ngươi",
+        "file": "chuong-462.txt"
+      },
+      {
+        "id": 463,
+        "title": "Chương 1403: Cảm động lây",
+        "file": "chuong-463.txt"
+      },
+      {
+        "id": 464,
+        "title": "Chương 1404: Đạo chủng bắt đầu",
+        "file": "chuong-464.txt"
+      },
+      {
+        "id": 465,
+        "title": "Chương 1405: Thời Linh Tử báo thù",
+        "file": "chuong-465.txt"
+      },
+      {
+        "id": 466,
+        "title": "chiến lực Thời Linh Tử không bằng Nguyệt Linh Tử, nhưng cũng không phải là Đạo Tử yếu nhất, nhất là trong lòng gã còn cố chấp , sức bật lớn hơn không ít, đánh bại đối thủ, thành công bước vào TOP 4",
+        "file": "chuong-466.txt"
+      },
+      {
+        "id": 467,
+        "title": "Chương 1406: Không ngu",
+        "file": "chuong-467.txt"
+      },
+      {
+        "id": 468,
+        "title": "Chương 1407: Quyết đấu",
+        "file": "chuong-468.txt"
+      },
+      {
+        "id": 469,
+        "title": "Ch cái chìa khóa này được chuẩn bị thân phận như vậy, có thể nói trên cơ bản trong Thính Dục pháp tắc đã ở vào địa vị tuyệt đối, ngoại trừ Dục Chủ không có khả năng xuất hiện người mạnh hơn gã!",
+        "file": "chuong-469.txt"
+      },
+      {
+        "id": 470,
+        "title": "Chương 1408: Đoạt xá",
+        "file": "chuong-470.txt"
+      },
+      {
+        "id": 471,
+        "title": "Chương 1409: Trấn áp",
+        "file": "chuong-471.txt"
+      },
+      {
+        "id": 472,
+        "title": "Chương 1410: Cướp đoạt",
+        "file": "chuong-472.txt"
+      },
+      {
+        "id": 473,
+        "title": "Chương 1411: Ấn Hỉ",
+        "file": "chuong-473.txt"
+      },
+      {
+        "id": 474,
+        "title": "Chương 1412: Kiến Dục Thành",
+        "file": "chuong-474.txt"
+      },
+      {
+        "id": 475,
+        "title": "Chương 1413: Quen thuộc",
+        "file": "chuong-475.txt"
+      },
+      {
+        "id": 476,
+        "title": "Chương 1414: Tự bạo",
+        "file": "chuong-476.txt"
+      },
+      {
+        "id": 477,
+        "title": "Chương 1415: Cưu chiếm thước sào, chim cắt chiếm tổ chim khách",
+        "file": "chuong-477.txt"
+      },
+      {
+        "id": 478,
+        "title": "Chương 1416: Thuần huyết",
+        "file": "chuong-478.txt"
+      },
+      {
+        "id": 479,
+        "title": "Chương 1417: Tìm được ngươi rồi!",
+        "file": "chuong-479.txt"
+      },
+      {
+        "id": 480,
+        "title": "Chương 1418: Sư tôn. . .",
+        "file": "chuong-480.txt"
+      },
+      {
+        "id": 481,
+        "title": "Chương 1419: Chiến nộ",
+        "file": "chuong-481.txt"
+      },
+      {
+        "id": 482,
+        "title": "Chương 1420: Ta là ai. . .",
+        "file": "chuong-482.txt"
+      },
+      {
+        "id": 483,
+        "title": "Chương 1421: ngu ngốc",
+        "file": "chuong-483.txt"
+      },
+      {
+        "id": 484,
+        "title": "Chương 1422: dục Thứ sáu",
+        "file": "chuong-484.txt"
+      },
+      {
+        "id": 485,
+        "title": "Chương 1423: Huyền Trần",
+        "file": "chuong-485.txt"
+      },
+      {
+        "id": 486,
+        "title": "Chương 1424: nguyền rủa Ba dục",
+        "file": "chuong-486.txt"
+      },
+      {
+        "id": 487,
+        "title": "Chương 1425: Thất tình lục dục",
+        "file": "chuong-487.txt"
+      },
+      {
+        "id": 488,
+        "title": "Chương 1426: Nghĩ thông suốt rồi sao?",
+        "file": "chuong-488.txt"
+      },
+      {
+        "id": 489,
+        "title": "Chương 1427: trí nhớ Đế Quân",
+        "file": "chuong-489.txt"
+      },
+      {
+        "id": 490,
+        "title": "Chương 1428: sinh mệnh đầu tiên",
+        "file": "chuong-490.txt"
+      },
+      {
+        "id": 491,
+        "title": "Chương 1429: đã khác",
+        "file": "chuong-491.txt"
+      },
+      {
+        "id": 492,
+        "title": "Chương 1430, 1431: Dẫn kiếp",
+        "file": "chuong-492.txt"
+      },
+      {
+        "id": 493,
+        "title": "Chương 1431:",
+        "file": "chuong-493.txt"
+      },
+      {
+        "id": 494,
+        "title": "Chương 1432: Ám tiên kiếp?",
+        "file": "chuong-494.txt"
+      },
+      {
+        "id": 495,
+        "title": "Chương 1433: Có gì đó không ổn",
+        "file": "chuong-495.txt"
+      },
+      {
+        "id": 496,
+        "title": "Chương 1434: Vô căn cứ",
+        "file": "chuong-496.txt"
+      },
+      {
+        "id": 497,
+        "title": "Chương 1435: Gặp nhau",
+        "file": "chuong-497.txt"
+      },
+      {
+        "id": 498,
+        "title": "Chương 1436: Không sai",
+        "file": "chuong-498.txt"
+      },
+      {
+        "id": 499,
+        "title": "Chương 1437: một đoạn Thiếu khuyết",
+        "file": "chuong-499.txt"
+      },
+      {
+        "id": 500,
+        "title": "Chương 1438: Hỉ Chủ",
+        "file": "chuong-500.txt"
+      },
+      {
+        "id": 501,
+        "title": "Chương 1439: Dục vọng bong tróc",
+        "file": "chuong-501.txt"
+      },
+      {
+        "id": 502,
+        "title": "Chương 1440: bộ bộ phong lí tái vô ngã",
+        "file": "chuong-502.txt"
+      },
+      {
+        "id": 503,
+        "title": "Chương 1441: Bản thể",
+        "file": "chuong-503.txt"
+      },
+      {
+        "id": 504,
+        "title": "Chương 1442: Ngũ Hành Đạo",
+        "file": "chuong-504.txt"
+      },
+      {
+        "id": 505,
+        "title": "Chương 1443: Tinh Đồ",
+        "file": "chuong-505.txt"
+      },
+      {
+        "id": 506,
+        "title": "Chương 1445",
+        "file": "chuong-506.txt"
+      },
+      {
+        "id": 507,
+        "title": "Chương 1446",
+        "file": "chuong-507.txt"
+      },
+      {
+        "id": 508,
+        "title": "Chương 1447",
+        "file": "chuong-508.txt"
+      },
+      {
+        "id": 509,
+        "title": "Chương 1448",
+        "file": "chuong-509.txt"
+      },
+      {
+        "id": 510,
+        "title": "Chương 1449 : Ngươi là",
+        "file": "chuong-510.txt"
+      },
+      {
+        "id": 511,
+        "title": "Chương 1450 Hồi ức",
+        "file": "chuong-511.txt"
+      },
+      {
+        "id": 512,
+        "title": "Chương 1451 Ngươi không phải hắn",
+        "file": "chuong-512.txt"
+      },
+      {
+        "id": 513,
+        "title": "Chương 1452 Năm tháng trôi đi",
+        "file": "chuong-513.txt"
+      },
+      {
+        "id": 514,
+        "title": "Chương 1454: Ly khai",
+        "file": "chuong-514.txt"
+      },
+      {
+        "id": 515,
+        "title": "Chương 1455: Cuối cùng gặp bản thể",
+        "file": "chuong-515.txt"
+      },
+      {
+        "id": 516,
+        "title": "Chương 1456: Dùng ta mệnh, đổi cho ngươi thức tỉnh!",
+        "file": "chuong-516.txt"
+      },
+      {
+        "id": 517,
+        "title": "Chương 1457: Cuối cùng là một hồi hư ảo diệt (Hết)",
+        "file": "chuong-517.txt"
+      }
+    ]
   }
 ]
