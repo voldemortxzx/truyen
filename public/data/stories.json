@@ -26,7 +26,7 @@
   { "id": 25, "title": "Vợ bị hiếp tập thể", "folder": "vo-bi-hiep-tap-the", "isAdmin": true },
   { "id": 26, "title": "Cưỡng dâm cô giáo", "folder": "cuong-dam-co-giao", "isAdmin": true },
   { "id": 27, "title": "Cô Chủ Nhiệm", "folder": "co-chu-nhiem", "isAdmin": true },
-  { "id": 28, "title": "Cơ quan vợ đi du lịch", "folder": "co-quan-vo-di-du-lich", "isAdmin": true },
+  { "id": 28, "title": "Cơ quan vợ đi du lịch", "folder": "co-quan-vo-dam-di-du-lich", "isAdmin": true },
   { "id": 29, "title": "Cô giáo Trinh", "folder": "co-giao-trinh", "isAdmin": true },
   { "id": 30, "title": "Con đường ngoại tình của vợ", "folder": "con-duong-ngoai-tinh-cua-vo", "isAdmin": true },
   { "id": 31, "title": "Vợ là giáo viên", "folder": "vo-la-giao-vien", "isAdmin": true }
