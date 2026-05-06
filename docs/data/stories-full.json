@@ -10492,5 +10492,945 @@
         "file": "chuong-8.txt"
       }
     ]
+  },
+  {
+    "id": 32,
+    "title": "Ham muốn tiềm ẩn",
+    "folder": "ham-muon-tiem-an",
+    "isAdmin": true,
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 1: Quyết Tâm (1)",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 2: Quyết Tâm (2)",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 3: Câu Dẫn (1)",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 4: Câu Dẫn (2)",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 5: Động Chạm Thân Thể (1)",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 6: Động Chạm Thân Thể (2)",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 7: Bùng Cháy Dữ Dỗi (1)",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 8: Bùng Cháy Dữ Dỗi (2)",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 9: Bạn Tình (1)",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 10: Bạn Tình (2)",
+        "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 11: Quà Tặng Cô",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 12: Bí Ẩn",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 13: Yêu",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 14: Chuyện Thằng Linh",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 15: Ép Buộc",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 16: Những Ngày Hoan Lạc (1)",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 17: Những Ngày Hoan Lạc (2)",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 18: Những Ngày Hoan Lạc (3)",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 19: Những Ngày Hoan Lạc (4)",
+        "file": "chuong-19.txt"
+      },
+      {
+        "id": 20,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 20: Những Ngày Hoan Lạc (5)",
+        "file": "chuong-20.txt"
+      },
+      {
+        "id": 21,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 21: Những Ngày Hoan Lạc (6)",
+        "file": "chuong-21.txt"
+      },
+      {
+        "id": 22,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 22: Con Xong Đến Mẹ (1)",
+        "file": "chuong-22.txt"
+      },
+      {
+        "id": 23,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 23: Con Xong Đến Mẹ (2)",
+        "file": "chuong-23.txt"
+      },
+      {
+        "id": 24,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 24: Mẹ Vợ Dâm Đãng",
+        "file": "chuong-24.txt"
+      },
+      {
+        "id": 25,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 25: Kế Sách Vẹn Toàn…",
+        "file": "chuong-25.txt"
+      },
+      {
+        "id": 26,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 26: Khởi Đầu Mới…",
+        "file": "chuong-26.txt"
+      },
+      {
+        "id": 27,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 27: Cạo Gió...",
+        "file": "chuong-27.txt"
+      },
+      {
+        "id": 28,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 28",
+        "file": "chuong-28.txt"
+      },
+      {
+        "id": 29,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 29: Tâm Sự (1)",
+        "file": "chuong-29.txt"
+      },
+      {
+        "id": 30,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 30: Tâm Sự (2)",
+        "file": "chuong-30.txt"
+      },
+      {
+        "id": 31,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 31: Nhật Kí Của Mẹ (1)",
+        "file": "chuong-31.txt"
+      },
+      {
+        "id": 32,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 32: Nhật Kí Của Mẹ (2)",
+        "file": "chuong-32.txt"
+      },
+      {
+        "id": 33,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 33: Nhật Ký Của Mẹ (3)",
+        "file": "chuong-33.txt"
+      },
+      {
+        "id": 34,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 34: Phép Thử",
+        "file": "chuong-34.txt"
+      },
+      {
+        "id": 35,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 35: Trò Đời Và Sự Thật Ngọt Ngào",
+        "file": "chuong-35.txt"
+      },
+      {
+        "id": 36,
+        "title": "Ham Muốn Tiềm Ẩn - Chương 36: Đam Mê Bất Bận",
+        "file": "chuong-36.txt"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Vắng Chồng 2",
+    "folder": "vang-chong-2",
+    "isAdmin": true,
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Vắng Chồng - Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Vắng Chồng - Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Vắng Chồng - Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Vắng Chồng - Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Vắng Chồng - Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Vắng Chồng - Chương 6",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Vắng Chồng - Chương 7",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Vắng Chồng - Chương 8",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Vắng Chồng - Chương 9",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Vắng Chồng - Chương 10",
+        "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Vắng Chồng - Chương 11: Mối Tình Tội Lỗi",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Vắng Chồng - Chương 12",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Vắng Chồng - Chương 13",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Vắng Chồng - Chương 14 - TG: Traitansonha",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Vắng Chồng - Chương 15: Giám Đốc Mới",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Vắng Chồng - Chương 16",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Vắng Chồng - Chương 17: Ngoại Truyện - Sếp Của Chồng (1)",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Vắng Chồng - Chương 18: Ngoại Truyện - Sếp Của Chồng (2)",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Vắng Chồng - Chương 19: Người Mới (1)",
+        "file": "chuong-19.txt"
+      },
+      {
+        "id": 20,
+        "title": "Vắng Chồng - Chương 20: Người Mới (2)",
+        "file": "chuong-20.txt"
+      },
+      {
+        "id": 21,
+        "title": "Vắng Chồng - Chương 21: Người Mới (3)",
+        "file": "chuong-21.txt"
+      },
+      {
+        "id": 22,
+        "title": "Vắng Chồng - Chương 22: Người Mới (4)",
+        "file": "chuong-22.txt"
+      },
+      {
+        "id": 23,
+        "title": "Vắng Chồng - Chương 23: Bức Tranh Khỏa Thân Mang Tên Hà Anh (1)",
+        "file": "chuong-23.txt"
+      },
+      {
+        "id": 24,
+        "title": "Vắng Chồng - Chương 24: Bức Tranh Khỏa Thân Mang Tên Hà Anh (2)",
+        "file": "chuong-24.txt"
+      },
+      {
+        "id": 25,
+        "title": "Vắng Chồng - Chương 25: Tiến Thêm Một Bước (1)",
+        "file": "chuong-25.txt"
+      },
+      {
+        "id": 26,
+        "title": "Vắng Chồng - Chương 26: Tiến Thêm Một Bước (2)",
+        "file": "chuong-26.txt"
+      },
+      {
+        "id": 27,
+        "title": "Vắng Chồng - Chương 27",
+        "file": "chuong-27.txt"
+      },
+      {
+        "id": 28,
+        "title": "Vắng Chồng - Chương 28: Ngoại Truyện - Thế Giới Của Hoan Lạc",
+        "file": "chuong-28.txt"
+      },
+      {
+        "id": 29,
+        "title": "Vắng Chồng - Chương 29",
+        "file": "chuong-29.txt"
+      },
+      {
+        "id": 30,
+        "title": "Vắng Chồng - Chương 30",
+        "file": "chuong-30.txt"
+      },
+      {
+        "id": 31,
+        "title": "Vắng Chồng - Chương 31",
+        "file": "chuong-31.txt"
+      },
+      {
+        "id": 32,
+        "title": "Vắng Chồng - Chương 32",
+        "file": "chuong-32.txt"
+      },
+      {
+        "id": 33,
+        "title": "Vắng Chồng - Chương 33",
+        "file": "chuong-33.txt"
+      },
+      {
+        "id": 34,
+        "title": "Vắng Chồng - Chương 34",
+        "file": "chuong-34.txt"
+      },
+      {
+        "id": 35,
+        "title": "Vắng Chồng - Chương 35",
+        "file": "chuong-35.txt"
+      },
+      {
+        "id": 36,
+        "title": "Vắng Chồng - Chương 36",
+        "file": "chuong-36.txt"
+      },
+      {
+        "id": 37,
+        "title": "Vắng Chồng - Chương 37",
+        "file": "chuong-37.txt"
+      },
+      {
+        "id": 38,
+        "title": "Vắng Chồng - Chương 38",
+        "file": "chuong-38.txt"
+      },
+      {
+        "id": 39,
+        "title": "Vắng Chồng - Chương 39",
+        "file": "chuong-39.txt"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp",
+    "folder": "that-thich-thu-khi-vo-len-giuong-voi-cac-dong-nghiep",
+    "isAdmin": true,
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 1: Anh Chàng Đồng Nghiệp Nhút Nhát",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 4: Những Cuộc Chạm Trán Với Bồ Của Vợ",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 6: Gạ Gẫm Bồ Của Vợ Đến Nhậu",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 7: Người Đàn Ông Bí Mật Của Vợ Tôi",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 8",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 9: Vợ Càng Ngày Càng Dâm",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 10: Vợ Chồng Lục Đục",
+        "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 11: Ra Mắt Người Tình",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 12: Thực Sự Vợ Vẫn Yêu Tôi?",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 13",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 14: Buổi Nướng Thịt Đáng Nhớ",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 15",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 16: Bi Kịch Nối Tiếp Bi Kịch",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 17: Nỗi Đau Của Người Chồng",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 18: Mắc Bẫy",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 19: Cuộc Sống Mới",
+        "file": "chuong-19.txt"
+      },
+      {
+        "id": 20,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 20: Thật Khó Để Từ Bỏ Được Cuckold",
+        "file": "chuong-20.txt"
+      },
+      {
+        "id": 21,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 21: Lời Thú Tội Muộn Màng",
+        "file": "chuong-21.txt"
+      },
+      {
+        "id": 22,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 22: Kiếm Trai Cho Vợ Thật Là Khó",
+        "file": "chuong-22.txt"
+      },
+      {
+        "id": 23,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 23: Lại Thêm Một Con Chim Sa Bẫy",
+        "file": "chuong-23.txt"
+      },
+      {
+        "id": 24,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 24",
+        "file": "chuong-24.txt"
+      },
+      {
+        "id": 25,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 25: Bisex",
+        "file": "chuong-25.txt"
+      },
+      {
+        "id": 26,
+        "title": "Thật Thích Thú Khi Vợ Lên Giường Với Các Đồng Nghiệp - Chương 26",
+        "file": "chuong-26.txt"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình",
+    "folder": "toi-da-vo-tinh-day-vo-toi-vao-con-duong-ngoai-tinh",
+    "isAdmin": true,
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 1: Bối Cảnh",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 2: Sự Bắt Đầu (1)",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 3: Sự Bắt Đầu (2)",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 4: Sự Bắt Đầu (3)",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 5: Sự Bắt Đầu (4)",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 6: Sự Bắt Đầu (5)",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 7: Sự Bắt Đầu (6)",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 8: Sự Bắt Đầu (7)",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 9: Sự Bắt Đầu (8)",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 10: Sự Bắt Đầu (9)",
+        "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 11: Sự Bắt Đầu (10)",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 12: Sự Bắt Đầu (11)",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 13: Sự Bắt Đầu (12)",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 14: Sự Bắt Đầu (13)",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 15: Sự Bắt Đầu (14)",
+        "file": "chuong-15.txt"
+      },
+      {
+        "id": 16,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 16: Sự Bắt Đầu (15)",
+        "file": "chuong-16.txt"
+      },
+      {
+        "id": 17,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 17: Đắm Chìm Vào Dục Vọng (1)",
+        "file": "chuong-17.txt"
+      },
+      {
+        "id": 18,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 18: Đắm Chìm Vào Dục Vọng (2)",
+        "file": "chuong-18.txt"
+      },
+      {
+        "id": 19,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 19: Đắm Chìm Vào Dục Vọng (3)",
+        "file": "chuong-19.txt"
+      },
+      {
+        "id": 20,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 20: Đắm Chìm Vào Dục Vọng (4)",
+        "file": "chuong-20.txt"
+      },
+      {
+        "id": 21,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 21: Đắm Chìm Vào Dục Vọng (5)",
+        "file": "chuong-21.txt"
+      },
+      {
+        "id": 22,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 22: Đắm Chìm Vào Dục Vọng (6)",
+        "file": "chuong-22.txt"
+      },
+      {
+        "id": 23,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 23: Đắm Chìm Vào Dục Vọng (7)",
+        "file": "chuong-23.txt"
+      },
+      {
+        "id": 24,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 24: Đắm Chìm Vào Dục Vọng (8)",
+        "file": "chuong-24.txt"
+      },
+      {
+        "id": 25,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 25: Đắm Chìm Vào Dục Vọng (9)",
+        "file": "chuong-25.txt"
+      },
+      {
+        "id": 26,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 26: Đắm Chìm Vào Dục Vọng (10)",
+        "file": "chuong-26.txt"
+      },
+      {
+        "id": 27,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 27: Đắm Chìm Vào Dục Vọng (11)",
+        "file": "chuong-27.txt"
+      },
+      {
+        "id": 28,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 28: Đắm Chìm Vào Dục Vọng (12)",
+        "file": "chuong-28.txt"
+      },
+      {
+        "id": 29,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 29: Đắm Chìm Vào Dục Vọng (13)",
+        "file": "chuong-29.txt"
+      },
+      {
+        "id": 30,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 30: Đắm Chìm Vào Dục Vọng (14)",
+        "file": "chuong-30.txt"
+      },
+      {
+        "id": 31,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 31: Đắm Chìm Vào Dục Vọng (15)",
+        "file": "chuong-31.txt"
+      },
+      {
+        "id": 32,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 32: Đắm Chìm Vào Dục Vọng (16)",
+        "file": "chuong-32.txt"
+      },
+      {
+        "id": 33,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 33: Đắm Chìm Vào Dục Vọng (17)",
+        "file": "chuong-33.txt"
+      },
+      {
+        "id": 34,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 34: Đắm Chìm Vào Dục Vọng (18)",
+        "file": "chuong-34.txt"
+      },
+      {
+        "id": 35,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 35: Đắm Chìm Vào Dục Vọng (19)",
+        "file": "chuong-35.txt"
+      },
+      {
+        "id": 36,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 36: Đắm Chìm Vào Dục Vọng (20)",
+        "file": "chuong-36.txt"
+      },
+      {
+        "id": 37,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 37: Đắm Chìm Vào Dục Vọng (21)",
+        "file": "chuong-37.txt"
+      },
+      {
+        "id": 38,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 38: Đắm Chìm Vào Dục Vọng (22)",
+        "file": "chuong-38.txt"
+      },
+      {
+        "id": 39,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 39: Đắm Chìm Vào Dục Vọng (23)",
+        "file": "chuong-39.txt"
+      },
+      {
+        "id": 40,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 40: Những Ranh Giới Mỏng Manh (1)",
+        "file": "chuong-40.txt"
+      },
+      {
+        "id": 41,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 41: Những Ranh Giới Mỏng Manh (2)",
+        "file": "chuong-41.txt"
+      },
+      {
+        "id": 42,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 42: Những Ranh Giới Mỏng Manh (3)",
+        "file": "chuong-42.txt"
+      },
+      {
+        "id": 43,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 43: Những Ranh Giới Mỏng Manh (4)",
+        "file": "chuong-43.txt"
+      },
+      {
+        "id": 44,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 44: Những Ranh Giới Mỏng Manh (5)",
+        "file": "chuong-44.txt"
+      },
+      {
+        "id": 45,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 45: Những Ranh Giới Mỏng Manh (6)",
+        "file": "chuong-45.txt"
+      },
+      {
+        "id": 46,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 46: Những Ranh Giới Mỏng Manh (7)",
+        "file": "chuong-46.txt"
+      },
+      {
+        "id": 47,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 47: Những Ranh Giới Mỏng Manh (8)",
+        "file": "chuong-47.txt"
+      },
+      {
+        "id": 48,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 48: Những Ranh Giới Mỏng Manh (9)",
+        "file": "chuong-48.txt"
+      },
+      {
+        "id": 49,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 49: Những Ranh Giới Mỏng Manh (10)",
+        "file": "chuong-49.txt"
+      },
+      {
+        "id": 50,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 50: Những Ranh Giới Mỏng Manh (11)",
+        "file": "chuong-50.txt"
+      },
+      {
+        "id": 51,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 51: Những Ranh Giới Mỏng Manh (12)",
+        "file": "chuong-51.txt"
+      },
+      {
+        "id": 52,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 52: Những Ranh Giới Mỏng Manh (13)",
+        "file": "chuong-52.txt"
+      },
+      {
+        "id": 53,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 53: Những Ranh Giới Mỏng Manh (14)",
+        "file": "chuong-53.txt"
+      },
+      {
+        "id": 54,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 54: Những Ranh Giới Mỏng Manh (15)",
+        "file": "chuong-54.txt"
+      },
+      {
+        "id": 55,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 55: Những Ranh Giới Mỏng Manh (16)",
+        "file": "chuong-55.txt"
+      },
+      {
+        "id": 56,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 56: Những Ranh Giới Mỏng Manh (17)",
+        "file": "chuong-56.txt"
+      },
+      {
+        "id": 57,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 57: Những Ranh Giới Mỏng Manh (18)",
+        "file": "chuong-57.txt"
+      },
+      {
+        "id": 58,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 58: Những Ranh Giới Mỏng Manh (19)",
+        "file": "chuong-58.txt"
+      },
+      {
+        "id": 59,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 59: Những Ranh Giới Mỏng Manh (20)",
+        "file": "chuong-59.txt"
+      },
+      {
+        "id": 60,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 60: Những Ranh Giới Mỏng Manh (21)",
+        "file": "chuong-60.txt"
+      },
+      {
+        "id": 61,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 61: Những Ranh Giới Mỏng Manh (22)",
+        "file": "chuong-61.txt"
+      },
+      {
+        "id": 62,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 62: Những Ranh Giới Mỏng Manh (23)",
+        "file": "chuong-62.txt"
+      },
+      {
+        "id": 63,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 63: Những Ranh Giới Mỏng Manh (24)",
+        "file": "chuong-63.txt"
+      },
+      {
+        "id": 64,
+        "title": "Tôi Đã Vô Tình Đẩy Vợ Tôi Vào Con Đường Ngoại Tình - Chương 64: Những Ranh Giới Mỏng Manh (25)",
+        "file": "chuong-64.txt"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Cho Người Yêu Ngủ Với Thằng Khác",
+    "folder": "cho-nguoi-yeu-ngu-voi-thang-khac",
+    "isAdmin": true,
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 1",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 2",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 3",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 4",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 5",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 6",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 7",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 8",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 9",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 10",
+        "file": "chuong-10.txt"
+      },
+      {
+        "id": 11,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 11: Ngoại Truyện - Thằng Bạn Đểu",
+        "file": "chuong-11.txt"
+      },
+      {
+        "id": 12,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 12: Lời Tâm Sự",
+        "file": "chuong-12.txt"
+      },
+      {
+        "id": 13,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 13: Công Ty Mới",
+        "file": "chuong-13.txt"
+      },
+      {
+        "id": 14,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 14: Rình Trộm",
+        "file": "chuong-14.txt"
+      },
+      {
+        "id": 15,
+        "title": "Cho Người Yêu Ngủ Với Thằng Khác - Chương 15: Chuyến Công Tác",
+        "file": "chuong-15.txt"
+      }
+    ]
   }
 ]
