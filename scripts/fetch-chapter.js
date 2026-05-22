@@ -1,4 +1,4 @@
-//node scripts/fetch-chapter.js --out public/data/content/thau-huong-cao-thu --range 101-200 https://xtruyen.vn/truyen/thau-huong-cao-thu-cai-bien/
+//node scripts/fetch-chapter.js --out public/data/content/thau-huong-cao-thu --range 1397-1401 https://xtruyen.vn/truyen/thau-huong-cao-thu/3356010-chuong-1397/
 //node scripts/fetch-chapter.js --out public/data/content/xxx --merge 5 --range 1-50 https://xtruyen.vn/truyen/xxx/
 const https = require('https');
 const http = require('http');
@@ -94,12 +94,40 @@ function cleanContent(html) {
 /**
  * Tự động tạo tên file từ URL
  * VD: https://xtruyen.vn/truyen/abc/chuong-1/ → chuong-1.txt
+ *     https://xtruyen.vn/truyen/abc/3356010-chuong-1397/ → chuong-1397.txt
  */
 function getOutputFileName(url, outputDir) {
   // Lấy phần cuối của URL (bỏ trailing slash)
   const parts = url.replace(/\/+$/, '').split('/');
-  const slug = parts[parts.length - 1] || 'output';
+  let slug = parts[parts.length - 1] || 'output';
+  // Nếu slug có dạng {id}-chuong-{N}, chỉ lấy chuong-{N}
+  const chapterMatch = slug.match(/\d+-?(chuong-\d+)/);
+  if (chapterMatch) slug = chapterMatch[1];
   return path.join(outputDir, `${slug}.txt`);
+}
+
+/**
+ * Parse chapter list từ dropdown trên trang chương
+ * Trả về [{num, url}] sorted theo num
+ */
+function parseChapterList(html) {
+  const chapters = [];
+  // Tìm tất cả option có data-redirect
+  const regex = /value="([^"]*chuong-\d+[^"]*)"\s+data-redirect="([^"]+)"/g;
+  let m;
+  const seen = new Set();
+  while ((m = regex.exec(html)) !== null) {
+    const url = m[2];
+    // Trích số chương từ URL
+    const numMatch = url.match(/chuong-(\d+)/);
+    if (numMatch && !seen.has(url)) {
+      seen.add(url);
+      chapters.push({ num: parseInt(numMatch[1]), url });
+    }
+  }
+  // Sort theo số chương
+  chapters.sort((a, b) => a.num - b.num);
+  return chapters;
 }
 
 /**
@@ -181,7 +209,11 @@ function parseArg(args, name, defaultVal) {
  *   --range <s-e>    Auto-generate URLs from chapter s to e (e.g. 23-100)
  *   --merge <n>      Gộp n chương vào 1 file (e.g. --merge 5 → chuong-1-5.txt)
  *
+ * Nếu URL chứa ID (VD: /3356010-chuong-1397/), script sẽ tự parse dropdown
+ * để lấy đúng URL cho từng chương trong range.
+ *
  * Examples:
+ *   node fetch-chapter.js --out content/abc --range 1397-1401 https://xtruyen.vn/truyen/thau-huong-cao-thu/3356010-chuong-1397/
  *   node fetch-chapter.js --out content/abc --range 1-50 https://xtruyen.vn/truyen/abc/
  *   node fetch-chapter.js --out content/abc --merge 5 --range 1-50 https://xtruyen.vn/truyen/abc/
  *   node fetch-chapter.js --out content/abc https://xtruyen.vn/truyen/abc/chuong-1 https://xtruyen.vn/truyen/abc/chuong-2
@@ -197,17 +229,38 @@ async function main() {
   let urls = [];
 
   if (range) {
-    // --range 23-100 <base-url>
     const [start, end] = range.split('-').map(Number);
     const baseUrl = args.find(a => a.startsWith('http'));
     if (!baseUrl || !start || !end) {
       console.error('Usage with --range: node fetch-chapter.js --range 23-100 https://xtruyen.vn/truyen/abc/');
       process.exit(1);
     }
-    // Xóa trailing chuong-X nếu có, giữ base path
-    const base = baseUrl.replace(/chuong-\d+\/?$/, '').replace(/\/+$/, '');
-    for (let i = start; i <= end; i++) {
-      urls.push(`${base}/chuong-${i}`);
+
+    // Kiểm tra URL có dạng mới (có ID prefix) hay không
+    const hasIdPrefix = /\/\d+-chuong-\d+/.test(baseUrl);
+
+    if (hasIdPrefix) {
+      // === NEW FORMAT: parse dropdown để lấy chapter URLs ===
+      console.log('🔍 Detecting chapter URLs from page dropdown...');
+      const html = await fetchPage(baseUrl);
+      const allChapters = parseChapterList(html);
+      console.log(`📋 Found ${allChapters.length} chapters in dropdown`);
+
+      // Lọc theo range
+      const filtered = allChapters.filter(c => c.num >= start && c.num <= end);
+      if (filtered.length === 0) {
+        console.error(`✗ Không tìm thấy chương ${start}-${end} trong dropdown`);
+        console.log(`  Chapters available: ${allChapters[0]?.num}-${allChapters[allChapters.length-1]?.num}`);
+        process.exit(1);
+      }
+      urls = filtered.map(c => c.url);
+      console.log(`✔ Will fetch ${urls.length} chapters (${filtered[0].num}-${filtered[filtered.length-1].num})`);
+    } else {
+      // === OLD FORMAT: tự tạo URL chuong-N ===
+      const base = baseUrl.replace(/chuong-\d+\/?$/, '').replace(/\/+$/, '');
+      for (let i = start; i <= end; i++) {
+        urls.push(`${base}/chuong-${i}`);
+      }
     }
   } else {
     urls = args.filter(a => a.startsWith('http'));
