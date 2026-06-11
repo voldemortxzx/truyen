@@ -1,4 +1,4 @@
-//node scripts/fetch-chapter.js --out public/data/content/thau-huong-cao-thu --range 1397-1401 https://xtruyen.vn/truyen/thau-huong-cao-thu/3356010-chuong-1397/
+//node scripts/fetch-chapter.js --out public/data/content/xxx --range 2082-2516 https://xtruyen.vn/truyen/thau-huong-cao-thu/chuong-2082/
 //node scripts/fetch-chapter.js --out public/data/content/xxx --merge 5 --range 1-50 https://xtruyen.vn/truyen/xxx/
 const https = require('https');
 const http = require('http');
