@@ -10462,11 +10462,706 @@
       },
       {
         "id": 2075,
+        "title": "Chương 2101: Thuật quyến rũ phản tác dụng",
+        "file": "chuong-2101.txt"
+      },
+      {
+        "id": 2076,
+        "title": "Chương 2102: Bạn chết kệ bạn, ta sống lòng ta",
+        "file": "chuong-2102.txt"
+      },
+      {
+        "id": 2077,
+        "title": "Chương 2103: Tình thế căng thẳng",
+        "file": "chuong-2103.txt"
+      },
+      {
+        "id": 2078,
+        "title": "Chương 2104: Sáu đại tuyệt học",
+        "file": "chuong-2104.txt"
+      },
+      {
+        "id": 2079,
+        "title": "Chương 2105: Người đẹp băng giá",
+        "file": "chuong-2105.txt"
+      },
+      {
+        "id": 2080,
+        "title": "Cốc Ngưng Thanh ái ngại nói: \"Để Tiểu Vương Tử phải chê cười rồi.\"",
+        "file": "chuong-2106.txt"
+      },
+      {
+        "id": 2081,
+        "title": "Chương 2107: Nửa đêm gặp lại",
+        "file": "chuong-2107.txt"
+      },
+      {
+        "id": 2082,
+        "title": "Chương 2108: Kẻ lụy tình gặp người lụy tình",
+        "file": "chuong-2108.txt"
+      },
+      {
+        "id": 2083,
+        "title": "Chương 2109: Lộ tẩy thân phận",
+        "file": "chuong-2109.txt"
+      },
+      {
+        "id": 2084,
+        "title": "Chương 2110: Tình huống diễn biến bất ngờ",
+        "file": "chuong-2110.txt"
+      },
+      {
+        "id": 2085,
+        "title": "Chương 2111: Đạo Thai cùng ma tâm",
+        "file": "chuong-2111.txt"
+      },
+      {
+        "id": 2086,
+        "title": "Chương 2112: Vận mệnh bất đắc dĩ",
+        "file": "chuong-2112.txt"
+      },
+      {
+        "id": 2087,
+        "title": "Chương 2113: Sát thủ oán niệm",
+        "file": "chuong-2113.txt"
+      },
+      {
+        "id": 2088,
+        "title": "Chương 2114: Một hướng vây giết khác",
+        "file": "chuong-2114.txt"
+      },
+      {
+        "id": 2089,
+        "title": "Chương 2115: Đều có mục đích",
+        "file": "chuong-2115.txt"
+      },
+      {
+        "id": 2090,
+        "title": "Chương 2116: Chồng già vợ trẻ",
+        "file": "chuong-2116.txt"
+      },
+      {
+        "id": 2091,
+        "title": "Chương 2117: Cao Lệ song mỹ",
+        "file": "chuong-2117.txt"
+      },
+      {
+        "id": 2092,
+        "title": "Chương 2118: Ngấp nghé",
+        "file": "chuong-2118.txt"
+      },
+      {
+        "id": 2093,
+        "title": "Chương 2119: Ngoài ý muốn gặp lại",
+        "file": "chuong-2119.txt"
+      },
+      {
+        "id": 2094,
+        "title": "Chương 2120: Khiêu khích",
+        "file": "chuong-2120.txt"
+      },
+      {
+        "id": 2095,
+        "title": "Chương 2121: Hết sức căng thẳng",
+        "file": "chuong-2121.txt"
+      },
+      {
+        "id": 2096,
+        "title": "Chương 2122: Sức hút ngoài ngàn dặm",
+        "file": "chuong-2122.txt"
+      },
+      {
+        "id": 2097,
+        "title": "Chương 2123: Hại nước hại dân Thái tử phi",
+        "file": "chuong-2123.txt"
+      },
+      {
+        "id": 2098,
+        "title": "Chương 2124: Âm thịnh Dương suy",
+        "file": "chuong-2124.txt"
+      },
+      {
+        "id": 2099,
+        "title": "Chương 2125: Lớn mật",
+        "file": "chuong-2125.txt"
+      },
+      {
+        "id": 2100,
+        "title": "Chương 2126: Hùng hổ dọa người",
+        "file": "chuong-2126.txt"
+      },
+      {
+        "id": 2101,
+        "title": "Chương 2127: Mưa gió quỷ quyệt",
+        "file": "chuong-2127.txt"
+      },
+      {
+        "id": 2102,
+        "title": "Chương 2128: Đêm tối thăm dò",
+        "file": "chuong-2128.txt"
+      },
+      {
+        "id": 2103,
+        "title": "Chương 2129: Thu vào trong phòng",
+        "file": "chuong-2129.txt"
+      },
+      {
+        "id": 2104,
+        "title": "Chương 2130: Mỹ nhân kế",
+        "file": "chuong-2130.txt"
+      },
+      {
+        "id": 2105,
+        "title": "Chương 2131: Sự tình rũ áo đi",
+        "file": "chuong-2131.txt"
+      },
+      {
+        "id": 2106,
+        "title": "Chương 2132: Người đàn bà gian giảo",
+        "file": "chuong-2132.txt"
+      },
+      {
+        "id": 2107,
+        "title": "Chương 2133: Bát đại cao thủ",
+        "file": "chuong-2133.txt"
+      },
+      {
+        "id": 2108,
+        "title": "Chương 2134: Giết người tru tâm",
+        "file": "chuong-2134.txt"
+      },
+      {
+        "id": 2109,
+        "title": "Chương 2135: Cáo mượn oai Hổ",
+        "file": "chuong-2135.txt"
+      },
+      {
+        "id": 2110,
+        "title": "Chương 2136: Cáo mượn oai Hổ (hạ)",
+        "file": "chuong-2136.txt"
+      },
+      {
+        "id": 2111,
+        "title": "Chương 2137: Quốc Bảo Hoa Lạp Tử Mô",
+        "file": "chuong-2137.txt"
+      },
+      {
+        "id": 2112,
+        "title": "Chương 2138: Mục đích thật sự",
+        "file": "chuong-2138.txt"
+      },
+      {
+        "id": 2113,
+        "title": "Chương 2139: Hết sức căng thẳng",
+        "file": "chuong-2139.txt"
+      },
+      {
+        "id": 2114,
+        "title": "Chương 2140: Biến thái tâm lý",
+        "file": "chuong-2140.txt"
+      },
+      {
+        "id": 2115,
+        "title": "Chương 2141: Xoắn xuýt",
+        "file": "chuong-2141.txt"
+      },
+      {
+        "id": 2116,
+        "title": "Chương 2142: Cái chết của Thế tử",
+        "file": "chuong-2142.txt"
+      },
+      {
+        "id": 2117,
+        "title": "Chương 2143: Vụ án mạng",
+        "file": "chuong-2143.txt"
+      },
+      {
+        "id": 2118,
+        "title": "Chương 2144: Thần thám nhập hồn",
+        "file": "chuong-2144.txt"
+      },
+      {
+        "id": 2119,
+        "title": "Chương 2145: Hiềm nghi",
+        "file": "chuong-2145.txt"
+      },
+      {
+        "id": 2120,
+        "title": "Chương 2146: Đều tại ánh mắt gây tai họa",
+        "file": "chuong-2146.txt"
+      },
+      {
+        "id": 2121,
+        "title": "Chương 2147: Lặp lại chiêu cũ",
+        "file": "chuong-2147.txt"
+      },
+      {
+        "id": 2122,
+        "title": "Chương 2148: Lại một người bị hại",
+        "file": "chuong-2148.txt"
+      },
+      {
+        "id": 2123,
+        "title": "Chương 2149: Các phương bức bách",
+        "file": "chuong-2149.txt"
+      },
+      {
+        "id": 2124,
+        "title": "Chương 2150: Thái độ khác nhau của hai chị em",
+        "file": "chuong-2150.txt"
+      },
+      {
+        "id": 2125,
+        "title": "Chương 2151: Ba tên hòa thượng không có nước uống",
+        "file": "chuong-2151.txt"
+      },
+      {
+        "id": 2126,
+        "title": "Chương 2152: Gặp lại giai nhân",
+        "file": "chuong-2152.txt"
+      },
+      {
+        "id": 2127,
+        "title": "Chương 2153: Ghen ghét",
+        "file": "chuong-2153.txt"
+      },
+      {
+        "id": 2128,
+        "title": "Chương 2154: Manh mối",
+        "file": "chuong-2154.txt"
+      },
+      {
+        "id": 2129,
+        "title": "Chương 2155: Trong ngoài vui buồn",
+        "file": "chuong-2155.txt"
+      },
+      {
+        "id": 2130,
+        "title": "Chương 2156: Lỗ lớn",
+        "file": "chuong-2156.txt"
+      },
+      {
+        "id": 2131,
+        "title": "Chương 2157: Bất chợt tới ám sát",
+        "file": "chuong-2157.txt"
+      },
+      {
+        "id": 2132,
+        "title": "Chương 2158: Tỷ tỷ hay là muội muội",
+        "file": "chuong-2158.txt"
+      },
+      {
+        "id": 2133,
+        "title": "Chương 2159: Điều tra",
+        "file": "chuong-2159.txt"
+      },
+      {
+        "id": 2134,
+        "title": "Chương 2160: Hai đại kiếm hào",
+        "file": "chuong-2160.txt"
+      },
+      {
+        "id": 2135,
+        "title": "Chương 2161: Yến Phản",
+        "file": "chuong-2161.txt"
+      },
+      {
+        "id": 2136,
+        "title": "Chương 2162: Quang minh chính đại ăn đậu hũ",
+        "file": "chuong-2162.txt"
+      },
+      {
+        "id": 2137,
+        "title": "Chương 2163: Tâm tư thiếu nữ",
+        "file": "chuong-2163.txt"
+      },
+      {
+        "id": 2138,
+        "title": "Chương 2164: Tu La Tràng",
+        "file": "chuong-2164.txt"
+      },
+      {
+        "id": 2139,
+        "title": "Chương 2165: Chọn rể bắt đầu",
+        "file": "chuong-2165.txt"
+      },
+      {
+        "id": 2140,
+        "title": "Chương 2166: Phát tài đại kế",
+        "file": "chuong-2166.txt"
+      },
+      {
+        "id": 2141,
+        "title": "Chương 2167: Lưỡng bại câu thương",
+        "file": "chuong-2167.txt"
+      },
+      {
+        "id": 2142,
+        "title": "Chương 2168: Quan hệ bại lộ",
+        "file": "chuong-2168.txt"
+      },
+      {
+        "id": 2143,
+        "title": "Chương 2169: Lâm trận mới mài gươm",
+        "file": "chuong-2169.txt"
+      },
+      {
+        "id": 2144,
+        "title": "Chương 2170: Ham muốn chinh phục",
+        "file": "chuong-2170.txt"
+      },
+      {
+        "id": 2145,
+        "title": "Chương 2171: Tranh phong tương đối",
+        "file": "chuong-2171.txt"
+      },
+      {
+        "id": 2146,
+        "title": "Chương 2172: Cách chiến thắng khác người",
+        "file": "chuong-2172.txt"
+      },
+      {
+        "id": 2147,
+        "title": "Chương 2173: Lời Hứa",
+        "file": "chuong-2173.txt"
+      },
+      {
+        "id": 2148,
+        "title": "Chương 2174: Yêu nữ lại hiện hình",
+        "file": "chuong-2174.txt"
+      },
+      {
+        "id": 2149,
+        "title": "Chương 2175: Trao Đổi Giết Người",
+        "file": "chuong-2175.txt"
+      },
+      {
+        "id": 2150,
+        "title": "Chương 2176: Có hy vọng",
+        "file": "chuong-2176.txt"
+      },
+      {
+        "id": 2151,
+        "title": "Chương 2177: Kiếp Sau Tương Báo",
+        "file": "chuong-2177.txt"
+      },
+      {
+        "id": 2152,
+        "title": "Chương 2178: Không thể nhịn được nữa",
+        "file": "chuong-2178.txt"
+      },
+      {
+        "id": 2153,
+        "title": "Chương 2179: Lời Mời",
+        "file": "chuong-2179.txt"
+      },
+      {
+        "id": 2154,
+        "title": "Chương 2180: Có được",
+        "file": "chuong-2180.txt"
+      },
+      {
+        "id": 2155,
+        "title": "Chương 2181: Thần Tiên Tỷ Tỷ",
+        "file": "chuong-2181.txt"
+      },
+      {
+        "id": 2156,
+        "title": "Chương 2182: Lòng mơ ước",
+        "file": "chuong-2182.txt"
+      },
+      {
+        "id": 2157,
+        "title": "Chương 2183: Gậy Ông Đập Lưng Ông",
+        "file": "chuong-2183.txt"
+      },
+      {
+        "id": 2158,
+        "title": "Chương 2184: Bạo phát ở mép",
+        "file": "chuong-2184.txt"
+      },
+      {
+        "id": 2159,
+        "title": "Chương 2185: Một Người Là Đủ",
+        "file": "chuong-2185.txt"
+      },
+      {
+        "id": 2160,
+        "title": "Chương 2186: Bị đánh gãy chuyện tốt",
+        "file": "chuong-2186.txt"
+      },
+      {
+        "id": 2161,
+        "title": "Chương 2187: Mang Tiếng Oan Đại Tông Sư",
+        "file": "chuong-2187.txt"
+      },
+      {
+        "id": 2162,
+        "title": "Chương 2188: Một kiếm kia phong tình",
+        "file": "chuong-2188.txt"
+      },
+      {
+        "id": 2163,
+        "title": "Chương 2189: Uy Hiếp",
+        "file": "chuong-2189.txt"
+      },
+      {
+        "id": 2164,
+        "title": "Chương 2190: Trong lòng lệ khí",
+        "file": "chuong-2190.txt"
+      },
+      {
+        "id": 2165,
+        "title": "Chương 2191: Kẻ Phản Nghịch",
+        "file": "chuong-2191.txt"
+      },
+      {
+        "id": 2166,
+        "title": "Chương 2192: Đại ái và tiểu ái",
+        "file": "chuong-2192.txt"
+      },
+      {
+        "id": 2167,
+        "title": "Chương 2193: Lo Lắng",
+        "file": "chuong-2193.txt"
+      },
+      {
+        "id": 2168,
+        "title": "Chương 2194: Biệt khuất",
+        "file": "chuong-2194.txt"
+      },
+      {
+        "id": 2169,
+        "title": "Chương 2195: Cơn Thịnh Nộ Của Vị Hôn Phu",
+        "file": "chuong-2195.txt"
+      },
+      {
+        "id": 2170,
+        "title": "Chương 2196: Thiếu nữ tơ tình",
+        "file": "chuong-2196.txt"
+      },
+      {
+        "id": 2171,
+        "title": "Chương 2197: Phản Ứng Của Các Phương",
+        "file": "chuong-2197.txt"
+      },
+      {
+        "id": 2172,
+        "title": "Chương 2198: An bài tốt hết thảy",
+        "file": "chuong-2198.txt"
+      },
+      {
+        "id": 2173,
+        "title": "Chương 2199: Trận tỷ thí kém nhã nhặn",
+        "file": "chuong-2199.txt"
+      },
+      {
+        "id": 2174,
+        "title": "Chương 2200: Đánh Cho Tụt Quần",
+        "file": "chuong-2200.txt"
+      },
+      {
+        "id": 2175,
+        "title": "Chương 2201: Gãy chân tham chiến",
+        "file": "chuong-2201.txt"
+      },
+      {
+        "id": 2176,
+        "title": "Chương 2202: Chàng trai tuyệt sắc",
+        "file": "chuong-2202.txt"
+      },
+      {
+        "id": 2177,
+        "title": "Chương 2203: Không phân rõ ai là trượng phu",
+        "file": "chuong-2203.txt"
+      },
+      {
+        "id": 2178,
+        "title": "Chương 2204: Kim Độn Thuật",
+        "file": "chuong-2204.txt"
+      },
+      {
+        "id": 2179,
+        "title": "Chương 2205: Trương Vô Kỵ tiềm ẩn tình địch",
+        "file": "chuong-2205.txt"
+      },
+      {
+        "id": 2180,
+        "title": "Chương 2206: Thắng bất ngờ",
+        "file": "chuong-2206.txt"
+      },
+      {
+        "id": 2181,
+        "title": "Chương 2207: Sự tình ra khác thường vì cái gì?",
+        "file": "chuong-2207.txt"
+      },
+      {
+        "id": 2182,
+        "title": "Chương 2208: Giấu giếm sát cơ",
+        "file": "chuong-2208.txt"
+      },
+      {
+        "id": 2183,
+        "title": "Chương 2209: Khắp nơi đều là anh vợ",
+        "file": "chuong-2209.txt"
+      },
+      {
+        "id": 2184,
+        "title": "Chương 2210: Sự diệu dụng của Kim Cương Bất Hoại Thần Công",
+        "file": "chuong-2210.txt"
+      },
+      {
+        "id": 2185,
+        "title": "Chương 2211: Con cháu nhà họ Dương",
+        "file": "chuong-2211.txt"
+      },
+      {
+        "id": 2186,
+        "title": "Chương 2212: Ăn xong lau sạch",
+        "file": "chuong-2212.txt"
+      },
+      {
+        "id": 2187,
+        "title": "Chương 2213: Vương phi cô đơn",
+        "file": "chuong-2213.txt"
+      },
+      {
+        "id": 2188,
+        "title": "Chương 2214: Hàn độc",
+        "file": "chuong-2214.txt"
+      },
+      {
+        "id": 2189,
+        "title": "Chương 2215: Cách thức trị liệu khác đời",
+        "file": "chuong-2215.txt"
+      },
+      {
+        "id": 2190,
+        "title": "Chương 2216: Bị bán còn giúp đếm tiền",
+        "file": "chuong-2216.txt"
+      },
+      {
+        "id": 2191,
+        "title": "Chương 2217: Húc Liệt Ngột đấu Đan Ngọc Như",
+        "file": "chuong-2217.txt"
+      },
+      {
+        "id": 2192,
+        "title": "Chương 2218: Át chủ bài",
+        "file": "chuong-2218.txt"
+      },
+      {
+        "id": 2193,
+        "title": "Chương 2219: Diễn xuất vụng về",
+        "file": "chuong-2219.txt"
+      },
+      {
+        "id": 2194,
+        "title": "Chương 2220: Một chết một tàn",
+        "file": "chuong-2220.txt"
+      },
+      {
+        "id": 2195,
+        "title": "Chương 2221: Truy sát",
+        "file": "chuong-2221.txt"
+      },
+      {
+        "id": 2196,
+        "title": "Chương 2222: Lộ ra kế hoạch",
+        "file": "chuong-2222.txt"
+      },
+      {
+        "id": 2197,
+        "title": "Chương 2223: Không phản bác được",
+        "file": "chuong-2223.txt"
+      },
+      {
+        "id": 2198,
+        "title": "Chương 2224: Như vào chỗ không người",
+        "file": "chuong-2224.txt"
+      },
+      {
+        "id": 2199,
+        "title": "Chương 2225: Nguyên nhân",
+        "file": "chuong-2225.txt"
+      },
+      {
+        "id": 2200,
+        "title": "Chương 2226: Vận cứt chó",
+        "file": "chuong-2226.txt"
+      },
+      {
+        "id": 2201,
+        "title": "Chương 2227: Bí thuật Côn Lôn, Thiếu Lâm lâm nguy",
+        "file": "chuong-2227.txt"
+      },
+      {
+        "id": 2202,
+        "title": "Chương 2228: Nghe rợn cả người",
+        "file": "chuong-2228.txt"
+      },
+      {
+        "id": 2203,
+        "title": "Chương 2229: Động cơ",
+        "file": "chuong-2229.txt"
+      },
+      {
+        "id": 2204,
+        "title": "Chương 2230: Ăn tươi nuốt sống",
+        "file": "chuong-2230.txt"
+      },
+      {
+        "id": 2205,
+        "title": "Chương 2231: Bước ngoặt",
+        "file": "chuong-2231.txt"
+      },
+      {
+        "id": 2206,
+        "title": "Chương 2232: Chân tướng",
+        "file": "chuong-2232.txt"
+      },
+      {
+        "id": 2207,
+        "title": "Chương 2233: Muốn nhờ",
+        "file": "chuong-2233.txt"
+      },
+      {
+        "id": 2208,
+        "title": "Chương 2234: Nông phu cùng rắn",
+        "file": "chuong-2234.txt"
+      },
+      {
+        "id": 2209,
+        "title": "Chương 2235: Ra vẻ đạo mạo",
+        "file": "chuong-2235.txt"
+      },
+      {
+        "id": 2210,
+        "title": "Chương 2236: Vui quá hóa buồn",
+        "file": "chuong-2236.txt"
+      },
+      {
+        "id": 2211,
+        "title": "Chương 2237: Ốc đảo",
+        "file": "chuong-2237.txt"
+      },
+      {
+        "id": 2212,
+        "title": "Chương 2238: Ngoài ý muốn",
+        "file": "chuong-2238.txt"
+      },
+      {
+        "id": 2213,
+        "title": "Chương 2239: Hồi tâm chuyển ý",
+        "file": "chuong-2239.txt"
+      },
+      {
+        "id": 2214,
         "title": "Chương 2516: Đại kết cục (1)",
         "file": "chuong-2516.txt"
       },
       {
-        "id": 2076,
+        "id": 2215,
         "title": "Chương 2516: Đại kết cục (2)",
         "file": "chuong-2517.txt"
       }
