@@ -3037,7 +3037,7 @@
       },
       {
         "id": 590,
-        "title": "Chương 590: Làm cho mẫu thân phiền não.",
+        "title": "Chương 590: Làm cho mẫu thân phiền não. * Điền Phu Nhân",
         "file": "chuong-590.txt"
       },
       {
@@ -3092,7 +3092,7 @@
       },
       {
         "id": 601,
-        "title": "Chương 601: Nam hạ chiêu hàng",
+        "title": "Chương 601: Nam hạ chiêu hàng * Tĩnh Nam vương phi",
         "file": "chuong-601.txt"
       },
       {
@@ -3207,7 +3207,7 @@
       },
       {
         "id": 624,
-        "title": "Chương 624: Thê tử của bằng hữu * Nhậm Doanh Doanh",
+        "title": "Chương 624: Thê tử của bằng hữu",
         "file": "chuong-624.txt"
       },
       {
@@ -3272,7 +3272,7 @@
       },
       {
         "id": 637,
-        "title": "Chương 637: Nảy sinh dị biến * Nhậm Doanh Doanh",
+        "title": "Chương 637: Nảy sinh dị biến",
         "file": "chuong-637.txt"
       },
       {
@@ -4047,7 +4047,7 @@
       },
       {
         "id": 792,
-        "title": "Chương 795: Cô nương và thúc thúc",
+        "title": "Chương 795: Cô nương và thúc thúc * Ca Bích",
         "file": "chuong-795.txt"
       },
       {
@@ -4252,7 +4252,7 @@
       },
       {
         "id": 833,
-        "title": "Chương 836: Nguy cơ * Hoàn Nhan Bình",
+        "title": "Chương 836: Nguy cơ",
         "file": "chuong-836.txt"
       },
       {
@@ -4302,7 +4302,7 @@
       },
       {
         "id": 843,
-        "title": "Chương 846: Cùng là thiên nhai luân lạc nhân",
+        "title": "Chương 846: Cùng là thiên nhai luân lạc nhân * Đồ Đan Tĩnh",
         "file": "chuong-846.txt"
       },
       {
@@ -4482,12 +4482,12 @@
       },
       {
         "id": 879,
-        "title": "Chương 882: Lại không được …nữa rồi",
+        "title": "Chương 882: Lại không được …nữa rồi * Ca Bích",
         "file": "chuong-882.txt"
       },
       {
         "id": 880,
-        "title": "Chương 883: Mượn hạt giống",
+        "title": "Chương 883: Mượn hạt giống * Bùi Mạn",
         "file": "chuong-883.txt"
       },
       {
@@ -4497,7 +4497,7 @@
       },
       {
         "id": 882,
-        "title": "Chương 885: Tính kế",
+        "title": "Chương 885: Tính kế * Đồ Đan Tĩnh",
         "file": "chuong-885.txt"
       },
       {
@@ -23661,57 +23661,6 @@
     ]
   },
   {
-    "id": 66,
-    "title": "Chị Thoa hàng xóm",
-    "folder": "chi-thoa-hang-xom",
-    "isAdmin": true,
-    "chapters": [
-      {
-        "id": 1,
-        "title": "Chị Thoa hàng xóm - Phần 1",
-        "file": "chuong-1.txt"
-      },
-      {
-        "id": 2,
-        "title": "Chị Thoa hàng xóm - Phần 2",
-        "file": "chuong-2.txt"
-      },
-      {
-        "id": 3,
-        "title": "Chị Thoa hàng xóm - Phần 3",
-        "file": "chuong-3.txt"
-      },
-      {
-        "id": 4,
-        "title": "Chị Thoa hàng xóm - Phần 4",
-        "file": "chuong-4.txt"
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "title": "Cô giáo Loan dâm đãng",
-    "folder": "co-giao-loan-dam-dang",
-    "isAdmin": true,
-    "chapters": [
-      {
-        "id": 1,
-        "title": "Cô giáo Loan dâm đãng - Phần 1",
-        "file": "chuong-1.txt"
-      },
-      {
-        "id": 2,
-        "title": "Cô giáo Loan dâm đãng - Phần 2",
-        "file": "chuong-2.txt"
-      },
-      {
-        "id": 3,
-        "title": "Cô giáo Loan dâm đãng - Phần 3",
-        "file": "chuong-3.txt"
-      }
-    ]
-  },
-  {
     "id": 68,
     "title": "Chị Nhung hàng xóm",
     "folder": "chi-nhung-hang-xom",
@@ -23756,29 +23705,6 @@
   },
   {
     "id": 69,
-    "title": "Chị chủ trọ dâm đãng",
-    "folder": "chi-chu-tro-dam-dang",
-    "isAdmin": true,
-    "chapters": [
-      {
-        "id": 1,
-        "title": "Chị chủ trọ dâm đãng - Phần 1",
-        "file": "chuong-1.txt"
-      },
-      {
-        "id": 2,
-        "title": "Chị chủ trọ dâm đãng - Phần 2",
-        "file": "chuong-2.txt"
-      },
-      {
-        "id": 3,
-        "title": "Chị chủ trọ dâm đãng - Phần 3",
-        "file": "chuong-3.txt"
-      }
-    ]
-  },
-  {
-    "id": 70,
     "title": "Gạ tình cô giáo Hân",
     "folder": "ga-tinh-co-giao-han",
     "isAdmin": true,
