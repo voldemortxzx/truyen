@@ -2,13 +2,13 @@ import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-
+ 
 export interface ChapterMeta {
   id: number;
   title: string;
   file: string;
 }
-
+ 
 export interface Story {
   id: number;
   title: string;
@@ -16,9 +16,9 @@ export interface Story {
   chapters: ChapterMeta[];
   isAdmin?: boolean;
 }
-
+ 
 type ViewMode = 'home' | 'story' | 'chapter';
-
+ 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
@@ -28,7 +28,7 @@ type ViewMode = 'home' | 'story' | 'chapter';
 })
 export class App implements OnInit {
   private readonly http = inject(HttpClient);
-
+ 
   protected readonly stories = signal<Story[]>([]);
   protected readonly selectedStory = signal<Story | null>(null);
   protected readonly selectedChapter = signal<ChapterMeta | null>(null);
@@ -40,19 +40,19 @@ export class App implements OnInit {
   protected readonly showLoginPanel = signal(false);
   protected readonly loginPassword = signal('');
   protected readonly CHAPTERS_PER_PAGE = 100;
-
+ 
   protected readonly visibleStories = computed(() => {
     const allStories = this.stories();
     const isAdmin = this.isLoggedInAsAdmin();
     return allStories.filter(story => !story.isAdmin || isAdmin);
   });
-
+ 
   protected readonly totalChapterPages = computed(() => {
     const story = this.selectedStory();
     if (!story) return 0;
     return Math.ceil(story.chapters.length / this.CHAPTERS_PER_PAGE);
   });
-
+ 
   protected readonly pagedChapters = computed(() => {
     const story = this.selectedStory();
     if (!story) return [];
@@ -60,37 +60,37 @@ export class App implements OnInit {
     const start = (page - 1) * this.CHAPTERS_PER_PAGE;
     return story.chapters.slice(start, start + this.CHAPTERS_PER_PAGE);
   });
-
+ 
   protected readonly chapterPageNumbers = computed(() => {
     const total = this.totalChapterPages();
     return Array.from({ length: total }, (_, i) => i + 1);
   });
-
+ 
   protected readonly currentChapterIndex = computed(() => {
     const story = this.selectedStory();
     const chapter = this.selectedChapter();
     if (!story || !chapter) return -1;
     return story.chapters.findIndex(c => c.id === chapter.id);
   });
-
+ 
   protected readonly hasPrev = computed(() => this.currentChapterIndex() > 0);
   protected readonly hasNext = computed(() => {
     const story = this.selectedStory();
     return story ? this.currentChapterIndex() < story.chapters.length - 1 : false;
   });
-
+ 
   ngOnInit() {
     this.http.get<Story[]>('data/stories-full.json').subscribe(stories => {
       this.stories.set(stories);
       this.restoreFromUrl(stories);
-
+ 
       // Lắng nghe nút back/forward của trình duyệt
       window.addEventListener('popstate', () => {
         this.restoreFromUrl(this.stories());
       });
     });
   }
-
+ 
   private updateUrl() {
     const story = this.selectedStory();
     if (!story) {
@@ -107,7 +107,7 @@ export class App implements OnInit {
       history.pushState(null, '', `#/truyen/${story.folder}${query}`);
     }
   }
-
+ 
   private pressTimer: any;
  
   startPress(story: Story) {
@@ -116,7 +116,7 @@ export class App implements OnInit {
       this.pressTimer = null;
     }, 400);
   }
-
+ 
   startPressChapter(chapter: ChapterMeta) {
     this.pressTimer = setTimeout(() => {
       this.openChapterInNewTab(chapter);
@@ -130,7 +130,7 @@ export class App implements OnInit {
       this.pressTimer = null;
     }
   }
-
+ 
   private restoreFromUrl(stories: Story[]) {
     const hash = window.location.hash.replace(/^#/, '');
     const [path, queryString] = hash.split('?');
@@ -139,7 +139,7 @@ export class App implements OnInit {
       this.view.set('home');
       return;
     }
-
+ 
     const folder = parts[1];
     const chapterSlug = parts[2];
     const story = stories.find(s => s.folder === folder);
@@ -147,9 +147,9 @@ export class App implements OnInit {
       this.view.set('home');
       return;
     }
-
+ 
     this.selectedStory.set(story);
-
+ 
     if (chapterSlug) {
       const chapter = story.chapters.find(c => c.file === chapterSlug + '.txt');
       if (chapter) {
@@ -162,13 +162,13 @@ export class App implements OnInit {
         return;
       }
     }
-
+ 
     const params = new URLSearchParams(queryString || '');
     const page = parseInt(params.get('page') || '1', 10);
     this.chapterPage.set(Math.max(1, Math.min(page, this.totalChapterPages() || 1)));
     this.view.set('story');
   }
-
+ 
   goHome() {
     this.selectedStory.set(null);
     this.selectedChapter.set(null);
@@ -178,7 +178,7 @@ export class App implements OnInit {
     this.updateUrl();
     window.scrollTo(0, 0);
   }
-
+ 
   selectStory(story: Story) {
     this.selectedStory.set(story);
     this.selectedChapter.set(null);
@@ -188,20 +188,20 @@ export class App implements OnInit {
     this.updateUrl();
     window.scrollTo(0, 0);
   }
-
+ 
   openStoryInNewTab(story: Story) {
     const url = `#/truyen/${story.folder}`;
     window.open(window.location.origin + window.location.pathname + url, '_blank');
   }
-
+ 
   openChapterInNewTab(chapter: ChapterMeta) {
     const story = this.selectedStory();
     if (!story) return;
-    const url = `#/truyen/${story.folder}/${chapter.file.replace('.txt', '')}`;
-    window.open(window.location.origin + window.location.pathname + url, '_blank')
-
+    const slug = chapter.file.replace('.txt', '');
+    const url = `#/truyen/${story.folder}/${slug}`;
+    window.open(window.location.origin + window.location.pathname + url, '_blank');
   }
-
+ 
   goToChapterPage(page: number) {
     const total = this.totalChapterPages();
     const safePage = Math.max(1, Math.min(page, total || 1));
@@ -209,7 +209,7 @@ export class App implements OnInit {
     this.updateUrl();
     window.scrollTo(0, 0);
   }
-
+ 
   selectChapter(chapter: ChapterMeta) {
     const story = this.selectedStory();
     if (!story) return;
@@ -219,7 +219,7 @@ export class App implements OnInit {
     this.updateUrl();
     window.scrollTo(0, 0);
   }
-
+ 
   backToChapterList() {
     this.selectedChapter.set(null);
     this.chapterContent.set('');
@@ -227,7 +227,7 @@ export class App implements OnInit {
     this.updateUrl();
     window.scrollTo(0, 0);
   }
-
+ 
   prevChapter() {
     const story = this.selectedStory();
     const idx = this.currentChapterIndex();
@@ -235,7 +235,7 @@ export class App implements OnInit {
       this.selectChapter(story.chapters[idx - 1]);
     }
   }
-
+ 
   nextChapter() {
     const story = this.selectedStory();
     const idx = this.currentChapterIndex();
@@ -243,7 +243,7 @@ export class App implements OnInit {
       this.selectChapter(story.chapters[idx + 1]);
     }
   }
-
+ 
   private loadChapterContent(chapter: ChapterMeta) {
     const story = this.selectedStory();
     if (!story) return;
@@ -267,12 +267,12 @@ export class App implements OnInit {
       }
     });
   }
-
+ 
   toggleLoginPanel() {
     this.showLoginPanel.update(v => !v);
     this.loginPassword.set('');
   }
-
+ 
   handleLogin() {
     const password = this.loginPassword().trim();
     if (password === 'a') {
