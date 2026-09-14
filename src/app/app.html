@@ -79,7 +79,14 @@
 
     <ul class="chapter-list">
       @for (ch of pagedChapters(); track ch.id) {
-        <li (click)="selectChapter(ch)">
+        <li
+          (click)="selectChapter(ch)"
+          (mousedown)="startPress(story)"
+          (mouseup)="endPress()"
+          (mouseleave)="endPress()"
+          (touchstart)="startPress(story)"
+          (touchend)="endPress()"
+        >
           <span class="ch-title">{{ ch.title }}</span>
           <span class="ch-arrow">→</span>
         </li>
