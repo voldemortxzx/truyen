@@ -114,7 +114,14 @@ export class App implements OnInit {
     this.pressTimer = setTimeout(() => {
       this.openStoryInNewTab(story);
       this.pressTimer = null;
-    }, 800);
+    }, 400);
+  }
+
+  startPressChapter(chapter: ChapterMeta) {
+    this.pressTimer = setTimeout(() => {
+      this.openChapterInNewTab(chapter);
+      this.pressTimer = null;
+    }, 400);
   }
  
   endPress() {
@@ -185,6 +192,14 @@ export class App implements OnInit {
   openStoryInNewTab(story: Story) {
     const url = `#/truyen/${story.folder}`;
     window.open(window.location.origin + window.location.pathname + url, '_blank');
+  }
+
+  openChapterInNewTab(chapter: ChapterMeta) {
+    const story = this.selectedStory();
+    if (!story) return;
+    const url = `#truyen/${story.folder}/${chapter.file.replace('.txt', '')}`;
+    window.open(window.location.origin + window.location.pathname + url, '_blank')
+
   }
 
   goToChapterPage(page: number) {
