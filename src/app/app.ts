@@ -197,7 +197,7 @@ export class App implements OnInit {
   openChapterInNewTab(chapter: ChapterMeta) {
     const story = this.selectedStory();
     if (!story) return;
-    const url = `#truyen/${story.folder}/${chapter.file.replace('.txt', '')}`;
+    const url = `#/truyen/${story.folder}/${chapter.file.replace('.txt', '')}`;
     window.open(window.location.origin + window.location.pathname + url, '_blank')
 
   }
