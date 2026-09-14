@@ -118,6 +118,8 @@ export class App implements OnInit {
   }
  
   startPressChapter(chapter: ChapterMeta) {
+    const story = this.selectedStory();
+    if (!story) return;
     this.pressTimer = setTimeout(() => {
       this.openChapterInNewTab(chapter);
       this.pressTimer = null;
