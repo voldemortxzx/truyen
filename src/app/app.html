@@ -42,7 +42,14 @@
     <h2 class="page-title">Danh Sách Truyện</h2>
     <ul class="story-list">
       @for (story of visibleStories(); track story.id) {
-        <li (click)="selectStory(story)">
+        <li
+          (click)="selectStory(story)"
+          (mousedown)="startPress(story)"
+          (mouseup)="endPress()"
+          (mouseleave)="endPress()"
+          (touchstart)="startPress(story)"
+          (touchend)="endPress()"
+        >
           <span class="story-name">{{ story.title }}</span>
           <span class="story-info">{{ story.chapters.length }} chương</span>
         </li>
