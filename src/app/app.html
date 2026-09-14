@@ -81,10 +81,10 @@
       @for (ch of pagedChapters(); track ch.id) {
         <li
           (click)="selectChapter(ch)"
-          (mousedown)="startPress(ch)"
+          (mousedown)="startPressChapter(ch)"
           (mouseup)="endPress()"
           (mouseleave)="endPress()"
-          (touchstart)="startPress(ch)"
+          (touchstart)="startPressChapter(ch)"
           (touchend)="endPress()"
         >
           <span class="ch-title">{{ ch.title }}</span>
