@@ -320,9 +320,53 @@
   background: #2563eb;
 }
 
+/* ===== Notes nav button ===== */
+.notes-nav-btn {
+  margin-left: auto;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: #f1f5f9;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  flex-shrink: 0;
+}
+
+.notes-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ===== Reader Settings Button ===== */
+.settings-btn {
+  margin-left: 12px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: #f1f5f9;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  flex-shrink: 0;
+}
+
+.settings-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 /* ===== Login Button and Panel ===== */
 .login-btn {
-  margin-left: auto;
+  margin-left: 12px;
   padding: 8px 16px;
   background: #3b82f6;
   color: #ffffff;
@@ -412,6 +456,210 @@
 
 .login-cancel:hover {
   background: #e2e8f0;
+}
+
+/* ===== Reader Settings Panel ===== */
+.settings-panel-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.settings-panel-content {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settings-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.settings-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.font-size-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3b82f6;
+}
+
+.theme-options {
+  display: flex;
+  gap: 10px;
+}
+
+.theme-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 8px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.theme-btn .theme-icon {
+  font-size: 1.3rem;
+}
+
+.theme-btn.active {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.font-size-slider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.font-size-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #334155;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+
+.font-size-btn:hover {
+  background: #e2e8f0;
+}
+
+.font-size-slider input[type='range'] {
+  flex: 1;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+
+.font-family-options {
+  display: flex;
+  gap: 10px;
+}
+
+.font-family-btn {
+  flex: 1;
+  padding: 12px 8px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.font-family-btn.active {
+  border-color: #3b82f6;
+  background: #3b82f6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.settings-close {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.settings-close:hover {
+  background: #e2e8f0;
+}
+
+/* ===== Reading themes ===== */
+.page-chapter.theme-yellow {
+  background: #f7ecd9;
+}
+
+.page-chapter.theme-yellow .chapter h3 {
+  color: #4b3621;
+}
+
+.page-chapter.theme-yellow .chapter-content {
+  color: #4b3621;
+}
+
+.page-chapter.theme-dark {
+  background: #1e1e1e;
+  border-color: #333333;
+}
+
+.page-chapter.theme-dark .chapter h3 {
+  color: #e2e8f0;
+}
+
+.page-chapter.theme-dark .chapter-content {
+  color: #d1d5db;
+}
+
+.page-chapter.theme-dark .back-link {
+  color: #93c5fd;
+}
+
+.page-chapter.theme-dark .chapter-nav {
+  border-color: #333333;
+}
+
+.page-chapter.theme-dark .nav-btn {
+  background: #2a2a2a;
+  color: #e2e8f0;
+  border-color: #444444;
+}
+
+.page-chapter.theme-dark .nav-btn.center {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+
+.page-chapter.theme-dark .nav-btn:disabled {
+  opacity: 0.35;
 }
 
 /* ===== Responsive ===== */

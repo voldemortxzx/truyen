@@ -1,0 +1,86 @@
+<div class="notes-page">
+  <div class="notes-toolbar">
+    <button class="notes-back" (click)="back.emit()">← Trang chủ</button>
+    <h2 class="notes-title">📝 Nhật Ký</h2>
+  </div>
+
+  <div class="drive-status">
+    @switch (realtimeStatus()) {
+      @case ('connected') {
+        <span class="drive-connected">🟢 Đồng bộ trực tiếp — mọi trình duyệt cùng thấy chung</span>
+      }
+      @case ('error') {
+        <span class="drive-error">🔴 Mất kết nối đồng bộ, đang thử lại...</span>
+      }
+      @default {
+        <span class="drive-busy">🟡 Đang kết nối...</span>
+      }
+    }
+    @if (dbError(); as err) {
+      <span class="drive-error">⚠️ {{ err }}</span>
+    }
+  </div>
+
+  <div class="notes-feed" #feedEl>
+    @if (loading()) {
+      <p class="notes-empty">Đang tải lịch sử...</p>
+    } @else {
+    @for (item of items(); track item.clientKey) {
+      <div class="note-bubble" [class.media]="item.type !== 'text'" [class.pending]="item.pending">
+        @if (item.type === 'image') {
+          <img class="note-media-img" [src]="item.mediaUrl" (click)="openMedia(item.mediaUrl)" alt="Ảnh đính kèm" />
+        } @else if (item.type === 'video') {
+          <video class="note-media-video" [src]="item.mediaUrl" controls></video>
+        }
+
+        @if (editingKey() === item.clientKey) {
+          <textarea
+            class="note-edit-textarea"
+            [value]="editingText()"
+            (input)="editingText.set($any($event.target).value)"
+          ></textarea>
+          <div class="note-actions">
+            <button class="note-action-btn" (click)="saveEdit(item)">Lưu</button>
+            <button class="note-action-btn" (click)="cancelEdit()">Hủy</button>
+          </div>
+        } @else {
+          @if (item.text) {
+            <p class="note-text">{{ item.text }}</p>
+          }
+          <div class="note-meta">
+            @if (item.pending) {
+              <span class="note-time">Đang gửi...</span>
+            } @else {
+              <span class="note-time">{{ formatTime(item.updatedAt) }}</span>
+              <button class="note-action-btn" (click)="startEdit(item)">Sửa</button>
+              <button class="note-action-btn danger" (click)="deleteItem(item)">Xóa</button>
+            }
+          </div>
+        }
+      </div>
+    } @empty {
+      <p class="notes-empty">Chưa có nội dung nào. Hãy viết gì đó hoặc tải ảnh/video lên!</p>
+    }
+    }
+  </div>
+
+  <div class="notes-composer">
+    <input
+      #fileInput
+      type="file"
+      accept="image/*,video/*"
+      multiple
+      hidden
+      (change)="onFilesSelected($event)"
+    />
+    <button class="composer-attach" title="Đính kèm ảnh/video" (click)="fileInput.click()">📎</button>
+    <textarea
+      class="composer-input"
+      placeholder="Nhập nội dung..."
+      [value]="newText()"
+      (input)="newText.set($any($event.target).value)"
+      (keydown)="handleComposerKeydown($event)"
+    ></textarea>
+    <button class="composer-send" [disabled]="!newText().trim()" (click)="addText()">Gửi</button>
+  </div>
+</div>

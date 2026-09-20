@@ -2,6 +2,8 @@
 <header class="header">
   <a class="logo" (click)="goHome()">📖 Truyện Online</a>
 
+  <button class="notes-nav-btn" (click)="goToNotes()" title="Nhật ký">📝</button>
+  <button class="settings-btn" (click)="toggleReaderSettings()" title="Cài đặt đọc truyện">⚙️</button>
   <button class="login-btn" (click)="toggleLoginPanel()">Đăng nhập</button>
 
   @if (view() === 'story' || view() === 'chapter') {
@@ -34,6 +36,65 @@
       <button (click)="toggleLoginPanel()" class="login-cancel">Đóng</button>
     </div>
   </div>
+}
+
+<!-- Reader Settings Panel -->
+@if (showReaderSettings()) {
+  <div class="settings-panel-overlay" (click)="toggleReaderSettings()">
+    <div class="settings-panel-content" (click)="$event.stopPropagation()">
+      <div class="settings-section">
+        <label class="settings-label">Màu nền website</label>
+        <div class="theme-options">
+          <button class="theme-btn" [class.active]="bgTheme() === 'light'" (click)="setBgTheme('light')">
+            <span class="theme-icon">☀️</span>
+            <span>Sáng</span>
+          </button>
+          <button class="theme-btn" [class.active]="bgTheme() === 'yellow'" (click)="setBgTheme('yellow')">
+            <span class="theme-icon">📖</span>
+            <span>Vàng</span>
+          </button>
+          <button class="theme-btn" [class.active]="bgTheme() === 'dark'" (click)="setBgTheme('dark')">
+            <span class="theme-icon">🌙</span>
+            <span>Tối</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-label-row">
+          <label class="settings-label">Cỡ chữ nội dung</label>
+          <span class="font-size-value">{{ fontSize() }}px</span>
+        </div>
+        <div class="font-size-slider">
+          <button class="font-size-btn" (click)="decreaseFontSize()">A-</button>
+          <input
+            type="range"
+            min="14"
+            max="32"
+            step="1"
+            [value]="fontSize()"
+            (input)="onFontSizeInput($event)"
+          />
+          <button class="font-size-btn" (click)="increaseFontSize()">A+</button>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <label class="settings-label">Phông chữ</label>
+        <div class="font-family-options">
+          <button class="font-family-btn" [class.active]="fontFamily() === 'modern'" (click)="setFontFamily('modern')">Hiện đại</button>
+          <button class="font-family-btn" [class.active]="fontFamily() === 'classic'" (click)="setFontFamily('classic')">Cổ điển</button>
+        </div>
+      </div>
+
+      <button class="settings-close" (click)="toggleReaderSettings()">Đóng</button>
+    </div>
+  </div>
+}
+
+<!-- PAGE: Notes / Journal -->
+@if (view() === 'notes') {
+  <app-notes-page (back)="goHome()"></app-notes-page>
 }
 
 <!-- PAGE: Home - Story list -->
@@ -107,7 +168,7 @@
 
 <!-- PAGE: Chapter - Reading view -->
 @if (view() === 'chapter' && selectedStory(); as story) {
-  <div class="page page-chapter">
+  <div class="page page-chapter" [class.theme-yellow]="bgTheme() === 'yellow'" [class.theme-dark]="bgTheme() === 'dark'">
     <button class="back-link" (click)="backToChapterList()">← Danh sách chương</button>
 
     <nav class="chapter-nav top">
@@ -121,7 +182,12 @@
       @if (loadingContent()) {
         <p class="loading">Đang tải nội dung...</p>
       } @else {
-        <div class="chapter-content" [innerHTML]="chapterContent()"></div>
+        <div
+          class="chapter-content"
+          [innerHTML]="chapterContent()"
+          [style.fontSize.px]="fontSize()"
+          [style.fontFamily]="contentFontFamily()"
+        ></div>
       }
     </article>
 

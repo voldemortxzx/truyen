@@ -2,7 +2,8 @@ import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
- 
+import { NotesPage } from './notes-page/notes-page';
+
 export interface ChapterMeta {
   id: number;
   title: string;
@@ -17,14 +18,16 @@ export interface Story {
   isAdmin?: boolean;
 }
  
-type ViewMode = 'home' | 'story' | 'chapter';
- 
+type ViewMode = 'home' | 'story' | 'chapter' | 'notes';
+type BgTheme = 'light' | 'yellow' | 'dark';
+type FontFamilyOption = 'modern' | 'classic';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
-  imports: [CommonModule, FormsModule]
+  imports: [CommonModule, FormsModule, NotesPage]
 })
 export class App implements OnInit {
   private readonly http = inject(HttpClient);
@@ -40,7 +43,18 @@ export class App implements OnInit {
   protected readonly showLoginPanel = signal(false);
   protected readonly loginPassword = signal('');
   protected readonly CHAPTERS_PER_PAGE = 100;
- 
+
+  protected readonly showReaderSettings = signal(false);
+  protected readonly bgTheme = signal<BgTheme>(this.readStored('readerBgTheme', 'light') as BgTheme);
+  protected readonly fontSize = signal<number>(Number(this.readStored('readerFontSize', '18')));
+  protected readonly fontFamily = signal<FontFamilyOption>(this.readStored('readerFontFamily', 'modern') as FontFamilyOption);
+
+  protected readonly contentFontFamily = computed(() =>
+    this.fontFamily() === 'classic'
+      ? `'Georgia', 'Noto Serif', serif`
+      : `'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`
+  );
+
   protected readonly visibleStories = computed(() => {
     const allStories = this.stories();
     const isAdmin = this.isLoggedInAsAdmin();
@@ -92,6 +106,10 @@ export class App implements OnInit {
   }
  
   private updateUrl() {
+    if (this.view() === 'notes') {
+      history.pushState(null, '', '#/nhat-ky');
+      return;
+    }
     const story = this.selectedStory();
     if (!story) {
       history.pushState(null, '', '#');
@@ -137,6 +155,12 @@ export class App implements OnInit {
     const hash = window.location.hash.replace(/^#/, '');
     const [path, queryString] = hash.split('?');
     const parts = path.split('/').filter(Boolean);
+    if (parts[0] === 'nhat-ky') {
+      this.selectedStory.set(null);
+      this.selectedChapter.set(null);
+      this.view.set('notes');
+      return;
+    }
     if (parts[0] !== 'truyen' || !parts[1]) {
       this.view.set('home');
       return;
@@ -181,6 +205,14 @@ export class App implements OnInit {
     window.scrollTo(0, 0);
   }
  
+  goToNotes() {
+    this.selectedStory.set(null);
+    this.selectedChapter.set(null);
+    this.view.set('notes');
+    this.updateUrl();
+    window.scrollTo(0, 0);
+  }
+
   selectStory(story: Story) {
     this.selectedStory.set(story);
     this.selectedChapter.set(null);
@@ -285,5 +317,54 @@ export class App implements OnInit {
       alert('Mật khẩu không đúng!');
       this.loginPassword.set('');
     }
+  }
+
+  private readStored(key: string, fallback: string): string {
+    try {
+      return localStorage.getItem(key) ?? fallback;
+    } catch {
+      return fallback;
+    }
+  }
+
+  private writeStored(key: string, value: string) {
+    try {
+      localStorage.setItem(key, value);
+    } catch {
+      // ignore (private browsing / storage disabled)
+    }
+  }
+
+  toggleReaderSettings() {
+    this.showReaderSettings.update(v => !v);
+  }
+
+  setBgTheme(theme: BgTheme) {
+    this.bgTheme.set(theme);
+    this.writeStored('readerBgTheme', theme);
+  }
+
+  setFontSize(size: number) {
+    const clamped = Math.min(32, Math.max(14, Math.round(size)));
+    this.fontSize.set(clamped);
+    this.writeStored('readerFontSize', String(clamped));
+  }
+
+  onFontSizeInput(event: Event) {
+    const value = Number((event.target as HTMLInputElement).value);
+    this.setFontSize(value);
+  }
+
+  increaseFontSize() {
+    this.setFontSize(this.fontSize() + 1);
+  }
+
+  decreaseFontSize() {
+    this.setFontSize(this.fontSize() - 1);
+  }
+
+  setFontFamily(family: FontFamilyOption) {
+    this.fontFamily.set(family);
+    this.writeStored('readerFontFamily', family);
   }
 }
