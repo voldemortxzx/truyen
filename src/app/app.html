@@ -1,5 +1,9 @@
 <!-- Header -->
-<header class="header">
+<header
+  class="header"
+  [class.header-fixed]="view() === 'chapter'"
+  [class.header-hidden]="view() === 'chapter' && !showHeader()"
+>
   <a class="logo" (click)="goHome()">📖 Truyện Online</a>
 
   <button class="notes-nav-btn" (click)="goToNotes()" title="Nhật ký">📝</button>
@@ -17,6 +21,20 @@
     </nav>
   }
 </header>
+
+<!-- Floating chapter nav (prev / next / mục lục) - appears with header while reading -->
+@if (view() === 'chapter' && selectedStory(); as story) {
+  <nav
+    class="floating-chapter-nav"
+    [class.hidden]="!showHeader()"
+    [class.theme-yellow]="bgTheme() === 'yellow'"
+    [class.theme-dark]="bgTheme() === 'dark'"
+  >
+    <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
+    <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
+    <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
+  </nav>
+}
 
 <!-- Login Panel -->
 @if (showLoginPanel()) {
@@ -170,12 +188,6 @@
 @if (view() === 'chapter' && selectedStory(); as story) {
   <div class="page page-chapter" [class.theme-yellow]="bgTheme() === 'yellow'" [class.theme-dark]="bgTheme() === 'dark'">
     <button class="back-link" (click)="backToChapterList()">← Danh sách chương</button>
-
-    <nav class="chapter-nav top">
-      <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
-      <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
-      <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
-    </nav>
 
     <article class="chapter">
       <h3>{{ selectedChapter()?.title }}</h3>

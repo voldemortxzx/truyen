@@ -1,4 +1,4 @@
-import { Component, signal, computed, inject, OnInit } from '@angular/core';
+import { Component, signal, computed, inject, OnInit, HostListener } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -43,6 +43,9 @@ export class App implements OnInit {
   protected readonly showLoginPanel = signal(false);
   protected readonly loginPassword = signal('');
   protected readonly CHAPTERS_PER_PAGE = 100;
+
+  protected readonly showHeader = signal(true);
+  private lastScrollY = 0;
 
   protected readonly showReaderSettings = signal(false);
   protected readonly bgTheme = signal<BgTheme>(this.readStored('readerBgTheme', 'light') as BgTheme);
@@ -105,6 +108,21 @@ export class App implements OnInit {
     });
   }
  
+  @HostListener('window:scroll')
+  onWindowScroll() {
+    if (this.view() !== 'chapter') return;
+    const y = window.scrollY;
+    const delta = y - this.lastScrollY;
+    if (y < 60) {
+      this.showHeader.set(true);
+    } else if (delta > 4) {
+      this.showHeader.set(false);
+    } else if (delta < -4) {
+      this.showHeader.set(true);
+    }
+    this.lastScrollY = y;
+  }
+
   private updateUrl() {
     if (this.view() === 'notes') {
       history.pushState(null, '', '#/nhat-ky');
@@ -185,6 +203,8 @@ export class App implements OnInit {
         const page = Math.floor(idx / this.CHAPTERS_PER_PAGE) + 1;
         this.chapterPage.set(page);
         this.view.set('chapter');
+        this.showHeader.set(true);
+        this.lastScrollY = 0;
         return;
       }
     }
@@ -250,6 +270,8 @@ export class App implements OnInit {
     this.selectedChapter.set(chapter);
     this.loadChapterContent(chapter);
     this.view.set('chapter');
+    this.showHeader.set(true);
+    this.lastScrollY = 0;
     this.updateUrl();
     window.scrollTo(0, 0);
   }
