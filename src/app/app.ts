@@ -49,13 +49,13 @@ export class App implements OnInit {
 
   protected readonly showReaderSettings = signal(false);
   protected readonly bgTheme = signal<BgTheme>(this.readStored('readerBgTheme', 'light') as BgTheme);
-  protected readonly fontSize = signal<number>(Number(this.readStored('readerFontSize', '18')));
+  protected readonly fontSize = signal<number>(Number(this.readStored('readerFontSize', '16')));
   protected readonly fontFamily = signal<FontFamilyOption>(this.readStored('readerFontFamily', 'modern') as FontFamilyOption);
 
   protected readonly contentFontFamily = computed(() =>
     this.fontFamily() === 'classic'
-      ? `'Georgia', 'Noto Serif', serif`
-      : `'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`
+      ? ` Tahoma, serif`
+      : `sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`
   );
 
   protected readonly visibleStories = computed(() => {

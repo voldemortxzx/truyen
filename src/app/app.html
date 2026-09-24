@@ -1,212 +1,181 @@
 <!-- Header -->
-<header
-  class="header"
-  [class.header-fixed]="view() === 'chapter'"
-  [class.header-hidden]="view() === 'chapter' && !showHeader()"
->
+<header class="header" [class.header-fixed]="view() === 'chapter'"
+  [class.header-hidden]="view() === 'chapter' && !showHeader()">
   <a class="logo" (click)="goHome()">📖 Truyện Online</a>
+
+
+
+  @if (view() === 'story' || view() === 'chapter') {
+  <nav class="breadcrumb">
+    <span class="sep">›</span>
+    <a (click)="selectStory(selectedStory()!)">{{ selectedStory()?.title }}</a>
+    @if (view() === 'chapter' && selectedChapter(); as ch) {
+    <span class="sep">›</span>
+    <span class="current">{{ ch.title }}</span>
+    }
+  </nav>
+  }
 
   <button class="notes-nav-btn" (click)="goToNotes()" title="Nhật ký">📝</button>
   <button class="settings-btn" (click)="toggleReaderSettings()" title="Cài đặt đọc truyện">⚙️</button>
   <button class="login-btn" (click)="toggleLoginPanel()">Đăng nhập</button>
-
-  @if (view() === 'story' || view() === 'chapter') {
-    <nav class="breadcrumb">
-      <span class="sep">›</span>
-      <a (click)="selectStory(selectedStory()!)">{{ selectedStory()?.title }}</a>
-      @if (view() === 'chapter' && selectedChapter(); as ch) {
-        <span class="sep">›</span>
-        <span class="current">{{ ch.title }}</span>
-      }
-    </nav>
-  }
 </header>
 
 <!-- Floating chapter nav (prev / next / mục lục) - appears with header while reading -->
 @if (view() === 'chapter' && selectedStory(); as story) {
-  <nav
-    class="floating-chapter-nav"
-    [class.hidden]="!showHeader()"
-    [class.theme-yellow]="bgTheme() === 'yellow'"
-    [class.theme-dark]="bgTheme() === 'dark'"
-  >
-    <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
-    <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
-    <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
-  </nav>
+<nav class="floating-chapter-nav" [class.hidden]="!showHeader()" [class.theme-yellow]="bgTheme() === 'yellow'"
+  [class.theme-dark]="bgTheme() === 'dark'">
+  <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
+  <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
+  <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
+</nav>
 }
 
 <!-- Login Panel -->
 @if (showLoginPanel()) {
-  <div class="login-panel">
-    <div class="login-panel-content">
-      <label for="admin-password">Nhập mật khẩu:</label>
-      <input 
-        id="admin-password"
-        type="password" 
-        placeholder="Mật khẩu" 
-        [value]="loginPassword()"
-        (input)="loginPassword.set($event.target.value)"
-        (keyup.enter)="handleLogin()"
-        class="login-input"
-      />
-      <button (click)="handleLogin()" class="login-submit">Đăng nhập</button>
-      <button (click)="toggleLoginPanel()" class="login-cancel">Đóng</button>
-    </div>
+<div class="login-panel">
+  <div class="login-panel-content">
+    <label for="admin-password">Nhập mật khẩu:</label>
+    <input id="admin-password" type="password" placeholder="Mật khẩu" [value]="loginPassword()"
+      (input)="loginPassword.set($event.target.value)" (keyup.enter)="handleLogin()" class="login-input" />
+    <button (click)="handleLogin()" class="login-submit">Đăng nhập</button>
+    <button (click)="toggleLoginPanel()" class="login-cancel">Đóng</button>
   </div>
+</div>
 }
 
 <!-- Reader Settings Panel -->
 @if (showReaderSettings()) {
-  <div class="settings-panel-overlay" (click)="toggleReaderSettings()">
-    <div class="settings-panel-content" (click)="$event.stopPropagation()">
-      <div class="settings-section">
-        <label class="settings-label">Màu nền website</label>
-        <div class="theme-options">
-          <button class="theme-btn" [class.active]="bgTheme() === 'light'" (click)="setBgTheme('light')">
-            <span class="theme-icon">☀️</span>
-            <span>Sáng</span>
-          </button>
-          <button class="theme-btn" [class.active]="bgTheme() === 'yellow'" (click)="setBgTheme('yellow')">
-            <span class="theme-icon">📖</span>
-            <span>Vàng</span>
-          </button>
-          <button class="theme-btn" [class.active]="bgTheme() === 'dark'" (click)="setBgTheme('dark')">
-            <span class="theme-icon">🌙</span>
-            <span>Tối</span>
-          </button>
-        </div>
+<div class="settings-panel-overlay" (click)="toggleReaderSettings()">
+  <div class="settings-panel-content" (click)="$event.stopPropagation()">
+    <div class="settings-section">
+      <label class="settings-label">Màu nền website</label>
+      <div class="theme-options">
+        <button class="theme-btn" [class.active]="bgTheme() === 'light'" (click)="setBgTheme('light')">
+          <span class="theme-icon">☀️</span>
+          <span>Sáng</span>
+        </button>
+        <button class="theme-btn" [class.active]="bgTheme() === 'yellow'" (click)="setBgTheme('yellow')">
+          <span class="theme-icon">📖</span>
+          <span>Vàng</span>
+        </button>
+        <button class="theme-btn" [class.active]="bgTheme() === 'dark'" (click)="setBgTheme('dark')">
+          <span class="theme-icon">🌙</span>
+          <span>Tối</span>
+        </button>
       </div>
-
-      <div class="settings-section">
-        <div class="settings-label-row">
-          <label class="settings-label">Cỡ chữ nội dung</label>
-          <span class="font-size-value">{{ fontSize() }}px</span>
-        </div>
-        <div class="font-size-slider">
-          <button class="font-size-btn" (click)="decreaseFontSize()">A-</button>
-          <input
-            type="range"
-            min="14"
-            max="32"
-            step="1"
-            [value]="fontSize()"
-            (input)="onFontSizeInput($event)"
-          />
-          <button class="font-size-btn" (click)="increaseFontSize()">A+</button>
-        </div>
-      </div>
-
-      <div class="settings-section">
-        <label class="settings-label">Phông chữ</label>
-        <div class="font-family-options">
-          <button class="font-family-btn" [class.active]="fontFamily() === 'modern'" (click)="setFontFamily('modern')">Hiện đại</button>
-          <button class="font-family-btn" [class.active]="fontFamily() === 'classic'" (click)="setFontFamily('classic')">Cổ điển</button>
-        </div>
-      </div>
-
-      <button class="settings-close" (click)="toggleReaderSettings()">Đóng</button>
     </div>
+
+    <div class="settings-section">
+      <div class="settings-label-row">
+        <label class="settings-label">Cỡ chữ nội dung</label>
+        <span class="font-size-value">{{ fontSize() }}px</span>
+      </div>
+      <div class="font-size-slider">
+        <button class="font-size-btn" (click)="decreaseFontSize()">A-</button>
+        <input type="range" min="14" max="32" step="1" [value]="fontSize()" (input)="onFontSizeInput($event)" />
+        <button class="font-size-btn" (click)="increaseFontSize()">A+</button>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <label class="settings-label">Phông chữ</label>
+      <div class="font-family-options">
+        <button class="font-family-btn" [class.active]="fontFamily() === 'modern'"
+          (click)="setFontFamily('modern')">Hiện đại</button>
+        <button class="font-family-btn" [class.active]="fontFamily() === 'classic'"
+          (click)="setFontFamily('classic')">Cổ điển</button>
+      </div>
+    </div>
+
+    <button class="settings-close" (click)="toggleReaderSettings()">Đóng</button>
   </div>
+</div>
 }
 
 <!-- PAGE: Notes / Journal -->
 @if (view() === 'notes') {
-  <app-notes-page (back)="goHome()"></app-notes-page>
+<app-notes-page (back)="goHome()"></app-notes-page>
 }
 
 <!-- PAGE: Home - Story list -->
 @if (view() === 'home') {
-  <div class="page page-home">
-    <h2 class="page-title">Danh Sách Truyện</h2>
-    <ul class="story-list">
-      @for (story of visibleStories(); track story.id) {
-        <li
-          (click)="selectStory(story)"
-          (mousedown)="startPress(story)"
-          (mouseup)="endPress()"
-          (mouseleave)="endPress()"
-          (touchstart)="startPress(story)"
-          (touchend)="endPress()"
-        >
-          <span class="story-name">{{ story.title }}</span>
-          <span class="story-info">{{ story.chapters.length }} chương</span>
-        </li>
-      }
-    </ul>
-  </div>
+<div class="page page-home">
+  <h2 class="page-title">Danh Sách Truyện</h2>
+  <ul class="story-list">
+    @for (story of visibleStories(); track story.id) {
+    <li (click)="selectStory(story)" (mousedown)="startPress(story)" (mouseup)="endPress()" (mouseleave)="endPress()"
+      (touchstart)="startPress(story)" (touchend)="endPress()">
+      <span class="story-name">{{ story.title }}</span>
+      <span class="story-info">{{ story.chapters.length }} chương</span>
+    </li>
+    }
+  </ul>
+</div>
 }
 
 <!-- PAGE: Story - Chapter list -->
 @if (view() === 'story' && selectedStory(); as story) {
-  <div class="page page-story">
-    <div class="story-header">
-      <button class="back-link" (click)="goHome()">← Trang chủ</button>
-      <h2>{{ story.title }}</h2>
-      <p class="chapter-count">{{ story.chapters.length }} chương</p>
-    </div>
-
-    @if (totalChapterPages() > 1) {
-      <nav class="chapter-pagination">
-        <button class="cp-btn" [disabled]="chapterPage() <= 1" (click)="goToChapterPage(chapterPage() - 1)">←</button>
-        @for (p of chapterPageNumbers(); track p) {
-          <button class="cp-btn" [class.active]="chapterPage() === p" (click)="goToChapterPage(p)">{{ p }}</button>
-        }
-        <button class="cp-btn" [disabled]="chapterPage() >= totalChapterPages()" (click)="goToChapterPage(chapterPage() + 1)">→</button>
-      </nav>
-    }
-
-    <ul class="chapter-list">
-      @for (ch of pagedChapters(); track ch.id) {
-        <li
-          (click)="selectChapter(ch)"
-          (mousedown)="startPressChapter(ch)"
-          (mouseup)="endPress()"
-          (mouseleave)="endPress()"
-          (touchstart)="startPressChapter(ch)"
-          (touchend)="endPress()"
-        >
-          <span class="ch-title">{{ ch.title }}</span>
-          <span class="ch-arrow">→</span>
-        </li>
-      }
-    </ul>
-
-    @if (totalChapterPages() > 1) {
-      <nav class="chapter-pagination bottom">
-        <button class="cp-btn" [disabled]="chapterPage() <= 1" (click)="goToChapterPage(chapterPage() - 1)">←</button>
-        @for (p of chapterPageNumbers(); track p) {
-          <button class="cp-btn" [class.active]="chapterPage() === p" (click)="goToChapterPage(p)">{{ p }}</button>
-        }
-        <button class="cp-btn" [disabled]="chapterPage() >= totalChapterPages()" (click)="goToChapterPage(chapterPage() + 1)">→</button>
-      </nav>
-    }
+<div class="page page-story">
+  <div class="story-header">
+    <button class="back-link" (click)="goHome()">← Trang chủ</button>
+    <h2>{{ story.title }}</h2>
+    <p class="chapter-count">{{ story.chapters.length }} chương</p>
   </div>
+
+  @if (totalChapterPages() > 1) {
+  <nav class="chapter-pagination">
+    <button class="cp-btn" [disabled]="chapterPage() <= 1" (click)="goToChapterPage(chapterPage() - 1)">←</button>
+    @for (p of chapterPageNumbers(); track p) {
+    <button class="cp-btn" [class.active]="chapterPage() === p" (click)="goToChapterPage(p)">{{ p }}</button>
+    }
+    <button class="cp-btn" [disabled]="chapterPage() >= totalChapterPages()"
+      (click)="goToChapterPage(chapterPage() + 1)">→</button>
+  </nav>
+  }
+
+  <ul class="chapter-list">
+    @for (ch of pagedChapters(); track ch.id) {
+    <li (click)="selectChapter(ch)" (mousedown)="startPressChapter(ch)" (mouseup)="endPress()" (mouseleave)="endPress()"
+      (touchstart)="startPressChapter(ch)" (touchend)="endPress()">
+      <span class="ch-title">{{ ch.title }}</span>
+      <span class="ch-arrow">→</span>
+    </li>
+    }
+  </ul>
+
+  @if (totalChapterPages() > 1) {
+  <nav class="chapter-pagination bottom">
+    <button class="cp-btn" [disabled]="chapterPage() <= 1" (click)="goToChapterPage(chapterPage() - 1)">←</button>
+    @for (p of chapterPageNumbers(); track p) {
+    <button class="cp-btn" [class.active]="chapterPage() === p" (click)="goToChapterPage(p)">{{ p }}</button>
+    }
+    <button class="cp-btn" [disabled]="chapterPage() >= totalChapterPages()"
+      (click)="goToChapterPage(chapterPage() + 1)">→</button>
+  </nav>
+  }
+</div>
 }
 
 <!-- PAGE: Chapter - Reading view -->
 @if (view() === 'chapter' && selectedStory(); as story) {
-  <div class="page page-chapter" [class.theme-yellow]="bgTheme() === 'yellow'" [class.theme-dark]="bgTheme() === 'dark'">
-    <button class="back-link" (click)="backToChapterList()">← Danh sách chương</button>
+<div class="page page-chapter" [class.theme-yellow]="bgTheme() === 'yellow'" [class.theme-dark]="bgTheme() === 'dark'">
+  <button class="back-link" (click)="backToChapterList()">← Danh sách chương</button>
 
-    <article class="chapter">
-      <h3>{{ selectedChapter()?.title }}</h3>
-      @if (loadingContent()) {
-        <p class="loading">Đang tải nội dung...</p>
-      } @else {
-        <div
-          class="chapter-content"
-          [innerHTML]="chapterContent()"
-          [style.fontSize.px]="fontSize()"
-          [style.fontFamily]="contentFontFamily()"
-        ></div>
-      }
-    </article>
+  <article class="chapter">
+    <h3>{{ selectedChapter()?.title }}</h3>
+    @if (loadingContent()) {
+    <p class="loading">Đang tải nội dung...</p>
+    } @else {
+    <div class="chapter-content" [innerHTML]="chapterContent()" [style.fontSize.px]="fontSize()"
+      [style.fontFamily]="contentFontFamily()"></div>
+    }
+  </article>
 
-    <nav class="chapter-nav">
-      <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
-      <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
-      <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
-    </nav>
-  </div>
+  <nav class="chapter-nav">
+    <button class="nav-btn" [disabled]="!hasPrev()" (click)="prevChapter()">← Trước</button>
+    <button class="nav-btn center" (click)="backToChapterList()">Mục lục</button>
+    <button class="nav-btn" [disabled]="!hasNext()" (click)="nextChapter()">Sau →</button>
+  </nav>
+</div>
 }
