@@ -2,6 +2,7 @@ import { Component, signal, computed, inject, OnInit, HostListener } from '@angu
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Observable, of, map, tap, finalize, shareReplay } from 'rxjs';
 import { NotesPage } from './notes-page/notes-page';
 
 export interface ChapterMeta {
@@ -300,28 +301,89 @@ export class App implements OnInit {
     }
   }
  
+  // Cache nội dung chương đã xử lý (key = url), giới hạn số lượng để không phình bộ nhớ
+  private readonly chapterCache = new Map<string, string>();
+  private readonly chapterRequests = new Map<string, Observable<string>>();
+  private readonly CHAPTER_CACHE_LIMIT = 50;
+
   private loadChapterContent(chapter: ChapterMeta) {
     const story = this.selectedStory();
     if (!story) return;
+    const url = this.chapterUrl(story, chapter);
+
+    const cached = this.chapterCache.get(url);
+    if (cached !== undefined) {
+      this.chapterContent.set(cached);
+      this.loadingContent.set(false);
+      this.prefetchNextChapter(story, chapter);
+      return;
+    }
+
     this.loadingContent.set(true);
-    const url = `data/content/${story.folder}/${chapter.file}`;
-    this.http.get(url, { responseType: 'text' }).subscribe({
-      next: (raw) => {
-        const lines = raw.split(/\r?\n/);
-        let content = lines.slice(1).join('\n').trim()
-          .replace(/\n/g, '<br>');
-        content = content.replace(/<(?!\/?br\s*\/?>)[^>]+>/gi, '');
-        content = content.replace(/[.…]{10,}/g, (match) => {
-          return match.slice(0, Math.ceil(match.length / 2));
-        });
+    this.fetchChapter(url).subscribe({
+      next: (content) => {
+        // Bỏ qua nếu người dùng đã chuyển sang chương khác trong lúc chờ
+        if (this.selectedChapter() !== chapter) return;
         this.chapterContent.set(content);
         this.loadingContent.set(false);
+        this.prefetchNextChapter(story, chapter);
       },
       error: () => {
+        if (this.selectedChapter() !== chapter) return;
         this.chapterContent.set('Không thể tải nội dung chương.');
         this.loadingContent.set(false);
       }
     });
+  }
+
+  private prefetchNextChapter(story: Story, chapter: ChapterMeta) {
+    const next = story.chapters[story.chapters.indexOf(chapter) + 1];
+    if (!next) return;
+    const url = this.chapterUrl(story, next);
+    if (this.chapterCache.has(url)) return;
+    this.fetchChapter(url).subscribe({ error: () => {} });
+  }
+
+  private chapterUrl(story: Story, chapter: ChapterMeta): string {
+    return `data/content/${story.folder}/${chapter.file}`;
+  }
+
+  // Dùng chung request đang chạy để prefetch và mở chương không bị tải 2 lần
+  private fetchChapter(url: string): Observable<string> {
+    const cached = this.chapterCache.get(url);
+    if (cached !== undefined) return of(cached);
+
+    let request = this.chapterRequests.get(url);
+    if (!request) {
+      request = this.http.get(url, { responseType: 'text' }).pipe(
+        map(raw => this.formatChapter(raw)),
+        tap(content => this.cacheChapter(url, content)),
+        finalize(() => this.chapterRequests.delete(url)),
+        shareReplay(1)
+      );
+      this.chapterRequests.set(url, request);
+    }
+    return request;
+  }
+
+  private cacheChapter(url: string, content: string) {
+    this.chapterCache.delete(url);
+    this.chapterCache.set(url, content);
+    if (this.chapterCache.size > this.CHAPTER_CACHE_LIMIT) {
+      const oldest = this.chapterCache.keys().next().value;
+      if (oldest !== undefined) this.chapterCache.delete(oldest);
+    }
+  }
+
+  private formatChapter(raw: string): string {
+    const lines = raw.split(/\r?\n/);
+    let content = lines.slice(1).join('\n').trim()
+      .replace(/\n/g, '<br>');
+    content = content.replace(/<(?!\/?br\s*\/?>)[^>]+>/gi, '');
+    content = content.replace(/[.…]{10,}/g, (match) => {
+      return match.slice(0, Math.ceil(match.length / 2));
+    });
+    return content;
   }
  
   toggleLoginPanel() {
