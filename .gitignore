@@ -3,6 +3,11 @@
 # Compiled output
 /dist
 /docs
+
+# Truyện chỉ đọc ở máy local, không push lên web
+
+# Sinh tự động bởi generate-stories.js (CI tự sinh lại khi build)
+/public/data/stories-full.json
 /tmp
 /out-tsc
 /bazel-out

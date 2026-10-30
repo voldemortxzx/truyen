@@ -20,6 +20,12 @@ const outputFile = path.join(dataDir, 'stories-full.json');
 // Đọc danh sách truyện cơ bản
 const stories = JSON.parse(fs.readFileSync(storiesFile, 'utf-8'));
 
+// Truyện chỉ đọc ở máy local (file này bị gitignore nên không có khi build trên CI)
+const localStoriesFile = path.join(dataDir, 'stories.local.json');
+if (fs.existsSync(localStoriesFile)) {
+  stories.push(...JSON.parse(fs.readFileSync(localStoriesFile, 'utf-8')));
+}
+
 const result = stories.map(story => {
   const storyDir = path.join(contentDir, story.folder);
 
