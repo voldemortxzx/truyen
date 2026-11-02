@@ -152,11 +152,6 @@
 }
 
 .story-list li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 20px;
-  cursor: pointer;
   border-bottom: 1px solid #f1f5f9;
   transition: background 0.15s ease;
 }
@@ -167,6 +162,23 @@
 
 .story-list li:hover {
   background: #f0f7ff;
+}
+
+.item-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.story-list .item-link {
+  padding: 16px 20px;
+}
+
+.chapter-list .item-link {
+  padding: 1px 20px;
 }
 
 .story-name {
@@ -228,12 +240,7 @@
 }
 
 .chapter-list li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1px 20px;
   border-bottom: 1px solid #f1f5f9;
-  cursor: pointer;
   transition: background 0.15s ease;
   border-radius: 6px;
 }
@@ -738,7 +745,7 @@
     padding: 8px 16px;
   }
 
-  .story-list li {
+  .story-list .item-link {
     padding: 14px 16px;
   }
 

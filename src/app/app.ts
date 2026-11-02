@@ -145,31 +145,21 @@ export class App implements OnInit {
     }
   }
  
-  private pressTimer: any;
- 
-  startPress(story: Story) {
-    this.pressTimer = setTimeout(() => {
-      this.openStoryInNewTab(story);
-      this.pressTimer = null;
-    }, 400);
+  storyHref(story: Story) {
+    return `#/truyen/${story.folder}`;
   }
- 
-  startPressChapter(chapter: ChapterMeta) {
-    const story = this.selectedStory();
-    if (!story) return;
-    this.pressTimer = setTimeout(() => {
-      this.openChapterInNewTab(chapter);
-      this.pressTimer = null;
-    }, 400);
+
+  chapterHref(story: Story, chapter: ChapterMeta) {
+    return `#/truyen/${story.folder}/${chapter.file.replace('.txt', '')}`;
   }
- 
-  endPress() {
-    if (this.pressTimer) {
-      clearTimeout(this.pressTimer);
-      this.pressTimer = null;
-    }
+
+  // Plain left click navigates in-app; modifier clicks / middle click / context menu fall through to the browser
+  onLinkClick(event: MouseEvent): boolean {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return false;
+    event.preventDefault();
+    return true;
   }
- 
+
   private restoreFromUrl(stories: Story[]) {
     const hash = window.location.hash.replace(/^#/, '');
     const [path, queryString] = hash.split('?');
@@ -242,19 +232,6 @@ export class App implements OnInit {
     this.view.set('story');
     this.updateUrl();
     window.scrollTo(0, 0);
-  }
- 
-  openStoryInNewTab(story: Story) {
-    const url = `#/truyen/${story.folder}`;
-    window.open(window.location.origin + window.location.pathname + url, '_blank');
-  }
- 
-  openChapterInNewTab(chapter: ChapterMeta) {
-    const story = this.selectedStory();
-    if (!story) return;
-    const slug = chapter.file.replace('.txt', '');
-    const url = `#/truyen/${story.folder}/${slug}`;
-    window.open(window.location.origin + window.location.pathname + url, '_blank');
   }
  
   goToChapterPage(page: number) {
