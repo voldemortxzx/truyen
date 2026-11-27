@@ -53,5 +53,6 @@
   { "id": 62, "title": "Ông bảo vệ", "folder": "ong-bao-ve", "isAdmin": true },
   { "id": 63, "title": "Chiều vợ dâm", "folder": "chieu-vo-dam", "isAdmin": true },
   { "id": 64, "title": "Vợ là giáo viên", "folder": "vo-la-giao-vien", "isAdmin": true },
-  { "id": 65, "title": "Đưa vợ đi beer club", "folder": "dua-vo-di-beer-club", "isAdmin": true }
+  { "id": 65, "title": "Đưa vợ đi beer club", "folder": "dua-vo-di-beer-club", "isAdmin": true },
+  { "id": 66, "title": "Diệp Thần Truyện", "folder": "diep-than-truyen" }
 ]

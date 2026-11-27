@@ -22176,6 +22176,63 @@
     ]
   },
   {
+    "id": 66,
+    "title": "Diệp Thần Truyện",
+    "folder": "diep-than-truyen",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chương 1: Bại tử chết trong đêm mưa",
+        "file": "chuong-1.txt"
+      },
+      {
+        "id": 2,
+        "title": "Chương 2: Cái thân xác tệ nhất hai kiếp người",
+        "file": "chuong-2.txt"
+      },
+      {
+        "id": 3,
+        "title": "Chương 3: Thằng bại tử này biết nói chuyện từ bao giờ",
+        "file": "chuong-3.txt"
+      },
+      {
+        "id": 4,
+        "title": "Chương 4: Đêm ấy, ông nội không cầm roi",
+        "file": "chuong-4.txt"
+      },
+      {
+        "id": 5,
+        "title": "Chương 5: Đồng bọn bất đắc dĩ",
+        "file": "chuong-5.txt"
+      },
+      {
+        "id": 6,
+        "title": "Chương 6: Lỗ kim sau tai",
+        "file": "chuong-6.txt"
+      },
+      {
+        "id": 7,
+        "title": "Chương 7: Thiếu gia bị ma nhập",
+        "file": "chuong-7.txt"
+      },
+      {
+        "id": 8,
+        "title": "Chương 8: Gánh hát không diễn",
+        "file": "chuong-8.txt"
+      },
+      {
+        "id": 9,
+        "title": "Chương 9: Lại là ngươi",
+        "file": "chuong-9.txt"
+      },
+      {
+        "id": 10,
+        "title": "Chương 10: Người giữ ngựa",
+        "file": "chuong-10.txt"
+      }
+    ]
+  },
+  {
     "id": 1001,
     "title": "Ngày hôm qua...đã từng",
     "folder": "local-ngay-hom-qua-da-tung",
